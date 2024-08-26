@@ -1,6 +1,6 @@
 ﻿namespace BurgerBarn
 {
-    partial class frm_BurgerBarn
+    partial class frm_BarnWelcome
     {
         /// <summary>
         /// Required designer variable.
@@ -30,16 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // frm_BurgerBarn
+            // frm_BarnWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.HelpButton = true;
-            this.Name = "frm_BurgerBarn";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Burger Barn";
-            this.Load += new System.EventHandler(this.frm_BurgerBarn_Load);
+            this.Name = "frm_BarnWelcome";
+            this.Text = "Welcome";
+            this.Load += new System.EventHandler(this.frm_BarnWelcome_Load);
             this.ResumeLayout(false);
 
         }
@@ -47,4 +45,3 @@
         #endregion
     }
 }
-

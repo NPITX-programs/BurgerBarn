@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace BurgerBarn
 {
-    public partial class frm_BurgerBarn : Form
+    public partial class frm_BarnWelcome : Form
     {
-        public frm_BurgerBarn()
+        public frm_BarnWelcome()
         {
             InitializeComponent();
         }
 
-        private void frm_BurgerBarn_Load(object sender, EventArgs e)
+        private void frm_BarnWelcome_Load(object sender, EventArgs e)
         {
 
         }
