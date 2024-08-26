@@ -52,14 +52,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_BarnWelcome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_BarnWelcome.Designer.cs">
-      <DependentUpon>frm_BarnWelcome.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <EmbeddedResource Include="Form1.resx">
@@ -81,6 +76,8 @@
 >>>>>>> UserControl
 =======
 >>>>>>> parent of 88478ab (userControl)
+=======
+>>>>>>> parent of 8d0adc9 (tried new form, nameing error)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

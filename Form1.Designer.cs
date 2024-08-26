@@ -1,6 +1,6 @@
 ﻿namespace BurgerBarn
 {
-    partial class frm_BurgerBarn
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace BurgerBarn
 {
-    public partial class frm_BurgerBarn : Form
+    public partial class Form1 : Form
     {
-        public frm_BurgerBarn()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void frm_BurgerBarn_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
