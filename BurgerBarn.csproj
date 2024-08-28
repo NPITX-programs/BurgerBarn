@@ -54,6 +54,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BarnWelcome.resx">
+      <DependentUpon>frm_BarnWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> UserControl
+=======
+>>>>>>> parent of 88478ab (userControl)
+=======
+>>>>>>> parent of 8d0adc9 (tried new form, nameing error)
+>>>>>>> parent of a9e90a3 (Merge pull request #1 from CTH-npitx-programs/CTH-npitx-patch-1)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
