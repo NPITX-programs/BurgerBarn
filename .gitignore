@@ -2,9 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/BurgerBarn/FileContentIndex/5b858526-1534-4567-90d4-e1ed9c5df29e.vsidx
-/.vs/BurgerBarn/FileContentIndex/5c999d77-680f-48b2-bdd0-4779c1f095fa.vsidx
-/.vs/BurgerBarn/FileContentIndex/e6b202bd-eeda-4c3d-8fd6-d20bfc027624.vsidx
-/.vs/BurgerBarn/FileContentIndex/f32c2531-7b60-4bb6-9d84-2087167e738d.vsidx
-/.vs/BurgerBarn/FileContentIndex/fe668e93-1164-4fa7-854b-b37909ca83d9.vsidx
 *.vsidx
