@@ -1,2 +1,9 @@
-a temporary archive version for integrateing/ mergeing them
-probally doesn't need a readme, but here we are
+## Archives
+the newest iteration of the archives, this readme will be replaced with the text from another file post-merge
+# Note
+Format and wording is definitly a placeholder
+
+### Overkill
+definitly overkill for a placeholder
+
+although, ah, nah, it is
