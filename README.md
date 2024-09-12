@@ -1,3 +1,3 @@
-# Archives
-## Useage
-this is a place to keep branches that got intermixed/ corrupted somehow
+## Burger Barn
+A simple general burger ordering program
+does not need a readme
