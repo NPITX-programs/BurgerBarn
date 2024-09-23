@@ -19,7 +19,9 @@ namespace BurgerBarn
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
-
+            //create welcome box
+           TextBox dynamicTextBox = new TextBox();
+            
         }
     }
 }
