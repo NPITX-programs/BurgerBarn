@@ -1,0 +1,3 @@
+Just like the earlier temp achive, some weirdness is going on with the readme and .gitIgnore.
+
+so, moveing it here temporarillly
