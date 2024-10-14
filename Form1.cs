@@ -21,5 +21,10 @@ namespace BurgerBarn
         {
 
         }
+        //progress bar of amount of form filled
+        private void prg_totalItems_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
