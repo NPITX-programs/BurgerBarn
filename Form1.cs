@@ -24,8 +24,8 @@ namespace BurgerBarn
         //progress bar of amount of form filled
         private void prg_totalItems_Click(object sender, EventArgs e)
         {
-            int pos = prg_totalItems.Value;
-            prg_totalItems.Value = pos + 1;
+            prg_totalItems.PerformStep();
+            //placeholder line
         }
     }
 }
