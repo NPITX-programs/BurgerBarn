@@ -25,7 +25,6 @@ namespace BurgerBarn
         private void prg_totalItems_Click(object sender, EventArgs e)
         {
             prg_totalItems.PerformStep();
-            //placeholder line
         }
     }
 }
