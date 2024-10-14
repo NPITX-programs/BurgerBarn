@@ -27,5 +27,10 @@ namespace BurgerBarn
             int pos = prg_totalItems.Value;
             prg_totalItems.Value = pos + 1;
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
