@@ -58,7 +58,6 @@
             this.prg_totalItems.Maximum = 30;
             this.prg_totalItems.Name = "prg_totalItems";
             this.prg_totalItems.Size = new System.Drawing.Size(800, 23);
-            this.prg_totalItems.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prg_totalItems.TabIndex = 2;
             this.prg_totalItems.Click += new System.EventHandler(this.prg_totalItems_Click);
             // 
