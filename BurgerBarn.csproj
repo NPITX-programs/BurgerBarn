@@ -85,6 +85,9 @@
   <ItemGroup>
     <Content Include=".github\.notesForChange\repositoryEdits\gitignore versions\Explanation.txt" />
     <Content Include=".github\.notesForChange\repositoryEdits\Useage.txt" />
+    <Content Include=".github\notes\notes to self.txt" />
+    <Content Include=".github\notes\Reason.txt" />
+    <Content Include=".github\notes\Update Notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
