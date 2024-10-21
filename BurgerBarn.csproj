@@ -66,6 +66,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".github\.notesForChange\repositoryEdits\gitignore versions\Github Preset\.gitignore" />
+    <None Include=".github\.notesForChange\repositoryEdits\gitignore versions\Visual Studio Version\.gitignore" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +81,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".github\.notesForChange\repositoryEdits\gitignore versions\Explanation.txt" />
+    <Content Include=".github\.notesForChange\repositoryEdits\Useage.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
