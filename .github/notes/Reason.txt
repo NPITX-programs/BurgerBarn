@@ -1,1 +1,1 @@
-a file to explain the reason of this branch
+a file to explain the reason for having this branch
