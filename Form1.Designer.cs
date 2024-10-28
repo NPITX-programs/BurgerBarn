@@ -40,10 +40,10 @@
             this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rdb_sideChip = new System.Windows.Forms.RadioButton();
+            this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
+            this.rdb_sideTatTot = new System.Windows.Forms.RadioButton();
+            this.rdb_sidesFries = new System.Windows.Forms.RadioButton();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -179,10 +179,10 @@
             // 
             // gbxSides
             // 
-            this.gbxSides.Controls.Add(this.radioButton4);
-            this.gbxSides.Controls.Add(this.radioButton3);
-            this.gbxSides.Controls.Add(this.radioButton2);
-            this.gbxSides.Controls.Add(this.radioButton1);
+            this.gbxSides.Controls.Add(this.rdb_sideChip);
+            this.gbxSides.Controls.Add(this.rdb_sideOnioRing);
+            this.gbxSides.Controls.Add(this.rdb_sideTatTot);
+            this.gbxSides.Controls.Add(this.rdb_sidesFries);
             this.gbxSides.Location = new System.Drawing.Point(116, 327);
             this.gbxSides.Name = "gbxSides";
             this.gbxSides.Size = new System.Drawing.Size(200, 118);
@@ -191,49 +191,49 @@
             this.gbxSides.Text = "Sides";
             this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
             // 
-            // radioButton1
+            // rdb_sideChip
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(47, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Fries";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdb_sideChip.AutoSize = true;
+            this.rdb_sideChip.Location = new System.Drawing.Point(6, 93);
+            this.rdb_sideChip.Name = "rdb_sideChip";
+            this.rdb_sideChip.Size = new System.Drawing.Size(51, 17);
+            this.rdb_sideChip.TabIndex = 3;
+            this.rdb_sideChip.TabStop = true;
+            this.rdb_sideChip.Text = "Chips";
+            this.rdb_sideChip.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdb_sideOnioRing
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 44);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Tater Tots";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdb_sideOnioRing.AutoSize = true;
+            this.rdb_sideOnioRing.Location = new System.Drawing.Point(6, 68);
+            this.rdb_sideOnioRing.Name = "rdb_sideOnioRing";
+            this.rdb_sideOnioRing.Size = new System.Drawing.Size(83, 17);
+            this.rdb_sideOnioRing.TabIndex = 2;
+            this.rdb_sideOnioRing.TabStop = true;
+            this.rdb_sideOnioRing.Text = "Onion Rings";
+            this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rdb_sideTatTot
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 68);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(83, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Onion Rings";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdb_sideTatTot.AutoSize = true;
+            this.rdb_sideTatTot.Location = new System.Drawing.Point(6, 44);
+            this.rdb_sideTatTot.Name = "rdb_sideTatTot";
+            this.rdb_sideTatTot.Size = new System.Drawing.Size(74, 17);
+            this.rdb_sideTatTot.TabIndex = 1;
+            this.rdb_sideTatTot.TabStop = true;
+            this.rdb_sideTatTot.Text = "Tater Tots";
+            this.rdb_sideTatTot.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rdb_sidesFries
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(6, 93);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(51, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Chips";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdb_sidesFries.AutoSize = true;
+            this.rdb_sidesFries.Location = new System.Drawing.Point(7, 20);
+            this.rdb_sidesFries.Name = "rdb_sidesFries";
+            this.rdb_sidesFries.Size = new System.Drawing.Size(47, 17);
+            this.rdb_sidesFries.TabIndex = 0;
+            this.rdb_sidesFries.TabStop = true;
+            this.rdb_sidesFries.Text = "Fries";
+            this.rdb_sidesFries.UseVisualStyleBackColor = true;
             // 
             // frmBurgerBarn
             // 
@@ -271,10 +271,10 @@
         private System.Windows.Forms.RadioButton rdb_drinkPunch;
         private System.Windows.Forms.RadioButton rdb_drinkCoala;
         private System.Windows.Forms.RadioButton rdb_drinkTea;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdb_sideChip;
+        private System.Windows.Forms.RadioButton rdb_sideOnioRing;
+        private System.Windows.Forms.RadioButton rdb_sideTatTot;
+        private System.Windows.Forms.RadioButton rdb_sidesFries;
     }
 }
 
