@@ -12,6 +12,7 @@ Your program must include a flowchart.
 
 ## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
+1. Sort the items in the List Box alphabetically
 
 
 Selecting a menu item will display a message:
@@ -49,16 +50,7 @@ Clear the screen after each user input
 	1. Bacon Burger
 	1. Chips
 	1. Cola
-## Extra
-1. Sort the items in the List Box alphabetically
 
-
-
-
-1. When items are combined into a Combo meal, change the list box to display the combo (remove the individual items and replace with the Combo)
-
-
-The program must meet the following requirements:
 
 
 Users can only select one item in each category
