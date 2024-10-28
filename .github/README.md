@@ -48,7 +48,7 @@ Clear the screen after each user input
 
 The program must meet the following requirements:
 
-Drinks
+
 Users can only select one item in each category
 Have a List Box that records all items in your current order
 Include a Text Box that contains a running total
@@ -58,5 +58,3 @@ Users must NOT be able to modify/focus the Text Box
 Include two Buttons: Purchase and Exit
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program
-
-
