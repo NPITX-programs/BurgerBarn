@@ -1,1 +1,7 @@
-for modifying branches
+to add buttons.
+To be added:
+	1. Burgers
+	2. Drinks
+	3. Sides
+Added:
+	
