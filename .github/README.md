@@ -37,6 +37,10 @@ Clear the screen after each user input
 1. Tea: $1.19
 1. Fruit Punch: $1.09
 1. Water: $0.99
+### Combos
+1. #1 Combo: $5.99
+1. #2 Combo: $6.49
+1. #3 Combo: $8.99
 ## Extra
 1. Sort the items in the List Box alphabetically
 1. Certain collections of menu items constitute a Combo meal, have the program recognize when these items are entered and adjust the price accordingly:
