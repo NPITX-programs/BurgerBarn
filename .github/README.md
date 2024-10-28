@@ -2,8 +2,7 @@
 A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
 and yet, here we are... so why?
-
-## Perhaps to list the requirments?
+Hmm, what if we make a ***List of all the Reqrirments!***
 
 # Reqrirments
 ## Useage & simple notes
@@ -11,16 +10,17 @@ Create a menu program that allows users to order items off a menu, and presents 
 
 Your program must include a flowchart.
 
-## Main
+## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
+1. Sort the items in the List Box alphabetically
 
 
 Selecting a menu item will display a message:
 "You purchased [menu item] for [price]"
 If the user enters an invalid number, display an error message and ask them to enter the item again.
 Clear the screen after each user input
- 
- 
+
+## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
 1. Plain burger: $4.99
@@ -37,18 +37,22 @@ Clear the screen after each user input
 1. Tea: $1.19
 1. Fruit Punch: $1.09
 1. Water: $0.99
-## Extra
-1. Sort the items in the List Box alphabetically
-1. Certain collections of menu items constitute a Combo meal, have the program recognize when these items are entered and adjust the price accordingly:
-	1.Plain Burger + Fries + Cola = #1 Combo ($5.99)
-	1. Cheeseburger + Tea + Onion Rings = #2 Combo ($6.49)
-	1. Bacon Burger + Chips + Cola= #3 Combo ($8.99)
-1. When items are combined into a Combo meal, change the list box to display the combo (remove the individual items and replace with the Combo)
+### Combos
+1. #1 Combo: $5.99
+	1. Plain Burger
+	1. Fries
+	1. Cola
+1. #2 Combo: $6.49
+	1. Cheese Burger
+	1. Tea
+	1. Onion Rings
+1. #3 Combo: $8.99
+	1. Bacon Burger
+	1. Chips
+	1. Cola
 
 
-The program must meet the following requirements:
 
-Drinks
 Users can only select one item in each category
 Have a List Box that records all items in your current order
 Include a Text Box that contains a running total
@@ -58,5 +62,3 @@ Users must NOT be able to modify/focus the Text Box
 Include two Buttons: Purchase and Exit
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program
-
-
