@@ -5,41 +5,32 @@ and yet, here we are... so why?
 
 ## Perhaps to list the requirments?
 
-Module 6
-
-Burger Barn Quest
-
- 
-
-For first time coders:
-
+# Reqrirments
+## Useage & simple notes
 Create a menu program that allows users to order items off a menu, and presents them with a calculated total when they are done.
 
 Your program must include a flowchart.
 
 The program must meet the following requirements:
-
+## Reqrirements
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
-After the user sees the welcome message, display a menu with the following items:
-Burger: $5
-Fries: $3
-Drink: $1
+
+
 Selecting a menu item will display a message:
 "You purchased [menu item] for [price]"
 If the user enters an invalid number, display an error message and ask them to enter the item again.
 Clear the screen after each user input
  
 
-For returning coders:
 
-Create a menu program that allows users to order items off a menu, and presents them with a calculated total when they are done.
+
 
 Your program must include a flowchart.
 
 The program must meet the following requirements:
 
-Display a menu of food options using Radio Buttons and Labels:
-Burgers
+Display a menu of food options using Radio Buttons and Labels
+Burgers:
 Plain burger ($4.99), Cheeseburger ($5.99), Veggie burger ($6.49), Bacon burger ($7.99)
 Sides
 Fries ($.50), Tater tots ($.75), Onion rings ($.99), Chips ($.99)
