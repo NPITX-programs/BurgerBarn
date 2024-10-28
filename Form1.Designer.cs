@@ -36,7 +36,12 @@
             this.gbxDrinks = new System.Windows.Forms.GroupBox();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.gbxBurgers.SuspendLayout();
+            this.gbxDrinks.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxBurgers
@@ -99,9 +104,13 @@
             // 
             // gbxDrinks
             // 
-            this.gbxDrinks.Location = new System.Drawing.Point(588, 338);
+            this.gbxDrinks.Controls.Add(this.radioButton4);
+            this.gbxDrinks.Controls.Add(this.radioButton3);
+            this.gbxDrinks.Controls.Add(this.radioButton1);
+            this.gbxDrinks.Controls.Add(this.radioButton2);
+            this.gbxDrinks.Location = new System.Drawing.Point(588, 327);
             this.gbxDrinks.Name = "gbxDrinks";
-            this.gbxDrinks.Size = new System.Drawing.Size(200, 100);
+            this.gbxDrinks.Size = new System.Drawing.Size(200, 111);
             this.gbxDrinks.TabIndex = 1;
             this.gbxDrinks.TabStop = false;
             this.gbxDrinks.Text = "Drinks";
@@ -129,6 +138,50 @@
             this.gbxSides.Text = "Sides";
             this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 19);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(6, 42);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(6, 65);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(6, 83);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(85, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,6 +196,8 @@
             this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
             this.gbxBurgers.ResumeLayout(false);
             this.gbxBurgers.PerformLayout();
+            this.gbxDrinks.ResumeLayout(false);
+            this.gbxDrinks.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -157,6 +212,10 @@
         private System.Windows.Forms.RadioButton rdb_vegBurg;
         private System.Windows.Forms.RadioButton rdb_cheeBurg;
         private System.Windows.Forms.RadioButton rdb_plainBurg;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
