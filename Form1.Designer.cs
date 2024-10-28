@@ -55,9 +55,9 @@
             this.gbxBurgers.Controls.Add(this.rdb_vegBurg);
             this.gbxBurgers.Controls.Add(this.rdb_cheeBurg);
             this.gbxBurgers.Controls.Add(this.rdb_plainBurg);
-            this.gbxBurgers.Location = new System.Drawing.Point(116, 190);
+            this.gbxBurgers.Location = new System.Drawing.Point(342, 311);
             this.gbxBurgers.Name = "gbxBurgers";
-            this.gbxBurgers.Size = new System.Drawing.Size(200, 111);
+            this.gbxBurgers.Size = new System.Drawing.Size(200, 134);
             this.gbxBurgers.TabIndex = 0;
             this.gbxBurgers.TabStop = false;
             this.gbxBurgers.Text = "Burgers";
@@ -113,9 +113,9 @@
             this.gbxDrinks.Controls.Add(this.rdb_drinkPunch);
             this.gbxDrinks.Controls.Add(this.rdb_drinkCoala);
             this.gbxDrinks.Controls.Add(this.rdb_drinkTea);
-            this.gbxDrinks.Location = new System.Drawing.Point(588, 327);
+            this.gbxDrinks.Location = new System.Drawing.Point(588, 311);
             this.gbxDrinks.Name = "gbxDrinks";
-            this.gbxDrinks.Size = new System.Drawing.Size(200, 111);
+            this.gbxDrinks.Size = new System.Drawing.Size(200, 127);
             this.gbxDrinks.TabIndex = 1;
             this.gbxDrinks.TabStop = false;
             this.gbxDrinks.Text = "Drinks";
@@ -183,9 +183,9 @@
             this.gbxSides.Controls.Add(this.rdb_sideOnioRing);
             this.gbxSides.Controls.Add(this.rdb_sideTatTot);
             this.gbxSides.Controls.Add(this.rdb_sidesFries);
-            this.gbxSides.Location = new System.Drawing.Point(116, 327);
+            this.gbxSides.Location = new System.Drawing.Point(116, 311);
             this.gbxSides.Name = "gbxSides";
-            this.gbxSides.Size = new System.Drawing.Size(200, 118);
+            this.gbxSides.Size = new System.Drawing.Size(200, 134);
             this.gbxSides.TabIndex = 2;
             this.gbxSides.TabStop = false;
             this.gbxSides.Text = "Sides";
