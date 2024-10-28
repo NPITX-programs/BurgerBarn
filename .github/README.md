@@ -5,10 +5,10 @@ and yet, here we are... so why?
 Hmm, what if we make a ***List of all the Reqrirments!***
 
 # Reqrirments
+just the requriments of the program. still needs work, as some of the reqriments seem in-compatabible.
 ## Useage & simple notes
 Create a menu program that allows users to order items off a menu, and presents them with a calculated total when they are done.
 Your program must include a flowchart.
-
 ## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 1. Sort the items in the List Box alphabetically
