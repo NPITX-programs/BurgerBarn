@@ -20,12 +20,13 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. Total is dynamically calculated as each item is entered
 1. Total must include 8% sales tax
 1. Users must NOT be able to modify/focus the Text Box
-
-Selecting a menu item will display a message:
-"You purchased [menu item] for [price]"
-If the user enters an invalid number, display an error message and ask them to enter the item again.
-Clear the screen after each user input
-
+1. Include two Buttons: Purchase and Exit
+1. Clicking Purchase displays a thank you message, then clears all fields
+1. Selecting a menu item will display a message:
+	1. "You purchased [menu item] for [price]"
+1. If the user enters an invalid number, display an error message and ask them to enter the item again.
+	- huh? what numerical input? 
+1. Clear the screen after each user input
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
@@ -62,6 +63,6 @@ Clear the screen after each user input
 
 
 
-Include two Buttons: Purchase and Exit
+
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program

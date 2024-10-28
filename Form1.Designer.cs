@@ -57,7 +57,7 @@
             this.gbxBurgers.Controls.Add(this.rdb_plainBurg);
             this.gbxBurgers.Location = new System.Drawing.Point(116, 190);
             this.gbxBurgers.Name = "gbxBurgers";
-            this.gbxBurgers.Size = new System.Drawing.Size(200, 100);
+            this.gbxBurgers.Size = new System.Drawing.Size(200, 111);
             this.gbxBurgers.TabIndex = 0;
             this.gbxBurgers.TabStop = false;
             this.gbxBurgers.Text = "Burgers";
@@ -185,7 +185,7 @@
             this.gbxSides.Controls.Add(this.radioButton1);
             this.gbxSides.Location = new System.Drawing.Point(116, 327);
             this.gbxSides.Name = "gbxSides";
-            this.gbxSides.Size = new System.Drawing.Size(200, 111);
+            this.gbxSides.Size = new System.Drawing.Size(200, 118);
             this.gbxSides.TabIndex = 2;
             this.gbxSides.TabStop = false;
             this.gbxSides.Text = "Sides";
@@ -196,10 +196,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(7, 20);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.Size = new System.Drawing.Size(47, 17);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "Fries";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -207,10 +207,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(6, 44);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.Size = new System.Drawing.Size(74, 17);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "Tater Tots";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -218,10 +218,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(6, 68);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.Size = new System.Drawing.Size(83, 17);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "Onion Rings";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -229,10 +229,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(6, 93);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
+            this.radioButton4.Size = new System.Drawing.Size(51, 17);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "Chips";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // frmBurgerBarn
