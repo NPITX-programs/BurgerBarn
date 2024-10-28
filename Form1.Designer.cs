@@ -34,9 +34,14 @@
             this.rdb_cheeBurg = new System.Windows.Forms.RadioButton();
             this.rdb_plainBurg = new System.Windows.Forms.RadioButton();
             this.gbxDrinks = new System.Windows.Forms.GroupBox();
+            this.rdb_drinkWater = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkPunch = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkCoala = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
             this.gbxBurgers.SuspendLayout();
+            this.gbxDrinks.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxBurgers
@@ -99,13 +104,61 @@
             // 
             // gbxDrinks
             // 
-            this.gbxDrinks.Location = new System.Drawing.Point(588, 338);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkWater);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkPunch);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkCoala);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkTea);
+            this.gbxDrinks.Location = new System.Drawing.Point(588, 327);
             this.gbxDrinks.Name = "gbxDrinks";
-            this.gbxDrinks.Size = new System.Drawing.Size(200, 100);
+            this.gbxDrinks.Size = new System.Drawing.Size(200, 111);
             this.gbxDrinks.TabIndex = 1;
             this.gbxDrinks.TabStop = false;
             this.gbxDrinks.Text = "Drinks";
             this.gbxDrinks.Enter += new System.EventHandler(this.gbxDrinks_Enter);
+            // 
+            // rdb_drinkWater
+            // 
+            this.rdb_drinkWater.AutoSize = true;
+            this.rdb_drinkWater.Location = new System.Drawing.Point(6, 83);
+            this.rdb_drinkWater.Name = "rdb_drinkWater";
+            this.rdb_drinkWater.Size = new System.Drawing.Size(54, 17);
+            this.rdb_drinkWater.TabIndex = 3;
+            this.rdb_drinkWater.TabStop = true;
+            this.rdb_drinkWater.Text = "Water";
+            this.rdb_drinkWater.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkPunch
+            // 
+            this.rdb_drinkPunch.AutoSize = true;
+            this.rdb_drinkPunch.Location = new System.Drawing.Point(6, 65);
+            this.rdb_drinkPunch.Name = "rdb_drinkPunch";
+            this.rdb_drinkPunch.Size = new System.Drawing.Size(79, 17);
+            this.rdb_drinkPunch.TabIndex = 2;
+            this.rdb_drinkPunch.TabStop = true;
+            this.rdb_drinkPunch.Text = "Fruit Punch";
+            this.rdb_drinkPunch.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkCoala
+            // 
+            this.rdb_drinkCoala.AutoSize = true;
+            this.rdb_drinkCoala.Location = new System.Drawing.Point(6, 19);
+            this.rdb_drinkCoala.Name = "rdb_drinkCoala";
+            this.rdb_drinkCoala.Size = new System.Drawing.Size(52, 17);
+            this.rdb_drinkCoala.TabIndex = 0;
+            this.rdb_drinkCoala.TabStop = true;
+            this.rdb_drinkCoala.Text = "Coala";
+            this.rdb_drinkCoala.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkTea
+            // 
+            this.rdb_drinkTea.AutoSize = true;
+            this.rdb_drinkTea.Location = new System.Drawing.Point(6, 42);
+            this.rdb_drinkTea.Name = "rdb_drinkTea";
+            this.rdb_drinkTea.Size = new System.Drawing.Size(44, 17);
+            this.rdb_drinkTea.TabIndex = 1;
+            this.rdb_drinkTea.TabStop = true;
+            this.rdb_drinkTea.Text = "Tea";
+            this.rdb_drinkTea.UseVisualStyleBackColor = true;
             // 
             // prg_totalItems
             // 
@@ -143,6 +196,8 @@
             this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
             this.gbxBurgers.ResumeLayout(false);
             this.gbxBurgers.PerformLayout();
+            this.gbxDrinks.ResumeLayout(false);
+            this.gbxDrinks.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -157,6 +212,10 @@
         private System.Windows.Forms.RadioButton rdb_vegBurg;
         private System.Windows.Forms.RadioButton rdb_cheeBurg;
         private System.Windows.Forms.RadioButton rdb_plainBurg;
+        private System.Windows.Forms.RadioButton rdb_drinkWater;
+        private System.Windows.Forms.RadioButton rdb_drinkPunch;
+        private System.Windows.Forms.RadioButton rdb_drinkCoala;
+        private System.Windows.Forms.RadioButton rdb_drinkTea;
     }
 }
 

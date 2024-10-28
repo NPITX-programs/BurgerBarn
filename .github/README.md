@@ -14,7 +14,12 @@ Your program must include a flowchart.
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 1. Sort the items in the List Box alphabetically
 1. Have a List Box that records all items in your current order
+1. Have a List Box that records all items in your current order
+1. Include a Text Box that contains a running total
 1. Users can only select one item in each category
+1. Total is dynamically calculated as each item is entered
+1. Total must include 8% sales tax
+1. Users must NOT be able to modify/focus the Text Box
 
 Selecting a menu item will display a message:
 "You purchased [menu item] for [price]"
@@ -54,13 +59,9 @@ Clear the screen after each user input
 
 
 
-Users can only select one item in each category
 
-Have a List Box that records all items in your current order
-Include a Text Box that contains a running total
-Total is dynamically calculated as each item is entered
-Total must include 8% sales tax
-Users must NOT be able to modify/focus the Text Box
+
+
 Include two Buttons: Purchase and Exit
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program
