@@ -19,6 +19,7 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. Users can only select one item in each category
 1. Total is dynamically calculated as each item is entered
 1. Total must include 8% sales tax
+1. Users must NOT be able to modify/focus the Text Box
 
 Selecting a menu item will display a message:
 "You purchased [menu item] for [price]"
@@ -60,7 +61,7 @@ Clear the screen after each user input
 
 
 
-Users must NOT be able to modify/focus the Text Box
+
 Include two Buttons: Purchase and Exit
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program

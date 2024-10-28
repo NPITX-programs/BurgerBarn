@@ -34,12 +34,12 @@
             this.rdb_cheeBurg = new System.Windows.Forms.RadioButton();
             this.rdb_plainBurg = new System.Windows.Forms.RadioButton();
             this.gbxDrinks = new System.Windows.Forms.GroupBox();
+            this.rdb_drinkWater = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkPunch = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkCoala = new System.Windows.Forms.RadioButton();
+            this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.SuspendLayout();
@@ -104,10 +104,10 @@
             // 
             // gbxDrinks
             // 
-            this.gbxDrinks.Controls.Add(this.radioButton4);
-            this.gbxDrinks.Controls.Add(this.radioButton3);
-            this.gbxDrinks.Controls.Add(this.radioButton1);
-            this.gbxDrinks.Controls.Add(this.radioButton2);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkWater);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkPunch);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkCoala);
+            this.gbxDrinks.Controls.Add(this.rdb_drinkTea);
             this.gbxDrinks.Location = new System.Drawing.Point(588, 327);
             this.gbxDrinks.Name = "gbxDrinks";
             this.gbxDrinks.Size = new System.Drawing.Size(200, 111);
@@ -115,6 +115,50 @@
             this.gbxDrinks.TabStop = false;
             this.gbxDrinks.Text = "Drinks";
             this.gbxDrinks.Enter += new System.EventHandler(this.gbxDrinks_Enter);
+            // 
+            // rdb_drinkWater
+            // 
+            this.rdb_drinkWater.AutoSize = true;
+            this.rdb_drinkWater.Location = new System.Drawing.Point(6, 83);
+            this.rdb_drinkWater.Name = "rdb_drinkWater";
+            this.rdb_drinkWater.Size = new System.Drawing.Size(54, 17);
+            this.rdb_drinkWater.TabIndex = 3;
+            this.rdb_drinkWater.TabStop = true;
+            this.rdb_drinkWater.Text = "Water";
+            this.rdb_drinkWater.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkPunch
+            // 
+            this.rdb_drinkPunch.AutoSize = true;
+            this.rdb_drinkPunch.Location = new System.Drawing.Point(6, 65);
+            this.rdb_drinkPunch.Name = "rdb_drinkPunch";
+            this.rdb_drinkPunch.Size = new System.Drawing.Size(79, 17);
+            this.rdb_drinkPunch.TabIndex = 2;
+            this.rdb_drinkPunch.TabStop = true;
+            this.rdb_drinkPunch.Text = "Fruit Punch";
+            this.rdb_drinkPunch.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkCoala
+            // 
+            this.rdb_drinkCoala.AutoSize = true;
+            this.rdb_drinkCoala.Location = new System.Drawing.Point(6, 19);
+            this.rdb_drinkCoala.Name = "rdb_drinkCoala";
+            this.rdb_drinkCoala.Size = new System.Drawing.Size(52, 17);
+            this.rdb_drinkCoala.TabIndex = 0;
+            this.rdb_drinkCoala.TabStop = true;
+            this.rdb_drinkCoala.Text = "Coala";
+            this.rdb_drinkCoala.UseVisualStyleBackColor = true;
+            // 
+            // rdb_drinkTea
+            // 
+            this.rdb_drinkTea.AutoSize = true;
+            this.rdb_drinkTea.Location = new System.Drawing.Point(6, 42);
+            this.rdb_drinkTea.Name = "rdb_drinkTea";
+            this.rdb_drinkTea.Size = new System.Drawing.Size(44, 17);
+            this.rdb_drinkTea.TabIndex = 1;
+            this.rdb_drinkTea.TabStop = true;
+            this.rdb_drinkTea.Text = "Tea";
+            this.rdb_drinkTea.UseVisualStyleBackColor = true;
             // 
             // prg_totalItems
             // 
@@ -137,50 +181,6 @@
             this.gbxSides.TabStop = false;
             this.gbxSides.Text = "Sides";
             this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Coala";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 42);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(44, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Tea";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 65);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(79, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Fruit Punch";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(6, 83);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(54, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Water";
-            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // frmBurgerBarn
             // 
@@ -212,10 +212,10 @@
         private System.Windows.Forms.RadioButton rdb_vegBurg;
         private System.Windows.Forms.RadioButton rdb_cheeBurg;
         private System.Windows.Forms.RadioButton rdb_plainBurg;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rdb_drinkWater;
+        private System.Windows.Forms.RadioButton rdb_drinkPunch;
+        private System.Windows.Forms.RadioButton rdb_drinkCoala;
+        private System.Windows.Forms.RadioButton rdb_drinkTea;
     }
 }
 
