@@ -1,1 +1,1 @@
-remember to make a new 100% isolated area based on the very first commit here. 
+finalize the readme improvments
