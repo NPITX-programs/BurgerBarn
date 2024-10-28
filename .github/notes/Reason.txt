@@ -1,7 +1,7 @@
-to add buttons.
+This is where buttons shall be added.
 To be added:
-	1. Burgers
-	2. Drinks
-	3. Sides
-Added:
+	Burgers
+	Drinks
+	Sides
+Now Added:
 	
