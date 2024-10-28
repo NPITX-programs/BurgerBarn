@@ -7,7 +7,6 @@ Hmm, what if we make a ***List of all the Reqrirments!***
 # Reqrirments
 ## Useage & simple notes
 Create a menu program that allows users to order items off a menu, and presents them with a calculated total when they are done.
-
 Your program must include a flowchart.
 
 ## Reqrirments of Code
@@ -59,12 +58,3 @@ At start, display a one-time welcome message that will not reappear once the scr
 	1. Bacon Burger
 	1. Chips
 	1. Cola
-
-
-
-
-
-
-
-
-
