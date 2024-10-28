@@ -4,9 +4,9 @@ This is where buttons shall be added.
 
 To be added:
 	Burgers
-	Drinks
+	
 	Sides
 
 Now Added:
 	
-
+	Drinks
