@@ -27,6 +27,8 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. If the user enters an invalid number, display an error message and ask them to enter the item again.
 	- huh? what numerical input? 
 1. Clear the screen after each user input
+1. Clicking Purchase displays a thank you message, then clears all fields
+1. Clicking Exit exits the program
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
@@ -64,5 +66,5 @@ At start, display a one-time welcome message that will not reappear once the scr
 
 
 
-Clicking Purchase displays a thank you message, then clears all fields
-Clicking Exit exits the program
+
+
