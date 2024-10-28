@@ -13,7 +13,7 @@ Your program must include a flowchart.
 ## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 1. Sort the items in the List Box alphabetically
-
+1. Users can only select one item in each category
 
 Selecting a menu item will display a message:
 "You purchased [menu item] for [price]"
@@ -53,7 +53,6 @@ Clear the screen after each user input
 
 
 
-Users can only select one item in each category
 Have a List Box that records all items in your current order
 Include a Text Box that contains a running total
 Total is dynamically calculated as each item is entered
