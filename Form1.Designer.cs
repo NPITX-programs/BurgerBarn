@@ -40,8 +40,13 @@
             this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
+            this.rdb_sideChip = new System.Windows.Forms.RadioButton();
+            this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
+            this.rdb_sideTatTot = new System.Windows.Forms.RadioButton();
+            this.rdb_sidesFries = new System.Windows.Forms.RadioButton();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
+            this.gbxSides.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxBurgers
@@ -52,7 +57,7 @@
             this.gbxBurgers.Controls.Add(this.rdb_plainBurg);
             this.gbxBurgers.Location = new System.Drawing.Point(116, 190);
             this.gbxBurgers.Name = "gbxBurgers";
-            this.gbxBurgers.Size = new System.Drawing.Size(200, 100);
+            this.gbxBurgers.Size = new System.Drawing.Size(200, 111);
             this.gbxBurgers.TabIndex = 0;
             this.gbxBurgers.TabStop = false;
             this.gbxBurgers.Text = "Burgers";
@@ -174,13 +179,61 @@
             // 
             // gbxSides
             // 
-            this.gbxSides.Location = new System.Drawing.Point(116, 338);
+            this.gbxSides.Controls.Add(this.rdb_sideChip);
+            this.gbxSides.Controls.Add(this.rdb_sideOnioRing);
+            this.gbxSides.Controls.Add(this.rdb_sideTatTot);
+            this.gbxSides.Controls.Add(this.rdb_sidesFries);
+            this.gbxSides.Location = new System.Drawing.Point(116, 327);
             this.gbxSides.Name = "gbxSides";
-            this.gbxSides.Size = new System.Drawing.Size(200, 100);
+            this.gbxSides.Size = new System.Drawing.Size(200, 118);
             this.gbxSides.TabIndex = 2;
             this.gbxSides.TabStop = false;
             this.gbxSides.Text = "Sides";
             this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
+            // 
+            // rdb_sideChip
+            // 
+            this.rdb_sideChip.AutoSize = true;
+            this.rdb_sideChip.Location = new System.Drawing.Point(6, 93);
+            this.rdb_sideChip.Name = "rdb_sideChip";
+            this.rdb_sideChip.Size = new System.Drawing.Size(51, 17);
+            this.rdb_sideChip.TabIndex = 3;
+            this.rdb_sideChip.TabStop = true;
+            this.rdb_sideChip.Text = "Chips";
+            this.rdb_sideChip.UseVisualStyleBackColor = true;
+            // 
+            // rdb_sideOnioRing
+            // 
+            this.rdb_sideOnioRing.AutoSize = true;
+            this.rdb_sideOnioRing.Location = new System.Drawing.Point(6, 68);
+            this.rdb_sideOnioRing.Name = "rdb_sideOnioRing";
+            this.rdb_sideOnioRing.Size = new System.Drawing.Size(83, 17);
+            this.rdb_sideOnioRing.TabIndex = 2;
+            this.rdb_sideOnioRing.TabStop = true;
+            this.rdb_sideOnioRing.Text = "Onion Rings";
+            this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
+            // 
+            // rdb_sideTatTot
+            // 
+            this.rdb_sideTatTot.AutoSize = true;
+            this.rdb_sideTatTot.Location = new System.Drawing.Point(6, 44);
+            this.rdb_sideTatTot.Name = "rdb_sideTatTot";
+            this.rdb_sideTatTot.Size = new System.Drawing.Size(74, 17);
+            this.rdb_sideTatTot.TabIndex = 1;
+            this.rdb_sideTatTot.TabStop = true;
+            this.rdb_sideTatTot.Text = "Tater Tots";
+            this.rdb_sideTatTot.UseVisualStyleBackColor = true;
+            // 
+            // rdb_sidesFries
+            // 
+            this.rdb_sidesFries.AutoSize = true;
+            this.rdb_sidesFries.Location = new System.Drawing.Point(7, 20);
+            this.rdb_sidesFries.Name = "rdb_sidesFries";
+            this.rdb_sidesFries.Size = new System.Drawing.Size(47, 17);
+            this.rdb_sidesFries.TabIndex = 0;
+            this.rdb_sidesFries.TabStop = true;
+            this.rdb_sidesFries.Text = "Fries";
+            this.rdb_sidesFries.UseVisualStyleBackColor = true;
             // 
             // frmBurgerBarn
             // 
@@ -198,6 +251,8 @@
             this.gbxBurgers.PerformLayout();
             this.gbxDrinks.ResumeLayout(false);
             this.gbxDrinks.PerformLayout();
+            this.gbxSides.ResumeLayout(false);
+            this.gbxSides.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -216,6 +271,10 @@
         private System.Windows.Forms.RadioButton rdb_drinkPunch;
         private System.Windows.Forms.RadioButton rdb_drinkCoala;
         private System.Windows.Forms.RadioButton rdb_drinkTea;
+        private System.Windows.Forms.RadioButton rdb_sideChip;
+        private System.Windows.Forms.RadioButton rdb_sideOnioRing;
+        private System.Windows.Forms.RadioButton rdb_sideTatTot;
+        private System.Windows.Forms.RadioButton rdb_sidesFries;
     }
 }
 
