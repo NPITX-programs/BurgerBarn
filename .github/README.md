@@ -13,13 +13,22 @@ Your program must include a flowchart.
 ## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 1. Sort the items in the List Box alphabetically
-
-
-Selecting a menu item will display a message:
-"You purchased [menu item] for [price]"
-If the user enters an invalid number, display an error message and ask them to enter the item again.
-Clear the screen after each user input
-
+1. Have a List Box that records all items in your current order
+1. Have a List Box that records all items in your current order
+1. Include a Text Box that contains a running total
+1. Users can only select one item in each category
+1. Total is dynamically calculated as each item is entered
+1. Total must include 8% sales tax
+1. Users must NOT be able to modify/focus the Text Box
+1. Include two Buttons: Purchase and Exit
+1. Clicking Purchase displays a thank you message, then clears all fields
+1. Selecting a menu item will display a message:
+	1. "You purchased [menu item] for [price]"
+1. If the user enters an invalid number, display an error message and ask them to enter the item again.
+	- huh? what numerical input? 
+1. Clear the screen after each user input
+1. Clicking Purchase displays a thank you message, then clears all fields
+1. Clicking Exit exits the program
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
@@ -53,12 +62,9 @@ Clear the screen after each user input
 
 
 
-Users can only select one item in each category
-Have a List Box that records all items in your current order
-Include a Text Box that contains a running total
-Total is dynamically calculated as each item is entered
-Total must include 8% sales tax
-Users must NOT be able to modify/focus the Text Box
-Include two Buttons: Purchase and Exit
-Clicking Purchase displays a thank you message, then clears all fields
-Clicking Exit exits the program
+
+
+
+
+
+
