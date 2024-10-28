@@ -11,8 +11,7 @@ Create a menu program that allows users to order items off a menu, and presents 
 
 Your program must include a flowchart.
 
-The program must meet the following requirements:
-## Reqrirements
+## Main
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 
 
@@ -21,17 +20,26 @@ Selecting a menu item will display a message:
 If the user enters an invalid number, display an error message and ask them to enter the item again.
 Clear the screen after each user input
  
+ 
+ Display a menu of food options using Radio Buttons and Labels
+### Burgers
+1. Plain burger: $4.99
+1. Cheeseburger: $5.99
+1. Veggie burger: $6.49
+1. Bacon Burger: $7.99
+### Drinks
+### Sides
+## Extra
+1. Sort the items in the List Box alphabetically
+1. Certain collections of menu items constitute a Combo meal, have the program recognize when these items are entered and adjust the price accordingly:
+	1.Plain Burger + Fries + Cola = #1 Combo ($5.99)
+	1. Cheeseburger + Tea + Onion Rings = #2 Combo ($6.49)
+	1. Bacon Burger + Chips + Cola= #3 Combo ($8.99)
+1. When items are combined into a Combo meal, change the list box to display the combo (remove the individual items and replace with the Combo)
 
-
-
-
-Your program must include a flowchart.
 
 The program must meet the following requirements:
 
-Display a menu of food options using Radio Buttons and Labels
-Burgers:
-Plain burger ($4.99), Cheeseburger ($5.99), Veggie burger ($6.49), Bacon burger ($7.99)
 Sides
 Fries ($.50), Tater tots ($.75), Onion rings ($.99), Chips ($.99)
 Drinks
@@ -45,11 +53,5 @@ Users must NOT be able to modify/focus the Text Box
 Include two Buttons: Purchase and Exit
 Clicking Purchase displays a thank you message, then clears all fields
 Clicking Exit exits the program
-Additional Challenge (Optional):
 
-Sort the items in the List Box alphabetically
-Certain collections of menu items constitute a Combo meal, have the program recognize when these items are entered and adjust the price accordingly:
-Plain Burger + Fries + Cola = #1 Combo ($5.99)
-Cheeseburger + Tea + Onion Rings = #2 Combo ($6.49)
-Bacon Burger + Chips + Cola= #3 Combo ($8.99)
-When items are combined into a Combo meal, change the list box to display the combo (remove the individual items and replace with the Combo)
+
