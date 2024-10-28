@@ -28,28 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbxBurgers = new System.Windows.Forms.GroupBox();
+            this.gbxDrinks = new System.Windows.Forms.GroupBox();
             this.prg_totalItems = new System.Windows.Forms.ProgressBar();
+            this.gbxSides = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // gbxBurgers
             // 
-            this.groupBox1.Location = new System.Drawing.Point(355, 338);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.gbxBurgers.Location = new System.Drawing.Point(116, 190);
+            this.gbxBurgers.Name = "gbxBurgers";
+            this.gbxBurgers.Size = new System.Drawing.Size(200, 100);
+            this.gbxBurgers.TabIndex = 0;
+            this.gbxBurgers.TabStop = false;
+            this.gbxBurgers.Text = "Burgers";
+            this.gbxBurgers.Enter += new System.EventHandler(this.gbxBurgers_Enter);
             // 
-            // groupBox2
+            // gbxDrinks
             // 
-            this.groupBox2.Location = new System.Drawing.Point(588, 338);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 100);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.gbxDrinks.Location = new System.Drawing.Point(588, 338);
+            this.gbxDrinks.Name = "gbxDrinks";
+            this.gbxDrinks.Size = new System.Drawing.Size(200, 100);
+            this.gbxDrinks.TabIndex = 1;
+            this.gbxDrinks.TabStop = false;
+            this.gbxDrinks.Text = "Drinks";
+            this.gbxDrinks.Enter += new System.EventHandler(this.gbxDrinks_Enter);
             // 
             // prg_totalItems
             // 
@@ -63,14 +66,25 @@
             this.prg_totalItems.TabIndex = 2;
             this.prg_totalItems.Click += new System.EventHandler(this.prg_totalItems_Click);
             // 
+            // gbxSides
+            // 
+            this.gbxSides.Location = new System.Drawing.Point(116, 338);
+            this.gbxSides.Name = "gbxSides";
+            this.gbxSides.Size = new System.Drawing.Size(200, 100);
+            this.gbxSides.TabIndex = 2;
+            this.gbxSides.TabStop = false;
+            this.gbxSides.Text = "Sides";
+            this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gbxSides);
             this.Controls.Add(this.prg_totalItems);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbxDrinks);
+            this.Controls.Add(this.gbxBurgers);
             this.Name = "frmBurgerBarn";
             this.Text = "Burger Barn";
             this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
@@ -80,9 +94,10 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbxBurgers;
+        private System.Windows.Forms.GroupBox gbxDrinks;
         private System.Windows.Forms.ProgressBar prg_totalItems;
+        private System.Windows.Forms.GroupBox gbxSides;
     }
 }
 

@@ -19,5 +19,20 @@ namespace BurgerBarn
         {
 
         }
+
+        private void gbxBurgers_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbxSides_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbxDrinks_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
