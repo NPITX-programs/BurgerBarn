@@ -2,8 +2,7 @@
 A simple general burger ordering program
 does not need a readme
 and yet, here we are... so why?
-
-## Perhaps to list the requirments?
+Hmm, what if we make a ***List of all the Reqrirments!***
 
 # Reqrirments
 ## Useage & simple notes
@@ -11,7 +10,7 @@ Create a menu program that allows users to order items off a menu, and presents 
 
 Your program must include a flowchart.
 
-## Reqrirments
+## Reqrirments of Code
 At start, display a one-time welcome message that will not reappear once the screen is cleared.
 
 
@@ -20,7 +19,7 @@ Selecting a menu item will display a message:
 If the user enters an invalid number, display an error message and ask them to enter the item again.
 Clear the screen after each user input
 
-## Cost 
+## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
 1. Plain burger: $4.99
