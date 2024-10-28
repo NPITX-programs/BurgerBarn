@@ -27,8 +27,12 @@ Clear the screen after each user input
 1. Cheeseburger: $5.99
 1. Veggie burger: $6.49
 1. Bacon Burger: $7.99
-### Drinks
 ### Sides
+1. Fries: $0.50
+1. Tater tots: $0.75
+1. Onion rings: $0.99
+1. Chips: $0.99
+### Drinks
 ## Extra
 1. Sort the items in the List Box alphabetically
 1. Certain collections of menu items constitute a Combo meal, have the program recognize when these items are entered and adjust the price accordingly:
@@ -40,8 +44,6 @@ Clear the screen after each user input
 
 The program must meet the following requirements:
 
-Sides
-Fries ($.50), Tater tots ($.75), Onion rings ($.99), Chips ($.99)
 Drinks
 Cola ($1.29), Tea ($1.19), Fruit punch ($1.09), Water ($.99)
 Users can only select one item in each category
