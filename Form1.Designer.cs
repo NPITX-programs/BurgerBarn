@@ -73,6 +73,7 @@
             this.rdb_baconBurg.TabStop = true;
             this.rdb_baconBurg.Text = "Bacon Burger";
             this.rdb_baconBurg.UseVisualStyleBackColor = true;
+            this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_baconBurg_CheckedChanged);
             // 
             // rdb_vegBurg
             // 
@@ -84,6 +85,7 @@
             this.rdb_vegBurg.TabStop = true;
             this.rdb_vegBurg.Text = "Vegie Burger";
             this.rdb_vegBurg.UseVisualStyleBackColor = true;
+            this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_vegBurg_CheckedChanged);
             // 
             // rdb_cheeBurg
             // 
@@ -95,6 +97,7 @@
             this.rdb_cheeBurg.TabStop = true;
             this.rdb_cheeBurg.Text = "Cheeseburger";
             this.rdb_cheeBurg.UseVisualStyleBackColor = true;
+            this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_cheeBurg_CheckedChanged);
             // 
             // rdb_plainBurg
             // 
@@ -106,6 +109,7 @@
             this.rdb_plainBurg.TabStop = true;
             this.rdb_plainBurg.Text = "Plain Burger";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
+            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
             // 
             // gbxDrinks
             // 
