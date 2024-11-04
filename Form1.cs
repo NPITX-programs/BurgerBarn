@@ -46,6 +46,26 @@ namespace BurgerBarn
 
         }
 
+        //all components related to the sides
+        private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_sideOnioRing_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
         private void gbxSides_Enter(object sender, EventArgs e)
         {
 
