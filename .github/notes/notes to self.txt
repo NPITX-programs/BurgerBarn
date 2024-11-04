@@ -1,1 +1,2 @@
-finalize the readme improvments
+remember to possibly add in the second version of the readme
+remember to improve code order
