@@ -1,2 +1,2 @@
-first is complete, time for second
-finished second, now time to do third
+remember to possibly add in the second version of the readme
+remember to improve code order
