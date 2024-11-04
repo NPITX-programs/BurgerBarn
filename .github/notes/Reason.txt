@@ -1,4 +1,10 @@
-uh... the entire program is here. Need I go on?
-No? Thought so...
+to add in all the code for the buttons:
 
-oh, you want me to... why?
+1. burger buttons
+
+
+2. sides buttons
+
+
+3. drinks buttons
+
