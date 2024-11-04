@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|h:\\students_folder\\charlie hatch\\semesters\\multi-semester\\app dev\\projects\\app dev 1\\burger barn\\.github\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:.github\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|h:\\students_folder\\charlie hatch\\semesters\\multi-semester\\app dev\\projects\\app dev 1\\burger barn\\.github\\notes\\reason.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:.github\\notes\\reason.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|h:\\students_folder\\charlie hatch\\semesters\\multi-semester\\app dev\\projects\\app dev 1\\burger barn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,25 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:18:57.823Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -49,25 +32,15 @@
               "RelativeDocumentMoniker": ".github\\README.md",
               "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\README.md",
               "RelativeToolTip": ".github\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-10-28T15:18:18.515Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reason.txt",
-              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Reason.txt",
-              "RelativeDocumentMoniker": ".github\\notes\\Reason.txt",
-              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Reason.txt",
-              "RelativeToolTip": ".github\\notes\\Reason.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-28T15:58:30.025Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -75,11 +48,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1924764005:0:{13143d73-808b-4a2f-bebb-ccbe9c93fe37}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1924764005:0:{13143d73-808b-4a2f-bebb-ccbe9c93fe37}"
             },
             {
               "$type": "Bookmark",
@@ -100,6 +77,29 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:55:35.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:18:57.823Z"
             }
           ]
         }
