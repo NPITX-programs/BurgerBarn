@@ -1,2 +1,3 @@
 remember to possibly add in the second version of the readme
 remember to improve code order
+remember to always add to update notes
