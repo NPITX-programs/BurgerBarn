@@ -135,6 +135,7 @@
             this.rdb_drinkWater.TabStop = true;
             this.rdb_drinkWater.Text = "Water";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
+            this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinkWater_CheckedChanged);
             // 
             // rdb_drinkPunch
             // 
@@ -146,6 +147,7 @@
             this.rdb_drinkPunch.TabStop = true;
             this.rdb_drinkPunch.Text = "Fruit Punch";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
+            this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinkPunch_CheckedChanged);
             // 
             // rdb_drinkCoala
             // 
@@ -157,6 +159,7 @@
             this.rdb_drinkCoala.TabStop = true;
             this.rdb_drinkCoala.Text = "Coala";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
+            this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinkCoala_CheckedChanged);
             // 
             // rdb_drinkTea
             // 
@@ -168,6 +171,7 @@
             this.rdb_drinkTea.TabStop = true;
             this.rdb_drinkTea.Text = "Tea";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
+            this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
             // 
             // prg_totalItems
             // 

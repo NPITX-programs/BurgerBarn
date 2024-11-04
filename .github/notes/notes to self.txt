@@ -1,1 +1,2 @@
-finished first, time for second
+first is complete, time for second
+finished second, now time to do third
