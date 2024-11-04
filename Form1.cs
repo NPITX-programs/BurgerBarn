@@ -71,11 +71,7 @@ namespace BurgerBarn
 
         }
 
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+        // all drinks code
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -95,5 +91,11 @@ namespace BurgerBarn
         {
 
         }
+        private void gbxDrinks_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
