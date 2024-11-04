@@ -35,5 +35,25 @@ namespace BurgerBarn
         {
 
         }
+
+        private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
