@@ -21,6 +21,26 @@ namespace BurgerBarn
 
         }
 
+        //all components related to the burgers
+        private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
         private void gbxBurgers_Enter(object sender, EventArgs e)
         {
 
@@ -35,5 +55,7 @@ namespace BurgerBarn
         {
 
         }
+
+
     }
 }
