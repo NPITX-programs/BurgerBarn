@@ -73,6 +73,7 @@
             this.rdb_baconBurg.TabStop = true;
             this.rdb_baconBurg.Text = "Bacon Burger";
             this.rdb_baconBurg.UseVisualStyleBackColor = true;
+            this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_baconBurg_CheckedChanged);
             // 
             // rdb_vegBurg
             // 
@@ -84,6 +85,7 @@
             this.rdb_vegBurg.TabStop = true;
             this.rdb_vegBurg.Text = "Vegie Burger";
             this.rdb_vegBurg.UseVisualStyleBackColor = true;
+            this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_vegBurg_CheckedChanged);
             // 
             // rdb_cheeBurg
             // 
@@ -95,6 +97,7 @@
             this.rdb_cheeBurg.TabStop = true;
             this.rdb_cheeBurg.Text = "Cheeseburger";
             this.rdb_cheeBurg.UseVisualStyleBackColor = true;
+            this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_cheeBurg_CheckedChanged);
             // 
             // rdb_plainBurg
             // 
@@ -106,6 +109,7 @@
             this.rdb_plainBurg.TabStop = true;
             this.rdb_plainBurg.Text = "Plain Burger";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
+            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
             // 
             // gbxDrinks
             // 
@@ -131,6 +135,7 @@
             this.rdb_drinkWater.TabStop = true;
             this.rdb_drinkWater.Text = "Water";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
+            this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinkWater_CheckedChanged);
             // 
             // rdb_drinkPunch
             // 
@@ -142,6 +147,7 @@
             this.rdb_drinkPunch.TabStop = true;
             this.rdb_drinkPunch.Text = "Fruit Punch";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
+            this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinkPunch_CheckedChanged);
             // 
             // rdb_drinkCoala
             // 
@@ -153,6 +159,7 @@
             this.rdb_drinkCoala.TabStop = true;
             this.rdb_drinkCoala.Text = "Coala";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
+            this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinkCoala_CheckedChanged);
             // 
             // rdb_drinkTea
             // 
@@ -164,6 +171,7 @@
             this.rdb_drinkTea.TabStop = true;
             this.rdb_drinkTea.Text = "Tea";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
+            this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
             // 
             // prg_totalItems
             // 
@@ -201,6 +209,7 @@
             this.rdb_sideChip.TabStop = true;
             this.rdb_sideChip.Text = "Chips";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
+            this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sideChip_CheckedChanged);
             // 
             // rdb_sideOnioRing
             // 
@@ -212,6 +221,7 @@
             this.rdb_sideOnioRing.TabStop = true;
             this.rdb_sideOnioRing.Text = "Onion Rings";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
+            this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sideOnioRing_CheckedChanged);
             // 
             // rdb_sideTatTot
             // 
@@ -223,6 +233,7 @@
             this.rdb_sideTatTot.TabStop = true;
             this.rdb_sideTatTot.Text = "Tater Tots";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
+            this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sideTatTot_CheckedChanged);
             // 
             // rdb_sidesFries
             // 
@@ -234,6 +245,7 @@
             this.rdb_sidesFries.TabStop = true;
             this.rdb_sidesFries.Text = "Fries";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
+            this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
             // frmBurgerBarn
             // 

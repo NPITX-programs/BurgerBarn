@@ -1,1 +1,6 @@
 mergeing in the progress bar that's designed to be (close) to the desired system- the goal is no animation, but for now, this works
+trying to alter the organization of branches
+updateing update notes
+added in buttons
+created code for buttons
+updated buttons
