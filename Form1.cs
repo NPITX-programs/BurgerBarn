@@ -76,6 +76,24 @@ namespace BurgerBarn
 
         }
 
+        private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
