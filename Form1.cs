@@ -46,16 +46,7 @@ namespace BurgerBarn
 
         }
 
-        private void gbxSides_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+        //all components related to the sides
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -75,5 +66,16 @@ namespace BurgerBarn
         {
 
         }
+        private void gbxSides_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbxDrinks_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
