@@ -205,6 +205,7 @@
             this.rdb_sideChip.TabStop = true;
             this.rdb_sideChip.Text = "Chips";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
+            this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sideChip_CheckedChanged);
             // 
             // rdb_sideOnioRing
             // 
@@ -216,6 +217,7 @@
             this.rdb_sideOnioRing.TabStop = true;
             this.rdb_sideOnioRing.Text = "Onion Rings";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
+            this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sideOnioRing_CheckedChanged);
             // 
             // rdb_sideTatTot
             // 
@@ -227,6 +229,7 @@
             this.rdb_sideTatTot.TabStop = true;
             this.rdb_sideTatTot.Text = "Tater Tots";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
+            this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sideTatTot_CheckedChanged);
             // 
             // rdb_sidesFries
             // 
@@ -238,6 +241,7 @@
             this.rdb_sidesFries.TabStop = true;
             this.rdb_sidesFries.Text = "Fries";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
+            this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
             // frmBurgerBarn
             // 
