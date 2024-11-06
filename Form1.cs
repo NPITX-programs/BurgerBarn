@@ -46,7 +46,10 @@ namespace BurgerBarn
 
 
         #region not refferenced or needed yet
-        //progress bar of amount of form filled
+        //if I add in information about percent completed, remember
+            //it already exists
+                //the name is prg_totalItems
+            ///it's a progress bar
         private void prg_totalItems_Click(object sender, EventArgs e)
         {
 
