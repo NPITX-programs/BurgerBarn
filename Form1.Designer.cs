@@ -38,7 +38,6 @@
             this.rdb_drinkPunch = new System.Windows.Forms.RadioButton();
             this.rdb_drinkCoala = new System.Windows.Forms.RadioButton();
             this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
-            this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
             this.rdb_sideChip = new System.Windows.Forms.RadioButton();
             this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
@@ -173,18 +172,6 @@
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
             this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
             // 
-            // prg_totalItems
-            // 
-            this.prg_totalItems.Dock = System.Windows.Forms.DockStyle.Top;
-            this.prg_totalItems.Location = new System.Drawing.Point(0, 0);
-            this.prg_totalItems.Maximum = 3;
-            this.prg_totalItems.Name = "prg_totalItems";
-            this.prg_totalItems.Size = new System.Drawing.Size(800, 23);
-            this.prg_totalItems.Step = 1;
-            this.prg_totalItems.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.prg_totalItems.TabIndex = 2;
-            this.prg_totalItems.Click += new System.EventHandler(this.prg_totalItems_Click);
-            // 
             // gbxSides
             // 
             this.gbxSides.Controls.Add(this.rdb_sideChip);
@@ -253,7 +240,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gbxSides);
-            this.Controls.Add(this.prg_totalItems);
             this.Controls.Add(this.gbxDrinks);
             this.Controls.Add(this.gbxBurgers);
             this.Name = "frmBurgerBarn";
@@ -273,7 +259,6 @@
 
         private System.Windows.Forms.GroupBox gbxBurgers;
         private System.Windows.Forms.GroupBox gbxDrinks;
-        private System.Windows.Forms.ProgressBar prg_totalItems;
         private System.Windows.Forms.GroupBox gbxSides;
         private System.Windows.Forms.RadioButton rdb_baconBurg;
         private System.Windows.Forms.RadioButton rdb_vegBurg;
