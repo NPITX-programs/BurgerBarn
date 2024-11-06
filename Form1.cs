@@ -10,6 +10,7 @@ namespace BurgerBarn
             InitializeComponent();
         }
         //shared variables
+            //put shared variables here
 
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
@@ -18,7 +19,7 @@ namespace BurgerBarn
         }
        
         //functions
-
+            //put functions here
 
 
         //burgers
