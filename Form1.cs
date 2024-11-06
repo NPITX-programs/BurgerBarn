@@ -16,6 +16,7 @@ namespace BurgerBarn
         {
 
         }
+       
         //functions
 
 
@@ -39,12 +40,12 @@ namespace BurgerBarn
         }
 
 
-        
+
         //not refferenced/ needed yet
 
-            
-        
-            //progress bar of amount of form filled
+
+        #region not refferenced or needed yet
+        //progress bar of amount of form filled
         private void prg_totalItems_Click(object sender, EventArgs e)
         {
 
@@ -115,7 +116,7 @@ namespace BurgerBarn
 
         }
 
-
+        #endregion
 
     }
 }
