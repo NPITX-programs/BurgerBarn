@@ -6,3 +6,7 @@
 |created code for buttons																													|
 |updated buttons																															|
 |___________________________________________________________________________________________________________________________________________|
+|surround update notes in seperation boxes																									|
+|improve order of the code																													|
+|put refferences that might not be needed into a region																						|
+|___________________________________________________________________________________________________________________________________________|
