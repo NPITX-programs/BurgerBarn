@@ -1,3 +1,4 @@
 remember to possibly add in the second version of the readme
 remember to improve code order
 remember to always add to update notes
+progress bar refferencce has been removed. so if needed to retrieve it, this point could be used to refference it right after that code was removed
