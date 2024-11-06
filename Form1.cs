@@ -50,10 +50,6 @@ namespace BurgerBarn
             //it already exists
                 //the name is prg_totalItems
             ///it's a progress bar
-        private void prg_totalItems_Click(object sender, EventArgs e)
-        {
-
-        }
 
         //all buttons related to the burgers
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
