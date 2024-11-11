@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,6 +94,18 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update Notes.txt",
+              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Update Notes.txt",
+              "RelativeDocumentMoniker": ".github\\notes\\Update Notes.txt",
+              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Update Notes.txt",
+              "RelativeToolTip": ".github\\notes\\Update Notes.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-04T17:20:53.495Z"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -124,18 +136,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-11-06T17:15:51.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Update Notes.txt",
-              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Update Notes.txt",
-              "RelativeDocumentMoniker": ".github\\notes\\Update Notes.txt",
-              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\.github\\notes\\Update Notes.txt",
-              "RelativeToolTip": ".github\\notes\\Update Notes.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-04T17:20:53.495Z"
             }
           ]
         }
