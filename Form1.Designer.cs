@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBurgerBarn));
             this.gbxBurgers = new System.Windows.Forms.GroupBox();
             this.rdb_baconBurg = new System.Windows.Forms.RadioButton();
             this.rdb_vegBurg = new System.Windows.Forms.RadioButton();
@@ -242,6 +243,7 @@
             this.Controls.Add(this.gbxSides);
             this.Controls.Add(this.gbxDrinks);
             this.Controls.Add(this.gbxBurgers);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBurgerBarn";
             this.Text = "Burger Barn";
             this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
