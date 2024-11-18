@@ -8,4 +8,4 @@ Well? hmm?
 okay. right now, this is to modify areas to make it, quite frankly, better, or even fixed
 firstly, just now, the code
 
-this is for improveing the form
+if all the renames cause issues, this is the code right after I added the icon, but before the renames. Hopefully won't be needed, as changes will have to be moved manually
