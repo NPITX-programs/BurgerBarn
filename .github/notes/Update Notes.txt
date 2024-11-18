@@ -23,4 +23,4 @@
 |Icon didin't easilly re-appear. Trying rebuild/ clean/ build
 |ReBuild: Didin't Work
 |Build: Didin't Work
-|Clean:
+|Clean: Didin't Work
