@@ -24,3 +24,5 @@
 |ReBuild: Didin't Work
 |Build: Didin't Work
 |Clean: Didin't Work
+|___________________________________________________________________________________________
+|renamed form
