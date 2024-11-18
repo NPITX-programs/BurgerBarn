@@ -34,5 +34,8 @@
 |_______________________________________________________________________
 |rebuild
 |clean
-|
-|both soloution and the one not labeled soloution
+|	both soloution and the one not labeled soloution
+|test
+|__________________________________________________________________
+|move readme and notes to a new soloution-based system
+
