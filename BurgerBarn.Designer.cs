@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBurgerBarn));
             this.gbxBurgers = new System.Windows.Forms.GroupBox();
             this.rdb_baconBurg = new System.Windows.Forms.RadioButton();
             this.rdb_vegBurg = new System.Windows.Forms.RadioButton();
@@ -38,7 +39,6 @@
             this.rdb_drinkPunch = new System.Windows.Forms.RadioButton();
             this.rdb_drinkCoala = new System.Windows.Forms.RadioButton();
             this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
-            this.prg_totalItems = new System.Windows.Forms.ProgressBar();
             this.gbxSides = new System.Windows.Forms.GroupBox();
             this.rdb_sideChip = new System.Windows.Forms.RadioButton();
             this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
@@ -73,6 +73,7 @@
             this.rdb_baconBurg.TabStop = true;
             this.rdb_baconBurg.Text = "Bacon Burger";
             this.rdb_baconBurg.UseVisualStyleBackColor = true;
+            this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_baconBurg_CheckedChanged);
             // 
             // rdb_vegBurg
             // 
@@ -84,6 +85,7 @@
             this.rdb_vegBurg.TabStop = true;
             this.rdb_vegBurg.Text = "Vegie Burger";
             this.rdb_vegBurg.UseVisualStyleBackColor = true;
+            this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_vegBurg_CheckedChanged);
             // 
             // rdb_cheeBurg
             // 
@@ -95,6 +97,7 @@
             this.rdb_cheeBurg.TabStop = true;
             this.rdb_cheeBurg.Text = "Cheeseburger";
             this.rdb_cheeBurg.UseVisualStyleBackColor = true;
+            this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_cheeBurg_CheckedChanged);
             // 
             // rdb_plainBurg
             // 
@@ -106,6 +109,7 @@
             this.rdb_plainBurg.TabStop = true;
             this.rdb_plainBurg.Text = "Plain Burger";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
+            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
             // 
             // gbxDrinks
             // 
@@ -131,6 +135,7 @@
             this.rdb_drinkWater.TabStop = true;
             this.rdb_drinkWater.Text = "Water";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
+            this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinkWater_CheckedChanged);
             // 
             // rdb_drinkPunch
             // 
@@ -142,6 +147,7 @@
             this.rdb_drinkPunch.TabStop = true;
             this.rdb_drinkPunch.Text = "Fruit Punch";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
+            this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinkPunch_CheckedChanged);
             // 
             // rdb_drinkCoala
             // 
@@ -153,6 +159,7 @@
             this.rdb_drinkCoala.TabStop = true;
             this.rdb_drinkCoala.Text = "Coala";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
+            this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinkCoala_CheckedChanged);
             // 
             // rdb_drinkTea
             // 
@@ -164,18 +171,7 @@
             this.rdb_drinkTea.TabStop = true;
             this.rdb_drinkTea.Text = "Tea";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
-            // 
-            // prg_totalItems
-            // 
-            this.prg_totalItems.Dock = System.Windows.Forms.DockStyle.Top;
-            this.prg_totalItems.Location = new System.Drawing.Point(0, 0);
-            this.prg_totalItems.Maximum = 3;
-            this.prg_totalItems.Name = "prg_totalItems";
-            this.prg_totalItems.Size = new System.Drawing.Size(800, 23);
-            this.prg_totalItems.Step = 1;
-            this.prg_totalItems.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.prg_totalItems.TabIndex = 2;
-            this.prg_totalItems.Click += new System.EventHandler(this.prg_totalItems_Click);
+            this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
             // 
             // gbxSides
             // 
@@ -201,6 +197,7 @@
             this.rdb_sideChip.TabStop = true;
             this.rdb_sideChip.Text = "Chips";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
+            this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sideChip_CheckedChanged);
             // 
             // rdb_sideOnioRing
             // 
@@ -212,6 +209,7 @@
             this.rdb_sideOnioRing.TabStop = true;
             this.rdb_sideOnioRing.Text = "Onion Rings";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
+            this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sideOnioRing_CheckedChanged);
             // 
             // rdb_sideTatTot
             // 
@@ -223,6 +221,7 @@
             this.rdb_sideTatTot.TabStop = true;
             this.rdb_sideTatTot.Text = "Tater Tots";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
+            this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sideTatTot_CheckedChanged);
             // 
             // rdb_sidesFries
             // 
@@ -234,6 +233,7 @@
             this.rdb_sidesFries.TabStop = true;
             this.rdb_sidesFries.Text = "Fries";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
+            this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
             // frmBurgerBarn
             // 
@@ -241,10 +241,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gbxSides);
-            this.Controls.Add(this.prg_totalItems);
             this.Controls.Add(this.gbxDrinks);
             this.Controls.Add(this.gbxBurgers);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBurgerBarn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Burger Barn";
             this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
             this.gbxBurgers.ResumeLayout(false);
@@ -261,7 +262,6 @@
 
         private System.Windows.Forms.GroupBox gbxBurgers;
         private System.Windows.Forms.GroupBox gbxDrinks;
-        private System.Windows.Forms.ProgressBar prg_totalItems;
         private System.Windows.Forms.GroupBox gbxSides;
         private System.Windows.Forms.RadioButton rdb_baconBurg;
         private System.Windows.Forms.RadioButton rdb_vegBurg;
