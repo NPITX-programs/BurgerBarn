@@ -116,6 +116,7 @@ namespace BurgerBarn
 
         }
 
+        //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
     }

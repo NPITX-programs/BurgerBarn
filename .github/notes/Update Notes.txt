@@ -12,4 +12,15 @@
 |___________________________________________________________________________________________________________________________________________|
 |remove progress bar (temporarilly)																											|
 |___________________________________________________________________________________________________________________________________________|
+|begin some repeairs
+|fix form
+|rebuild
+|clean
+|removed icon during tests
+|added icon back
 |
+|
+|Icon didin't easilly re-appear. Trying rebuild/ clean/ build
+|ReBuild: Didin't Work
+|Build: Didin't Work
+|Clean: Didin't Work
