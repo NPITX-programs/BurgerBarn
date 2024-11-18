@@ -36,3 +36,4 @@
 |clean
 |
 |both soloution and the one not labeled soloution
+|test
