@@ -3,8 +3,12 @@ No? Thought so...
 
 oh, you want me to... why?
 seriously, why?
-Well? hmm? okay, fine, how about for testing the edits?
+<<<<<<< HEAD
+Well? hmm? okay, fine, how about for testing the edits being made to improve the code and soloution
+
+=======
 Well? hmm?
 
 okay. right now, this is to modify areas to make it, quite frankly, better, or even fixed
 firstly, just now, the code
+>>>>>>> improve-soloution
