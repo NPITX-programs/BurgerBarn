@@ -24,3 +24,9 @@
 |ReBuild: Didin't Work
 |Build: Didin't Work
 |Clean: Didin't Work
+|___________________________________________________________________________________________
+|renamed form
+|renamed some files for better explanation
+|renamed part of the program
+|named the "startup program" back to Program.cs
+|
