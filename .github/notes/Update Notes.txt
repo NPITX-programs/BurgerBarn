@@ -12,4 +12,27 @@
 |___________________________________________________________________________________________________________________________________________|
 |remove progress bar (temporarilly)																											|
 |___________________________________________________________________________________________________________________________________________|
+|begin some repeairs
+|fix form
+|rebuild
+|clean
+|removed icon during tests
+|added icon back
 |
+|
+|Icon didin't easilly re-appear. Trying rebuild/ clean/ build
+|ReBuild: Didin't Work
+|Build: Didin't Work
+|Clean: Didin't Work
+|___________________________________________________________________________________________
+|renamed form
+|renamed some files for better explanation
+|renamed part of the program
+|named the "startup program" back to Program.cs
+|cleane
+|build
+|_______________________________________________________________________
+|rebuild
+|clean
+|
+|both soloution and the one not labeled soloution
