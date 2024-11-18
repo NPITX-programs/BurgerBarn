@@ -52,7 +52,7 @@
     <Compile Include="BurgerBarn.Designer.cs">
       <DependentUpon>BurgerBarn.cs</DependentUpon>
     </Compile>
-    <Compile Include="StartupCode.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BurgerBarn.resx">
       <DependentUpon>BurgerBarn.cs</DependentUpon>
