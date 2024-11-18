@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace BurgerBarn
 {
-    internal static class Program
+    internal static class StartupCode
     {
         /// <summary>
         /// The main entry point for the application.
