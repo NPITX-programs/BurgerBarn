@@ -18,3 +18,9 @@
 |clean
 |removed icon during tests
 |added icon back
+|
+|
+|Icon didin't easilly re-appear. Trying rebuild/ clean/ build
+|ReBuild:
+|Build:
+|Clean:
