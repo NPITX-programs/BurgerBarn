@@ -21,6 +21,6 @@
 |
 |
 |Icon didin't easilly re-appear. Trying rebuild/ clean/ build
-|ReBuild:
+|ReBuild: Didin't Work
 |Build:
 |Clean:
