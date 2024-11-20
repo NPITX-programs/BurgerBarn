@@ -44,6 +44,9 @@
             this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
             this.rdb_sideTatTot = new System.Windows.Forms.RadioButton();
             this.rdb_sidesFries = new System.Windows.Forms.RadioButton();
+            this.rdb_noBurg = new System.Windows.Forms.RadioButton();
+            this.rdb_noSide = new System.Windows.Forms.RadioButton();
+            this.rdb_noDrink = new System.Windows.Forms.RadioButton();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -51,6 +54,7 @@
             // 
             // gbxBurgers
             // 
+            this.gbxBurgers.Controls.Add(this.rdb_noBurg);
             this.gbxBurgers.Controls.Add(this.rdb_baconBurg);
             this.gbxBurgers.Controls.Add(this.rdb_vegBurg);
             this.gbxBurgers.Controls.Add(this.rdb_cheeBurg);
@@ -113,6 +117,7 @@
             // 
             // gbxDrinks
             // 
+            this.gbxDrinks.Controls.Add(this.rdb_noDrink);
             this.gbxDrinks.Controls.Add(this.rdb_drinkWater);
             this.gbxDrinks.Controls.Add(this.rdb_drinkPunch);
             this.gbxDrinks.Controls.Add(this.rdb_drinkCoala);
@@ -175,6 +180,7 @@
             // 
             // gbxSides
             // 
+            this.gbxSides.Controls.Add(this.rdb_noSide);
             this.gbxSides.Controls.Add(this.rdb_sideChip);
             this.gbxSides.Controls.Add(this.rdb_sideOnioRing);
             this.gbxSides.Controls.Add(this.rdb_sideTatTot);
@@ -235,6 +241,42 @@
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
             this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
+            // rdb_noBurg
+            // 
+            this.rdb_noBurg.AutoSize = true;
+            this.rdb_noBurg.Location = new System.Drawing.Point(7, 107);
+            this.rdb_noBurg.Name = "rdb_noBurg";
+            this.rdb_noBurg.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noBurg.TabIndex = 7;
+            this.rdb_noBurg.TabStop = true;
+            this.rdb_noBurg.Text = "None";
+            this.rdb_noBurg.UseVisualStyleBackColor = true;
+            this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
+            // 
+            // rdb_noSide
+            // 
+            this.rdb_noSide.AutoSize = true;
+            this.rdb_noSide.Location = new System.Drawing.Point(7, 116);
+            this.rdb_noSide.Name = "rdb_noSide";
+            this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noSide.TabIndex = 8;
+            this.rdb_noSide.TabStop = true;
+            this.rdb_noSide.Text = "None";
+            this.rdb_noSide.UseVisualStyleBackColor = true;
+            this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
+            // 
+            // rdb_noDrink
+            // 
+            this.rdb_noDrink.AutoSize = true;
+            this.rdb_noDrink.Location = new System.Drawing.Point(6, 106);
+            this.rdb_noDrink.Name = "rdb_noDrink";
+            this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noDrink.TabIndex = 9;
+            this.rdb_noDrink.TabStop = true;
+            this.rdb_noDrink.Text = "None";
+            this.rdb_noDrink.UseVisualStyleBackColor = true;
+            this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,6 +317,9 @@
         private System.Windows.Forms.RadioButton rdb_sideOnioRing;
         private System.Windows.Forms.RadioButton rdb_sideTatTot;
         private System.Windows.Forms.RadioButton rdb_sidesFries;
+        private System.Windows.Forms.RadioButton rdb_noBurg;
+        private System.Windows.Forms.RadioButton rdb_noSide;
+        private System.Windows.Forms.RadioButton rdb_noDrink;
     }
 }
 

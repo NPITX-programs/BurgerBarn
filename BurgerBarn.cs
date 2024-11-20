@@ -72,6 +72,11 @@ namespace BurgerBarn
 
         }
 
+        private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
         //all buttons related to the sides
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
@@ -90,6 +95,11 @@ namespace BurgerBarn
         }
 
         private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_noSide_CheckedChanged(object sender, EventArgs e)
         {
 
         }
@@ -116,8 +126,14 @@ namespace BurgerBarn
 
         }
 
+        private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
+
 
     }
 }
