@@ -47,6 +47,7 @@
             this.rdb_noBurg = new System.Windows.Forms.RadioButton();
             this.rdb_noSide = new System.Windows.Forms.RadioButton();
             this.rdb_noDrink = new System.Windows.Forms.RadioButton();
+            this.lst_order = new System.Windows.Forms.ListBox();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -277,11 +278,22 @@
             this.rdb_noDrink.UseVisualStyleBackColor = true;
             this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
             // 
+            // lst_order
+            // 
+            this.lst_order.FormattingEnabled = true;
+            this.lst_order.Location = new System.Drawing.Point(664, 13);
+            this.lst_order.Name = "lst_order";
+            this.lst_order.Size = new System.Drawing.Size(120, 95);
+            this.lst_order.TabIndex = 3;
+            this.lst_order.TabStop = false;
+            this.lst_order.SelectedIndexChanged += new System.EventHandler(this.lst_order_SelectedIndexChanged);
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lst_order);
             this.Controls.Add(this.gbxSides);
             this.Controls.Add(this.gbxDrinks);
             this.Controls.Add(this.gbxBurgers);
@@ -320,6 +332,7 @@
         private System.Windows.Forms.RadioButton rdb_noBurg;
         private System.Windows.Forms.RadioButton rdb_noSide;
         private System.Windows.Forms.RadioButton rdb_noDrink;
+        private System.Windows.Forms.ListBox lst_order;
     }
 }
 

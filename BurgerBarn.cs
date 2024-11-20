@@ -56,7 +56,10 @@ namespace BurgerBarn
         //all buttons related to the burgers
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_plainBurg.Checked == true)
+            {
 
+            }
         }
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
@@ -136,9 +139,13 @@ namespace BurgerBarn
 
         }
 
+
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
+        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
