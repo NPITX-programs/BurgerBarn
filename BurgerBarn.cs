@@ -10,17 +10,17 @@ namespace BurgerBarn
             InitializeComponent();
         }
         //shared variables
-            //put shared variables here
-
-
+        //put shared variables here
+        //functions
+            //put functions here
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
 
         }
-       
-        //functions
-            //put functions here
 
+        #region grop boxes
+        // group boxes
+       
 
         //burgers
         private void gbxBurgers_Enter(object sender, EventArgs e)
@@ -39,17 +39,19 @@ namespace BurgerBarn
         {
 
         }
+        #endregion
 
 
-
-        //not refferenced/ needed yet
-
-
-        #region not refferenced or needed yet
+        #region misc
         //if I add in information about percent completed, remember
-            //it already exists
-                //the name is prg_totalItems
-            ///it's a progress bar
+        //it already exists
+        //the name is prg_totalItems
+        ///it's a progress bar
+
+        #endregion
+
+
+        #region burgers
 
         //all buttons related to the burgers
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
@@ -76,8 +78,9 @@ namespace BurgerBarn
         {
 
         }
+        #endregion
 
-
+        #region sides
         //all buttons related to the sides
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
@@ -103,9 +106,11 @@ namespace BurgerBarn
         {
 
         }
+        #endregion
 
-
+        #region drinks
         // all buttons related to the drinks
+
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
 
