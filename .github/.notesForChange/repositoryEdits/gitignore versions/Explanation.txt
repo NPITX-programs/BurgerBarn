@@ -1,2 +1,0 @@
-The first one (Github Preset) blocks a lot of files, some that I want. But, it contains details I should look at
-The second one isn't detailed enough. It's in use, but should be improved
