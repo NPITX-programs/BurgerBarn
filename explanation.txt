@@ -1,1 +1,0 @@
-for some reason the .gitignore and readme files didin't want to merge. So, moveing them to here during the merge into the new archive.
