@@ -4,3 +4,4 @@ bring in archive 29, which is an archive of the integration of the features of a
 bring in archive 30, which is where the contents of 27, 28, and 29 where integrated, finalized, and tested
 bring in archive 31, which is what the current main is
 bring in archive 32, which is the one for before renames
+bring in archive 33, which is the part where I had just removed the progress bar
