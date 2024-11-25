@@ -147,5 +147,22 @@ namespace BurgerBarn
         {
 
         }
+
+        #region costs
+        private void lbl_subtotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_tax_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_total_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }

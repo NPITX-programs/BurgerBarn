@@ -30,24 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBurgerBarn));
             this.gbxBurgers = new System.Windows.Forms.GroupBox();
+            this.rdb_noBurg = new System.Windows.Forms.RadioButton();
             this.rdb_baconBurg = new System.Windows.Forms.RadioButton();
             this.rdb_vegBurg = new System.Windows.Forms.RadioButton();
             this.rdb_cheeBurg = new System.Windows.Forms.RadioButton();
             this.rdb_plainBurg = new System.Windows.Forms.RadioButton();
             this.gbxDrinks = new System.Windows.Forms.GroupBox();
+            this.rdb_noDrink = new System.Windows.Forms.RadioButton();
             this.rdb_drinkWater = new System.Windows.Forms.RadioButton();
             this.rdb_drinkPunch = new System.Windows.Forms.RadioButton();
             this.rdb_drinkCoala = new System.Windows.Forms.RadioButton();
             this.rdb_drinkTea = new System.Windows.Forms.RadioButton();
             this.gbxSides = new System.Windows.Forms.GroupBox();
+            this.rdb_noSide = new System.Windows.Forms.RadioButton();
             this.rdb_sideChip = new System.Windows.Forms.RadioButton();
             this.rdb_sideOnioRing = new System.Windows.Forms.RadioButton();
             this.rdb_sideTatTot = new System.Windows.Forms.RadioButton();
             this.rdb_sidesFries = new System.Windows.Forms.RadioButton();
-            this.rdb_noBurg = new System.Windows.Forms.RadioButton();
-            this.rdb_noSide = new System.Windows.Forms.RadioButton();
-            this.rdb_noDrink = new System.Windows.Forms.RadioButton();
             this.lst_order = new System.Windows.Forms.ListBox();
+            this.lbl_subtotal = new System.Windows.Forms.Label();
+            this.lbl_tax = new System.Windows.Forms.Label();
+            this.lbl_total = new System.Windows.Forms.Label();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -67,6 +70,18 @@
             this.gbxBurgers.TabStop = false;
             this.gbxBurgers.Text = "Burgers";
             this.gbxBurgers.Enter += new System.EventHandler(this.gbxBurgers_Enter);
+            // 
+            // rdb_noBurg
+            // 
+            this.rdb_noBurg.AutoSize = true;
+            this.rdb_noBurg.Location = new System.Drawing.Point(7, 107);
+            this.rdb_noBurg.Name = "rdb_noBurg";
+            this.rdb_noBurg.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noBurg.TabIndex = 7;
+            this.rdb_noBurg.TabStop = true;
+            this.rdb_noBurg.Text = "None";
+            this.rdb_noBurg.UseVisualStyleBackColor = true;
+            this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
             // 
             // rdb_baconBurg
             // 
@@ -131,6 +146,18 @@
             this.gbxDrinks.Text = "Drinks";
             this.gbxDrinks.Enter += new System.EventHandler(this.gbxDrinks_Enter);
             // 
+            // rdb_noDrink
+            // 
+            this.rdb_noDrink.AutoSize = true;
+            this.rdb_noDrink.Location = new System.Drawing.Point(6, 106);
+            this.rdb_noDrink.Name = "rdb_noDrink";
+            this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noDrink.TabIndex = 9;
+            this.rdb_noDrink.TabStop = true;
+            this.rdb_noDrink.Text = "None";
+            this.rdb_noDrink.UseVisualStyleBackColor = true;
+            this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
+            // 
             // rdb_drinkWater
             // 
             this.rdb_drinkWater.AutoSize = true;
@@ -194,6 +221,18 @@
             this.gbxSides.Text = "Sides";
             this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
             // 
+            // rdb_noSide
+            // 
+            this.rdb_noSide.AutoSize = true;
+            this.rdb_noSide.Location = new System.Drawing.Point(7, 116);
+            this.rdb_noSide.Name = "rdb_noSide";
+            this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
+            this.rdb_noSide.TabIndex = 8;
+            this.rdb_noSide.TabStop = true;
+            this.rdb_noSide.Text = "None";
+            this.rdb_noSide.UseVisualStyleBackColor = true;
+            this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
+            // 
             // rdb_sideChip
             // 
             this.rdb_sideChip.AutoSize = true;
@@ -242,42 +281,6 @@
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
             this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
-            // rdb_noBurg
-            // 
-            this.rdb_noBurg.AutoSize = true;
-            this.rdb_noBurg.Location = new System.Drawing.Point(7, 107);
-            this.rdb_noBurg.Name = "rdb_noBurg";
-            this.rdb_noBurg.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noBurg.TabIndex = 7;
-            this.rdb_noBurg.TabStop = true;
-            this.rdb_noBurg.Text = "None";
-            this.rdb_noBurg.UseVisualStyleBackColor = true;
-            this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
-            // 
-            // rdb_noSide
-            // 
-            this.rdb_noSide.AutoSize = true;
-            this.rdb_noSide.Location = new System.Drawing.Point(7, 116);
-            this.rdb_noSide.Name = "rdb_noSide";
-            this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noSide.TabIndex = 8;
-            this.rdb_noSide.TabStop = true;
-            this.rdb_noSide.Text = "None";
-            this.rdb_noSide.UseVisualStyleBackColor = true;
-            this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
-            // 
-            // rdb_noDrink
-            // 
-            this.rdb_noDrink.AutoSize = true;
-            this.rdb_noDrink.Location = new System.Drawing.Point(6, 106);
-            this.rdb_noDrink.Name = "rdb_noDrink";
-            this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noDrink.TabIndex = 9;
-            this.rdb_noDrink.TabStop = true;
-            this.rdb_noDrink.Text = "None";
-            this.rdb_noDrink.UseVisualStyleBackColor = true;
-            this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
-            // 
             // lst_order
             // 
             this.lst_order.FormattingEnabled = true;
@@ -288,11 +291,44 @@
             this.lst_order.TabStop = false;
             this.lst_order.SelectedIndexChanged += new System.EventHandler(this.lst_order_SelectedIndexChanged);
             // 
+            // lbl_subtotal
+            // 
+            this.lbl_subtotal.AutoSize = true;
+            this.lbl_subtotal.Location = new System.Drawing.Point(476, 96);
+            this.lbl_subtotal.Name = "lbl_subtotal";
+            this.lbl_subtotal.Size = new System.Drawing.Size(79, 13);
+            this.lbl_subtotal.TabIndex = 4;
+            this.lbl_subtotal.Text = "Subtotal: $0.00";
+            this.lbl_subtotal.Click += new System.EventHandler(this.lbl_subtotal_Click);
+            // 
+            // lbl_tax
+            // 
+            this.lbl_tax.AutoSize = true;
+            this.lbl_tax.Location = new System.Drawing.Point(476, 118);
+            this.lbl_tax.Name = "lbl_tax";
+            this.lbl_tax.Size = new System.Drawing.Size(58, 13);
+            this.lbl_tax.TabIndex = 5;
+            this.lbl_tax.Text = "Tax: $0.00";
+            this.lbl_tax.Click += new System.EventHandler(this.lbl_tax_Click);
+            // 
+            // lbl_total
+            // 
+            this.lbl_total.AutoSize = true;
+            this.lbl_total.Location = new System.Drawing.Point(476, 142);
+            this.lbl_total.Name = "lbl_total";
+            this.lbl_total.Size = new System.Drawing.Size(64, 13);
+            this.lbl_total.TabIndex = 6;
+            this.lbl_total.Text = "Total: $0.00";
+            this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_total);
+            this.Controls.Add(this.lbl_tax);
+            this.Controls.Add(this.lbl_subtotal);
             this.Controls.Add(this.lst_order);
             this.Controls.Add(this.gbxSides);
             this.Controls.Add(this.gbxDrinks);
@@ -309,6 +345,7 @@
             this.gbxSides.ResumeLayout(false);
             this.gbxSides.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -333,6 +370,9 @@
         private System.Windows.Forms.RadioButton rdb_noSide;
         private System.Windows.Forms.RadioButton rdb_noDrink;
         private System.Windows.Forms.ListBox lst_order;
+        private System.Windows.Forms.Label lbl_subtotal;
+        private System.Windows.Forms.Label lbl_tax;
+        private System.Windows.Forms.Label lbl_total;
     }
 }
 
