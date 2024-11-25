@@ -38,4 +38,7 @@
 |test
 |__________________________________________________________________
 |move readme and notes to a new soloution-based system
-
+|more that I forget
+|_________________________
+|set up buttons and prices
+|modify readme to reflect that
