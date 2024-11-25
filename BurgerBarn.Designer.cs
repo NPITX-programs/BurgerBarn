@@ -51,6 +51,7 @@
             this.lbl_subtotal = new System.Windows.Forms.Label();
             this.lbl_tax = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -326,11 +327,21 @@
             this.lbl_total.Text = "Total: $0.00";
             this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Close";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.lbl_tax);
             this.Controls.Add(this.lbl_subtotal);
@@ -378,6 +389,7 @@
         private System.Windows.Forms.Label lbl_subtotal;
         private System.Windows.Forms.Label lbl_tax;
         private System.Windows.Forms.Label lbl_total;
+        private System.Windows.Forms.Button button1;
     }
 }
 
