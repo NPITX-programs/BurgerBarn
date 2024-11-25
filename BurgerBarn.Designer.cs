@@ -157,7 +157,7 @@
             this.rdb_noDrink.Location = new System.Drawing.Point(6, 106);
             this.rdb_noDrink.Name = "rdb_noDrink";
             this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noDrink.TabIndex = 9;
+            this.rdb_noDrink.TabIndex = 15;
             this.rdb_noDrink.TabStop = true;
             this.rdb_noDrink.Text = "None";
             this.rdb_noDrink.UseVisualStyleBackColor = true;
@@ -169,7 +169,7 @@
             this.rdb_drinkWater.Location = new System.Drawing.Point(6, 83);
             this.rdb_drinkWater.Name = "rdb_drinkWater";
             this.rdb_drinkWater.Size = new System.Drawing.Size(54, 17);
-            this.rdb_drinkWater.TabIndex = 3;
+            this.rdb_drinkWater.TabIndex = 14;
             this.rdb_drinkWater.TabStop = true;
             this.rdb_drinkWater.Text = "Water";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
@@ -181,7 +181,7 @@
             this.rdb_drinkPunch.Location = new System.Drawing.Point(6, 65);
             this.rdb_drinkPunch.Name = "rdb_drinkPunch";
             this.rdb_drinkPunch.Size = new System.Drawing.Size(79, 17);
-            this.rdb_drinkPunch.TabIndex = 2;
+            this.rdb_drinkPunch.TabIndex = 13;
             this.rdb_drinkPunch.TabStop = true;
             this.rdb_drinkPunch.Text = "Fruit Punch";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
@@ -193,7 +193,7 @@
             this.rdb_drinkCoala.Location = new System.Drawing.Point(6, 19);
             this.rdb_drinkCoala.Name = "rdb_drinkCoala";
             this.rdb_drinkCoala.Size = new System.Drawing.Size(52, 17);
-            this.rdb_drinkCoala.TabIndex = 0;
+            this.rdb_drinkCoala.TabIndex = 11;
             this.rdb_drinkCoala.TabStop = true;
             this.rdb_drinkCoala.Text = "Coala";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
@@ -205,7 +205,7 @@
             this.rdb_drinkTea.Location = new System.Drawing.Point(6, 42);
             this.rdb_drinkTea.Name = "rdb_drinkTea";
             this.rdb_drinkTea.Size = new System.Drawing.Size(44, 17);
-            this.rdb_drinkTea.TabIndex = 1;
+            this.rdb_drinkTea.TabIndex = 12;
             this.rdb_drinkTea.TabStop = true;
             this.rdb_drinkTea.Text = "Tea";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
@@ -232,7 +232,7 @@
             this.rdb_noSide.Location = new System.Drawing.Point(7, 116);
             this.rdb_noSide.Name = "rdb_noSide";
             this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noSide.TabIndex = 8;
+            this.rdb_noSide.TabIndex = 10;
             this.rdb_noSide.TabStop = true;
             this.rdb_noSide.Text = "None";
             this.rdb_noSide.UseVisualStyleBackColor = true;
@@ -244,7 +244,7 @@
             this.rdb_sideChip.Location = new System.Drawing.Point(6, 93);
             this.rdb_sideChip.Name = "rdb_sideChip";
             this.rdb_sideChip.Size = new System.Drawing.Size(51, 17);
-            this.rdb_sideChip.TabIndex = 3;
+            this.rdb_sideChip.TabIndex = 9;
             this.rdb_sideChip.TabStop = true;
             this.rdb_sideChip.Text = "Chips";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
@@ -256,7 +256,7 @@
             this.rdb_sideOnioRing.Location = new System.Drawing.Point(6, 68);
             this.rdb_sideOnioRing.Name = "rdb_sideOnioRing";
             this.rdb_sideOnioRing.Size = new System.Drawing.Size(83, 17);
-            this.rdb_sideOnioRing.TabIndex = 2;
+            this.rdb_sideOnioRing.TabIndex = 8;
             this.rdb_sideOnioRing.TabStop = true;
             this.rdb_sideOnioRing.Text = "Onion Rings";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
@@ -268,7 +268,7 @@
             this.rdb_sideTatTot.Location = new System.Drawing.Point(6, 44);
             this.rdb_sideTatTot.Name = "rdb_sideTatTot";
             this.rdb_sideTatTot.Size = new System.Drawing.Size(74, 17);
-            this.rdb_sideTatTot.TabIndex = 1;
+            this.rdb_sideTatTot.TabIndex = 7;
             this.rdb_sideTatTot.TabStop = true;
             this.rdb_sideTatTot.Text = "Tater Tots";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
@@ -280,7 +280,7 @@
             this.rdb_sidesFries.Location = new System.Drawing.Point(7, 20);
             this.rdb_sidesFries.Name = "rdb_sidesFries";
             this.rdb_sidesFries.Size = new System.Drawing.Size(47, 17);
-            this.rdb_sidesFries.TabIndex = 0;
+            this.rdb_sidesFries.TabIndex = 6;
             this.rdb_sidesFries.TabStop = true;
             this.rdb_sidesFries.Text = "Fries";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
@@ -292,7 +292,7 @@
             this.lst_order.Location = new System.Drawing.Point(664, 13);
             this.lst_order.Name = "lst_order";
             this.lst_order.Size = new System.Drawing.Size(120, 95);
-            this.lst_order.TabIndex = 3;
+            this.lst_order.TabIndex = 0;
             this.lst_order.TabStop = false;
             this.lst_order.SelectedIndexChanged += new System.EventHandler(this.lst_order_SelectedIndexChanged);
             // 
@@ -302,7 +302,7 @@
             this.lbl_subtotal.Location = new System.Drawing.Point(476, 96);
             this.lbl_subtotal.Name = "lbl_subtotal";
             this.lbl_subtotal.Size = new System.Drawing.Size(79, 13);
-            this.lbl_subtotal.TabIndex = 4;
+            this.lbl_subtotal.TabIndex = 0;
             this.lbl_subtotal.Text = "Subtotal: $0.00";
             this.lbl_subtotal.Click += new System.EventHandler(this.lbl_subtotal_Click);
             // 
@@ -312,7 +312,7 @@
             this.lbl_tax.Location = new System.Drawing.Point(476, 118);
             this.lbl_tax.Name = "lbl_tax";
             this.lbl_tax.Size = new System.Drawing.Size(58, 13);
-            this.lbl_tax.TabIndex = 5;
+            this.lbl_tax.TabIndex = 0;
             this.lbl_tax.Text = "Tax: $0.00";
             this.lbl_tax.Click += new System.EventHandler(this.lbl_tax_Click);
             // 
@@ -322,7 +322,7 @@
             this.lbl_total.Location = new System.Drawing.Point(476, 142);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(64, 13);
-            this.lbl_total.TabIndex = 6;
+            this.lbl_total.TabIndex = 0;
             this.lbl_total.Text = "Total: $0.00";
             this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
             // 
