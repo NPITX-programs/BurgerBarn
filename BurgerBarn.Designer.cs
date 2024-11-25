@@ -160,6 +160,7 @@
             this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
             this.rdb_noDrink.TabIndex = 15;
             this.rdb_noDrink.TabStop = true;
+            this.rdb_noDrink.Tag = "0";
             this.rdb_noDrink.Text = "None";
             this.rdb_noDrink.UseVisualStyleBackColor = true;
             this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
@@ -169,10 +170,11 @@
             this.rdb_drinkWater.AutoSize = true;
             this.rdb_drinkWater.Location = new System.Drawing.Point(6, 83);
             this.rdb_drinkWater.Name = "rdb_drinkWater";
-            this.rdb_drinkWater.Size = new System.Drawing.Size(54, 17);
+            this.rdb_drinkWater.Size = new System.Drawing.Size(87, 17);
             this.rdb_drinkWater.TabIndex = 14;
             this.rdb_drinkWater.TabStop = true;
-            this.rdb_drinkWater.Text = "Water";
+            this.rdb_drinkWater.Tag = "0.99";
+            this.rdb_drinkWater.Text = "Water: $0.99";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
             this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinkWater_CheckedChanged);
             // 
@@ -181,10 +183,11 @@
             this.rdb_drinkPunch.AutoSize = true;
             this.rdb_drinkPunch.Location = new System.Drawing.Point(6, 65);
             this.rdb_drinkPunch.Name = "rdb_drinkPunch";
-            this.rdb_drinkPunch.Size = new System.Drawing.Size(79, 17);
+            this.rdb_drinkPunch.Size = new System.Drawing.Size(112, 17);
             this.rdb_drinkPunch.TabIndex = 13;
             this.rdb_drinkPunch.TabStop = true;
-            this.rdb_drinkPunch.Text = "Fruit Punch";
+            this.rdb_drinkPunch.Tag = "1.09";
+            this.rdb_drinkPunch.Text = "Fruit Punch: $1.09";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
             this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinkPunch_CheckedChanged);
             // 
@@ -193,10 +196,11 @@
             this.rdb_drinkCoala.AutoSize = true;
             this.rdb_drinkCoala.Location = new System.Drawing.Point(6, 19);
             this.rdb_drinkCoala.Name = "rdb_drinkCoala";
-            this.rdb_drinkCoala.Size = new System.Drawing.Size(52, 17);
+            this.rdb_drinkCoala.Size = new System.Drawing.Size(85, 17);
             this.rdb_drinkCoala.TabIndex = 11;
             this.rdb_drinkCoala.TabStop = true;
-            this.rdb_drinkCoala.Text = "Coala";
+            this.rdb_drinkCoala.Tag = "1.29";
+            this.rdb_drinkCoala.Text = "Coala: $1.29";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
             this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinkCoala_CheckedChanged);
             // 
@@ -205,10 +209,11 @@
             this.rdb_drinkTea.AutoSize = true;
             this.rdb_drinkTea.Location = new System.Drawing.Point(6, 42);
             this.rdb_drinkTea.Name = "rdb_drinkTea";
-            this.rdb_drinkTea.Size = new System.Drawing.Size(44, 17);
+            this.rdb_drinkTea.Size = new System.Drawing.Size(77, 17);
             this.rdb_drinkTea.TabIndex = 12;
             this.rdb_drinkTea.TabStop = true;
-            this.rdb_drinkTea.Text = "Tea";
+            this.rdb_drinkTea.Tag = "1.99";
+            this.rdb_drinkTea.Text = "Tea: $1.99";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
             this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
             // 
@@ -235,6 +240,7 @@
             this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
             this.rdb_noSide.TabIndex = 10;
             this.rdb_noSide.TabStop = true;
+            this.rdb_noSide.Tag = "0";
             this.rdb_noSide.Text = "None";
             this.rdb_noSide.UseVisualStyleBackColor = true;
             this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
@@ -244,10 +250,11 @@
             this.rdb_sideChip.AutoSize = true;
             this.rdb_sideChip.Location = new System.Drawing.Point(6, 93);
             this.rdb_sideChip.Name = "rdb_sideChip";
-            this.rdb_sideChip.Size = new System.Drawing.Size(51, 17);
+            this.rdb_sideChip.Size = new System.Drawing.Size(84, 17);
             this.rdb_sideChip.TabIndex = 9;
             this.rdb_sideChip.TabStop = true;
-            this.rdb_sideChip.Text = "Chips";
+            this.rdb_sideChip.Tag = "0.99";
+            this.rdb_sideChip.Text = "Chips: $0.99";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
             this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sideChip_CheckedChanged);
             // 
@@ -256,10 +263,11 @@
             this.rdb_sideOnioRing.AutoSize = true;
             this.rdb_sideOnioRing.Location = new System.Drawing.Point(6, 68);
             this.rdb_sideOnioRing.Name = "rdb_sideOnioRing";
-            this.rdb_sideOnioRing.Size = new System.Drawing.Size(83, 17);
+            this.rdb_sideOnioRing.Size = new System.Drawing.Size(116, 17);
             this.rdb_sideOnioRing.TabIndex = 8;
             this.rdb_sideOnioRing.TabStop = true;
-            this.rdb_sideOnioRing.Text = "Onion Rings";
+            this.rdb_sideOnioRing.Tag = "0.99";
+            this.rdb_sideOnioRing.Text = "Onion Rings: $0.99";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
             this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sideOnioRing_CheckedChanged);
             // 
@@ -268,10 +276,11 @@
             this.rdb_sideTatTot.AutoSize = true;
             this.rdb_sideTatTot.Location = new System.Drawing.Point(6, 44);
             this.rdb_sideTatTot.Name = "rdb_sideTatTot";
-            this.rdb_sideTatTot.Size = new System.Drawing.Size(74, 17);
+            this.rdb_sideTatTot.Size = new System.Drawing.Size(107, 17);
             this.rdb_sideTatTot.TabIndex = 7;
             this.rdb_sideTatTot.TabStop = true;
-            this.rdb_sideTatTot.Text = "Tater Tots";
+            this.rdb_sideTatTot.Tag = "0.75";
+            this.rdb_sideTatTot.Text = "Tater Tots: $0.75";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
             this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sideTatTot_CheckedChanged);
             // 
@@ -280,10 +289,11 @@
             this.rdb_sidesFries.AutoSize = true;
             this.rdb_sidesFries.Location = new System.Drawing.Point(7, 20);
             this.rdb_sidesFries.Name = "rdb_sidesFries";
-            this.rdb_sidesFries.Size = new System.Drawing.Size(47, 17);
+            this.rdb_sidesFries.Size = new System.Drawing.Size(80, 17);
             this.rdb_sidesFries.TabIndex = 6;
             this.rdb_sidesFries.TabStop = true;
-            this.rdb_sidesFries.Text = "Fries";
+            this.rdb_sidesFries.Tag = "0.50";
+            this.rdb_sidesFries.Text = "Fries: $0.50";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
             this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
             // 
