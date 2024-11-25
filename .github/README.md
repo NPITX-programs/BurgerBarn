@@ -31,7 +31,7 @@ At start, display a one-time welcome message that will not reappear once the scr
 
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
-~~### Burgers
+### Burgers
 1. Plain burger: $4.99
 1. Cheeseburger: $5.99
 1. Veggie burger: $6.49
@@ -58,5 +58,5 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. #3 Combo: $8.99
 	1. Bacon Burger
 	1. Chips
-	1. Cola~~
-integrated by useing tags on the radio buttons. few alternative ideas might be used, such as utilizing the contents of the name itself
+	1. Cola
+integrated by useing tags on the radio buttons. few alternative ideas might be used, such as utilizing the contents of the name itself. Note: combos have not been integrated
