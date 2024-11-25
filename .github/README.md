@@ -28,9 +28,10 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. Clear the screen after each user input
 1. Clicking Purchase displays a thank you message, then clears all fields
 1. Clicking Exit exits the program
+
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
-### Burgers
+~~### Burgers
 1. Plain burger: $4.99
 1. Cheeseburger: $5.99
 1. Veggie burger: $6.49
@@ -57,4 +58,5 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. #3 Combo: $8.99
 	1. Bacon Burger
 	1. Chips
-	1. Cola
+	1. Cola~~
+integrated by useing tags on the radio buttons. few alternative ideas might be used, such as utilizing the contents of the name itself
