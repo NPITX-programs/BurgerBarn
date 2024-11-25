@@ -116,17 +116,68 @@ namespace BurgerBarn
 
         private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_vegBurg.Checked == true)
+            {
+                lst_order.Items.Add(rdb_vegBurg.Text);
+                subtotal += float.Parse(rdb_vegBurg.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_vegBurg.Text);
+                subtotal -= float.Parse(rdb_vegBurg.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_baconBurg.Checked == true)
+            {
+                lst_order.Items.Add(rdb_baconBurg.Text);
+                subtotal += float.Parse(rdb_baconBurg.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_baconBurg.Text);
+                subtotal -= float.Parse(rdb_baconBurg.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_noBurg.Checked == true)
+            {
+                lst_order.Items.Add(rdb_noBurg.Text);
+                subtotal += float.Parse(rdb_noBurg.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_noBurg.Text);
+                subtotal -= float.Parse(rdb_noBurg.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
         #endregion
 
