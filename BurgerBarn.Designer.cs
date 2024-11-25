@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBurgerBarn));
             this.gbxBurgers = new System.Windows.Forms.GroupBox();
             this.rdb_noBurg = new System.Windows.Forms.RadioButton();
@@ -52,6 +53,7 @@
             this.lbl_tax = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -400,6 +402,7 @@
         private System.Windows.Forms.Label lbl_tax;
         private System.Windows.Forms.Label lbl_total;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
