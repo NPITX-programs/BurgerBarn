@@ -67,11 +67,12 @@ namespace BurgerBarn
         //all buttons related to the burgers
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_plainBurg.Checked == true);
+            if (rdb_plainBurg.Checked == true)
             {
                 lst_order.Items.Add(rdb_plainBurg.Text);
-                
-            }; 
+                subtotal += float.Parse(rdb_plainBurg.Tag.ToString());
+
+            }
             else
             {
                 lst_order.Items.Remove(rdb_plainBurg.Text);
