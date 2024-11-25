@@ -65,7 +65,8 @@ namespace BurgerBarn
 
         #region burgers
 
-        //all buttons related to the burgers
+        //all buttons related to the burgers. Remember to modify such that it utilizes my buttons
+            //do note that the labels could be done via 2 labels, with the value set up with the property that tells it to turn decimals into price
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
             if (rdb_plainBurg.Checked == true)
