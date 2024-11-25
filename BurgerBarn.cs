@@ -185,7 +185,24 @@ namespace BurgerBarn
         //all buttons related to the sides
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
