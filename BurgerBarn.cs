@@ -92,6 +92,25 @@ namespace BurgerBarn
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_plainBurg.Checked == true)
+            {
+                lst_order.Items.Add(rdb_plainBurg.Text);
+                subtotal += float.Parse(rdb_plainBurg.Tag.ToString());
+
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_plainBurg.Text);
+                subtotal -= float.Parse(rdb_plainBurg.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+            
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString(); 
+            lbl_total.Text = total.ToString();
+
 
         }
 
