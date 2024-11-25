@@ -82,7 +82,7 @@
             this.rdb_noBurg.Size = new System.Drawing.Size(51, 17);
             this.rdb_noBurg.TabIndex = 5;
             this.rdb_noBurg.TabStop = true;
-            this.rdb_noBurg.Tag = "0";
+            this.rdb_noBurg.Tag = "500";
             this.rdb_noBurg.Text = "None";
             this.rdb_noBurg.UseVisualStyleBackColor = true;
             this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
@@ -162,7 +162,7 @@
             this.rdb_noDrink.Size = new System.Drawing.Size(51, 17);
             this.rdb_noDrink.TabIndex = 15;
             this.rdb_noDrink.TabStop = true;
-            this.rdb_noDrink.Tag = "0";
+            this.rdb_noDrink.Tag = "500";
             this.rdb_noDrink.Text = "None";
             this.rdb_noDrink.UseVisualStyleBackColor = true;
             this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
@@ -242,7 +242,7 @@
             this.rdb_noSide.Size = new System.Drawing.Size(51, 17);
             this.rdb_noSide.TabIndex = 10;
             this.rdb_noSide.TabStop = true;
-            this.rdb_noSide.Tag = "0";
+            this.rdb_noSide.Tag = "500";
             this.rdb_noSide.Text = "None";
             this.rdb_noSide.UseVisualStyleBackColor = true;
             this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
