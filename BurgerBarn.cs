@@ -7,6 +7,7 @@ namespace BurgerBarn
     {
         float subtotal = 0;
         const float tax_rate = 0.0825f;
+        const float tax_fac = tax_rate + 1f;
         float total = 0;
 
         public frmBurgerBarn()
@@ -76,7 +77,16 @@ namespace BurgerBarn
             else
             {
                 lst_order.Items.Remove(rdb_plainBurg.Text);
+                subtotal -= float.Parse(rdb_plainBurg.Tag.ToString());
             }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
+           
         }
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
