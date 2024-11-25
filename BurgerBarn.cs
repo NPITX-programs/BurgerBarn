@@ -92,16 +92,16 @@ namespace BurgerBarn
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_plainBurg.Checked == true)
+            if (rdb_cheeBurg.Checked == true)
             {
-                lst_order.Items.Add(rdb_plainBurg.Text);
-                subtotal += float.Parse(rdb_plainBurg.Tag.ToString());
+                lst_order.Items.Add(rdb_cheeBurg.Text);
+                subtotal += float.Parse(rdb_cheeBurg.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_plainBurg.Text);
-                subtotal -= float.Parse(rdb_plainBurg.Tag.ToString());
+                lst_order.Items.Remove(rdb_cheeBurg.Text);
+                subtotal -= float.Parse(rdb_cheeBurg.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
