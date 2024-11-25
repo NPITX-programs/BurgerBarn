@@ -24,9 +24,11 @@ namespace BurgerBarn
         }
         //functions
         #region functions
-        private string getCost(Control inputBox )
+        private string getCost(Control inputBox)
         {
             return inputBox.Text;
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
         }
         #endregion
 
@@ -365,7 +367,7 @@ namespace BurgerBarn
 
         private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
+            if (rdb_drinkWater.Checked == true)
             {
                 lst_order.Items.Add(rdb_drinkWater.Text);
                 subtotal += float.Parse(rdb_drinkWater.Tag.ToString());
