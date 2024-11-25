@@ -207,22 +207,90 @@ namespace BurgerBarn
 
         private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sideTatTot.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sideTatTot.Text);
+                subtotal += float.Parse(rdb_sideTatTot.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sideTatTot.Text);
+                subtotal -= float.Parse(rdb_sideTatTot.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_sideOnioRing_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sideOnioRing.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sideOnioRing.Text);
+                subtotal += float.Parse(rdb_sideOnioRing.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sideOnioRing.Text);
+                subtotal -= float.Parse(rdb_sideOnioRing.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sideChip.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sideChip.Text);
+                subtotal += float.Parse(rdb_sideChip.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sideChip.Text);
+                subtotal -= float.Parse(rdb_sideChip.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_noSide_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_noSide.Checked == true)
+            {
+                lst_order.Items.Add(rdb_noSide.Text);
+                subtotal += float.Parse(rdb_noSide.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_noSide.Text);
+                subtotal -= float.Parse(rdb_noSide.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
         #endregion
 
@@ -231,27 +299,112 @@ namespace BurgerBarn
 
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
         private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
         {
+            if (rdb_sidesFries.Checked == true)
+            {
+                lst_order.Items.Add(rdb_sidesFries.Text);
+                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
 
+            }
+            else
+            {
+                lst_order.Items.Remove(rdb_sidesFries.Text);
+                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+            }
+
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
         }
 
 
