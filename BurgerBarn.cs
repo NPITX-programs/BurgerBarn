@@ -299,16 +299,16 @@ namespace BurgerBarn
 
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
+            if (rdb_drinkCoala.Checked == true)
             {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Add(rdb_drinkCoala.Text);
+                subtotal += float.Parse(rdb_drinkCoala.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Remove(rdb_drinkCoala.Text);
+                subtotal -= float.Parse(rdb_drinkCoala.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
@@ -321,16 +321,16 @@ namespace BurgerBarn
 
         private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
+            if (rdb_drinkTea.Checked == true)
             {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Add(rdb_drinkTea.Text);
+                subtotal += float.Parse(rdb_drinkTea.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Remove(rdb_drinkTea.Text);
+                subtotal -= float.Parse(rdb_drinkTea.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
@@ -343,16 +343,16 @@ namespace BurgerBarn
 
         private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
+            if (rdb_drinkPunch.Checked == true)
             {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Add(rdb_drinkPunch.Text);
+                subtotal += float.Parse(rdb_drinkPunch.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Remove(rdb_drinkPunch.Text);
+                subtotal -= float.Parse(rdb_drinkPunch.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
@@ -367,14 +367,14 @@ namespace BurgerBarn
         {
             if (rdb_sidesFries.Checked == true)
             {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Add(rdb_drinkWater.Text);
+                subtotal += float.Parse(rdb_drinkWater.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Remove(rdb_drinkWater.Text);
+                subtotal -= float.Parse(rdb_drinkWater.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
@@ -387,16 +387,16 @@ namespace BurgerBarn
 
         private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
+            if (rdb_noDrink.Checked == true)
             {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Add(rdb_noDrink.Text);
+                subtotal += float.Parse(rdb_noDrink.Tag.ToString());
 
             }
             else
             {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
+                lst_order.Items.Remove(rdb_noDrink.Text);
+                subtotal -= float.Parse(rdb_noDrink.Tag.ToString());
             }
 
             float tax = subtotal * tax_rate;
