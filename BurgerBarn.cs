@@ -5,6 +5,10 @@ namespace BurgerBarn
 {
     public partial class frmBurgerBarn : Form
     {
+        float subtotal = 0;
+        const float tax_rate = 0.0825f;
+        float total = 0;
+
         public frmBurgerBarn()
         {
             InitializeComponent();
@@ -17,10 +21,17 @@ namespace BurgerBarn
         {
 
         }
+        //functions
+        #region functions
+        private string getCost(Control inputBox )
+        {
+            return inputBox.Text;
+        }
+        #endregion
 
         #region grop boxes
         // group boxes
-       
+
 
         //burgers
         private void gbxBurgers_Enter(object sender, EventArgs e)
@@ -56,9 +67,14 @@ namespace BurgerBarn
         //all buttons related to the burgers
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_plainBurg.Checked == true)
+            if (rdb_plainBurg.Checked == true);
             {
-
+                lst_order.Items.Add(rdb_plainBurg.Text);
+                
+            }; 
+            else
+            {
+                lst_order.Items.Remove(rdb_plainBurg.Text);
             }
         }
 

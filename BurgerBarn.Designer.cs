@@ -77,8 +77,9 @@
             this.rdb_noBurg.Location = new System.Drawing.Point(7, 107);
             this.rdb_noBurg.Name = "rdb_noBurg";
             this.rdb_noBurg.Size = new System.Drawing.Size(51, 17);
-            this.rdb_noBurg.TabIndex = 7;
+            this.rdb_noBurg.TabIndex = 5;
             this.rdb_noBurg.TabStop = true;
+            this.rdb_noBurg.Tag = "0";
             this.rdb_noBurg.Text = "None";
             this.rdb_noBurg.UseVisualStyleBackColor = true;
             this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
@@ -88,10 +89,11 @@
             this.rdb_baconBurg.AutoSize = true;
             this.rdb_baconBurg.Location = new System.Drawing.Point(6, 83);
             this.rdb_baconBurg.Name = "rdb_baconBurg";
-            this.rdb_baconBurg.Size = new System.Drawing.Size(90, 17);
-            this.rdb_baconBurg.TabIndex = 6;
+            this.rdb_baconBurg.Size = new System.Drawing.Size(123, 17);
+            this.rdb_baconBurg.TabIndex = 4;
             this.rdb_baconBurg.TabStop = true;
-            this.rdb_baconBurg.Text = "Bacon Burger";
+            this.rdb_baconBurg.Tag = "7.49";
+            this.rdb_baconBurg.Text = "Bacon Burger: $7.49";
             this.rdb_baconBurg.UseVisualStyleBackColor = true;
             this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_baconBurg_CheckedChanged);
             // 
@@ -100,10 +102,11 @@
             this.rdb_vegBurg.AutoSize = true;
             this.rdb_vegBurg.Location = new System.Drawing.Point(6, 65);
             this.rdb_vegBurg.Name = "rdb_vegBurg";
-            this.rdb_vegBurg.Size = new System.Drawing.Size(86, 17);
-            this.rdb_vegBurg.TabIndex = 5;
+            this.rdb_vegBurg.Size = new System.Drawing.Size(119, 17);
+            this.rdb_vegBurg.TabIndex = 3;
             this.rdb_vegBurg.TabStop = true;
-            this.rdb_vegBurg.Text = "Vegie Burger";
+            this.rdb_vegBurg.Tag = "6.49";
+            this.rdb_vegBurg.Text = "Vegie Burger: $6.49";
             this.rdb_vegBurg.UseVisualStyleBackColor = true;
             this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_vegBurg_CheckedChanged);
             // 
@@ -112,10 +115,11 @@
             this.rdb_cheeBurg.AutoSize = true;
             this.rdb_cheeBurg.Location = new System.Drawing.Point(6, 42);
             this.rdb_cheeBurg.Name = "rdb_cheeBurg";
-            this.rdb_cheeBurg.Size = new System.Drawing.Size(91, 17);
-            this.rdb_cheeBurg.TabIndex = 4;
+            this.rdb_cheeBurg.Size = new System.Drawing.Size(124, 17);
+            this.rdb_cheeBurg.TabIndex = 2;
             this.rdb_cheeBurg.TabStop = true;
-            this.rdb_cheeBurg.Text = "Cheeseburger";
+            this.rdb_cheeBurg.Tag = "5.99";
+            this.rdb_cheeBurg.Text = "Cheeseburger: $5.99";
             this.rdb_cheeBurg.UseVisualStyleBackColor = true;
             this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_cheeBurg_CheckedChanged);
             // 
@@ -124,10 +128,11 @@
             this.rdb_plainBurg.AutoSize = true;
             this.rdb_plainBurg.Location = new System.Drawing.Point(6, 19);
             this.rdb_plainBurg.Name = "rdb_plainBurg";
-            this.rdb_plainBurg.Size = new System.Drawing.Size(82, 17);
-            this.rdb_plainBurg.TabIndex = 3;
+            this.rdb_plainBurg.Size = new System.Drawing.Size(115, 17);
+            this.rdb_plainBurg.TabIndex = 1;
             this.rdb_plainBurg.TabStop = true;
-            this.rdb_plainBurg.Text = "Plain Burger";
+            this.rdb_plainBurg.Tag = "4.99";
+            this.rdb_plainBurg.Text = "Plain Burger: $4.99";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
             this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
             // 
