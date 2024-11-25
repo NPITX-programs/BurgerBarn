@@ -29,16 +29,4 @@
 |renamed some files for better explanation
 |renamed part of the program
 |named the "startup program" back to Program.cs
-|cleane
-|build
-|_______________________________________________________________________
-|rebuild
-|clean
-|	both soloution and the one not labeled soloution
-|test
-|__________________________________________________________________
-|move readme and notes to a new soloution-based system
-|more that I forget
-|_________________________
-|set up buttons and prices
-|modify readme to reflect that
+|
