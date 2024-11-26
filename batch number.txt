@@ -7,14 +7,3 @@ batch number:
 	3c
 	3d
 	3e
-
-
-
-
-
-
-
-
-
-
-
