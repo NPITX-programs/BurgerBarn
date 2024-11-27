@@ -143,7 +143,7 @@
             this.gbxDrinks.Controls.Add(this.rdb_drinkPunch);
             this.gbxDrinks.Controls.Add(this.rdb_drinkCoala);
             this.gbxDrinks.Controls.Add(this.rdb_drinkTea);
-            this.gbxDrinks.Location = new System.Drawing.Point(250, 311);
+            this.gbxDrinks.Location = new System.Drawing.Point(252, 317);
             this.gbxDrinks.Name = "gbxDrinks";
             this.gbxDrinks.Size = new System.Drawing.Size(200, 127);
             this.gbxDrinks.TabIndex = 1;
