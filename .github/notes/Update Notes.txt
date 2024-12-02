@@ -1,5 +1,9 @@
 re-start change log
 add purchase and exit buttons
-find error
+found an error
 find (and use) a simple, albiet confuseing, fix
-come up with better version
+came up with improved version
+tried improved version. didin't work
+	after rebuilding, it suddenly did.
+with that discovery (of it working after a build) decided to try just a re-build of the one without any changes
+	that worked. talk about anti climatic...
