@@ -31,6 +31,9 @@ namespace BurgerBarn
             lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
+            
+            //do note that the labels could be done via 2 labels (won't do)
+                //plan on modifying so that cost and such is extracted from title of buttons and such
         }
 
         private void findPrice(RadioButton button)
@@ -87,8 +90,7 @@ namespace BurgerBarn
 
         #region burgers
 
-        //all buttons related to the burgers. Remember to modify such that it utilizes my buttons
-            //do note that the labels could be done via 2 labels, with the value set up with the property that tells it to turn decimals into price
+        //all buttons related to the burgers.
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
             findPrice(rdb_plainBurg);
