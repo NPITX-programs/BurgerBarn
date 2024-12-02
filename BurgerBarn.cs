@@ -24,11 +24,10 @@ namespace BurgerBarn
         }
         //functions
         #region functions
-        private string getCost(Control inputBox)
+        private string getCost(Control inputBox, float price)
         {
-            return inputBox.Text;
-            float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
+            string initial = inputBox.Text.ToString();
+            
         }
         #endregion
 
