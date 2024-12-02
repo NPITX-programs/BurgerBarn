@@ -295,6 +295,7 @@
             this.lst_order.Location = new System.Drawing.Point(664, 13);
             this.lst_order.Name = "lst_order";
             this.lst_order.Size = new System.Drawing.Size(120, 95);
+            this.lst_order.Sorted = true;
             this.lst_order.TabIndex = 0;
             this.lst_order.TabStop = false;
             this.lst_order.SelectedIndexChanged += new System.EventHandler(this.lst_order_SelectedIndexChanged);
