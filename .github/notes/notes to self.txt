@@ -7,3 +7,4 @@ remember to always add to update notes
 
 
 make the proper function (as explained in the change notes) here
+second function for text, possibly
