@@ -20,8 +20,6 @@ namespace BurgerBarn
             //put functions here
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
-            subtotal = 0;
-            total = 0;
 
         }
         //functions
