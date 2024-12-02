@@ -16,15 +16,12 @@ namespace BurgerBarn
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
         float total = 0; 
-        
-        //shared variables
-        //put shared variables here
-        //functions
-            //put functions here
+
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
 
         }
+
         //functions
         #region functions
         private void getCost()
