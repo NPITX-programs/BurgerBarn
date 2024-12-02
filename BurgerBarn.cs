@@ -5,16 +5,17 @@ namespace BurgerBarn
 {
     public partial class frmBurgerBarn : Form
     {
-        float subtotal = 0;
-        const float tax_rate = 0.0825f;
-        const float tax_fac = tax_rate + 1f;
-        float total = 0;
+
 
         public frmBurgerBarn()
         {
             InitializeComponent();
         }
-        //shared variables
+        //constants
+        float subtotal = 0;
+        const float tax_rate = 0.0825f;
+        const float tax_fac = tax_rate + 1f;
+        float total = 0; //shared variables
         //put shared variables here
         //functions
             //put functions here
