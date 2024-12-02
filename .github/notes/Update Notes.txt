@@ -2,5 +2,9 @@ re-start change log
 add purchase and exit buttons
 found an error
 
-came up with improved fix. checking to see if it works
-it didn't, but after re-build, it did
+came up with improved version
+tried improved version. didin't work
+	after rebuilding, it suddenly did.
+
+	with that discovery (of it working after a build) decided to try just a re-build of the one without any changes
+	that worked. talk about anti climatic...
