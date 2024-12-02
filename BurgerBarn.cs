@@ -15,7 +15,9 @@ namespace BurgerBarn
         float subtotal = 0;
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
-        float total = 0; //shared variables
+        float total = 0; 
+        
+        //shared variables
         //put shared variables here
         //functions
             //put functions here
