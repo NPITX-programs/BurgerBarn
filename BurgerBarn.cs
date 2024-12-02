@@ -27,12 +27,13 @@ namespace BurgerBarn
         }
         //functions
         #region functions
-        private string getCost(Control inputBox)
+        private void getCost()
         {
-            
             float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
-            return inputBox.Text;
+            total = subtotal + tax;
+            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2");
+            lbl_tax.Text = "Tax: " + tax.ToString("c2");
+            lbl_total.Text = "Total: " + total.ToString("c2");
         }
         #endregion
 
@@ -86,13 +87,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_plainBurg.Text);
                 subtotal -= float.Parse(rdb_plainBurg.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-            //the modified one that is for displaying curency. it's "c2". C means currency, 2 means "2 places" (so, c2 is $0.00, c is the same. c4 is $0.0000
-            lbl_subtotal.Text = subtotal.ToString(); //lbl_subtotal.Text = subtotal.ToString("c2");
-            lbl_tax.Text = tax.ToString(); //lbl_tax.Text = tax.ToString("c2");
-            lbl_total.Text = total.ToString(); //lbl_total.Text = total.ToString("c2");
+            getCost();
 
         }
 
@@ -109,13 +104,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_cheeBurg.Text);
                 subtotal -= float.Parse(rdb_cheeBurg.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-            
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString(); 
-            lbl_total.Text = total.ToString();
+            getCost();
 
 
         }
@@ -133,13 +122,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_vegBurg.Text);
                 subtotal -= float.Parse(rdb_vegBurg.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
@@ -155,13 +138,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_baconBurg.Text);
                 subtotal -= float.Parse(rdb_baconBurg.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
@@ -177,13 +154,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_noBurg.Text);
                 subtotal -= float.Parse(rdb_noBurg.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
         #endregion
 
@@ -202,13 +173,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_sidesFries.Text);
                 subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
@@ -224,13 +189,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_sideTatTot.Text);
                 subtotal -= float.Parse(rdb_sideTatTot.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_sideOnioRing_CheckedChanged(object sender, EventArgs e)
@@ -246,13 +205,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_sideOnioRing.Text);
                 subtotal -= float.Parse(rdb_sideOnioRing.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
@@ -268,13 +221,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_sideChip.Text);
                 subtotal -= float.Parse(rdb_sideChip.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_noSide_CheckedChanged(object sender, EventArgs e)
@@ -290,13 +237,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_noSide.Text);
                 subtotal -= float.Parse(rdb_noSide.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
         #endregion
 
@@ -316,13 +257,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_drinkCoala.Text);
                 subtotal -= float.Parse(rdb_drinkCoala.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
@@ -338,13 +273,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_drinkTea.Text);
                 subtotal -= float.Parse(rdb_drinkTea.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
@@ -360,13 +289,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_drinkPunch.Text);
                 subtotal -= float.Parse(rdb_drinkPunch.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
@@ -382,13 +305,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_drinkWater.Text);
                 subtotal -= float.Parse(rdb_drinkWater.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
         private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
@@ -404,13 +321,7 @@ namespace BurgerBarn
                 lst_order.Items.Remove(rdb_noDrink.Text);
                 subtotal -= float.Parse(rdb_noDrink.Tag.ToString());
             }
-
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-
-            lbl_subtotal.Text = subtotal.ToString();
-            lbl_tax.Text = tax.ToString();
-            lbl_total.Text = total.ToString();
+            getCost();
         }
 
 
