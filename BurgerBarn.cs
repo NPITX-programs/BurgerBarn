@@ -90,10 +90,10 @@ namespace BurgerBarn
 
         #region burgers
 
-        //all buttons related to the burgers.
+        //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_plainBurg);
+            findPrice(rdb_plainBurg); //call that function to adjust the price
             getCost();
         }
 
@@ -123,7 +123,7 @@ namespace BurgerBarn
         #endregion
 
         #region sides
-        //all buttons related to the sides
+        //all buttons related to the sides Will note anything that isn't just calling a function
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
             findPrice(rdb_sidesFries);
@@ -156,7 +156,7 @@ namespace BurgerBarn
         #endregion
 
         #region drinks
-        // all buttons related to the drinks
+        // all buttons related to the drinks Will note anything that isn't just calling a function
 
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
