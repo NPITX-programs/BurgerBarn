@@ -3,4 +3,4 @@ add purchase and exit buttons
 found an error
 
 came up with improved fix. checking to see if it works
-
+it didn't, but after re-build, it did
