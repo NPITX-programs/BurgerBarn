@@ -1,3 +1,6 @@
 re-start change log
 
 found an error, came up with improved fix. checking to see if it works
+
+
+after second fix, found that oddly it failed untill re-build. testing if just doing a rebuild is enough...
