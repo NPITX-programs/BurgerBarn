@@ -1,1 +1,3 @@
 re-start change log
+
+found an error, came up with improved fix. checking to see if it works
