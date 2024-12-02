@@ -7,3 +7,5 @@ tried improved version. didin't work
 	after rebuilding, it suddenly did.
 with that discovery (of it working after a build) decided to try just a re-build of the one without any changes
 	that worked. talk about anti climatic...
+
+for some reason, not useing the public variable for the total. seems to not cause issue, changeing anyways.
