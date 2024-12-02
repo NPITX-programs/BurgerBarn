@@ -35,20 +35,19 @@ namespace BurgerBarn
 
         private void findPrice(RadioButton button)
         {
-            if (button.Checked == true)
+            if (button.Checked == true) //checks if true
             {
-                if(button.Text != "None")
+                if(button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
                 {
                     lst_order.Items.Add(button.Text);
                 }
-
-                subtotal += float.Parse(button.Tag.ToString());
+                subtotal += float.Parse(button.Tag.ToString()); //adds the cost to the subtotal
 
             }
             else
             {
-                lst_order.Items.Remove(button.Text);
-                subtotal -= float.Parse(button.Tag.ToString());
+                lst_order.Items.Remove(button.Text); //removes the item from the list if it's no longer selected
+                subtotal -= float.Parse(button.Tag.ToString()); //subtracts that price, which is replaced with the addition of the other one
             }
         }
         #endregion
