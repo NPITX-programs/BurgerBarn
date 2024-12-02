@@ -27,12 +27,14 @@ namespace BurgerBarn
         }
         //functions
         #region functions
-        private string getCost(Control inputBox)
+        private void getCost()
         {
-            
             float tax = subtotal * tax_rate;
-            float total = subtotal + tax;
-            return inputBox.Text;
+            total = subtotal + tax;
+            //the modified one that is for displaying curency. it's "c2". C means currency, 2 means "2 places" (so, c2 is $0.00, c is the same. c4 is $0.0000
+            lbl_subtotal.Text = "Subtotal: $" + subtotal.ToString("c2");
+            lbl_tax.Text = "Tax: $" + tax.ToString("c2");
+            lbl_total.Text = "Total: $" + total.ToString("c2");
         }
         #endregion
 
@@ -89,10 +91,12 @@ namespace BurgerBarn
 
             float tax = subtotal * tax_rate;
             total = subtotal + tax;
-            //the modified one that is for displaying curency. it's "c2". C means currency, 2 means "2 places" (so, c2 is $0.00, c is the same. c4 is $0.0000
-            lbl_subtotal.Text = subtotal.ToString(); //lbl_subtotal.Text = subtotal.ToString("c2");
-            lbl_tax.Text = tax.ToString(); //lbl_tax.Text = tax.ToString("c2");
-            lbl_total.Text = total.ToString(); //lbl_total.Text = total.ToString("c2");
+
+
+
+            lbl_subtotal.Text = subtotal.ToString();
+            lbl_tax.Text = tax.ToString();
+            lbl_total.Text = total.ToString();
 
         }
 
@@ -113,6 +117,8 @@ namespace BurgerBarn
             float tax = subtotal * tax_rate;
             total = subtotal + tax;
             
+
+
             lbl_subtotal.Text = subtotal.ToString();
             lbl_tax.Text = tax.ToString(); 
             lbl_total.Text = total.ToString();
