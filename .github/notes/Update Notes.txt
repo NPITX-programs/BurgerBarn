@@ -12,3 +12,4 @@ for some reason, not useing the public variable for the total. seems to not caus
 
 made a simplified version of the planned function future plan is to utilize the function in a more modular way, where it does the math more in-depth, and allows the price to be stored, not in the tag, but in the name of the buttons (if no cost in button, use tag)
 
+make documentation
