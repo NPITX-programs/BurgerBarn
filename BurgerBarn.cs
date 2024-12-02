@@ -20,9 +20,7 @@ namespace BurgerBarn
             //put functions here
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
-            rdb_noBurg.Checked = true;
-            rdb_noDrink.Checked = true;
-            rdb_noSide.Checked = true;
+
         }
         //functions
         #region functions
