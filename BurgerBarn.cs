@@ -24,13 +24,13 @@ namespace BurgerBarn
 
         //functions
         #region functions
-        private void getCost()
+        private void getCost() //takes the global variables, as set previously (this runs after that part), and edits the labels to match
         {
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2");
-            lbl_tax.Text = "Tax: " + tax.ToString("c2");
-            lbl_total.Text = "Total: " + total.ToString("c2");
+            float tax = subtotal * tax_rate; //calculate the tax
+            total = subtotal + tax; //calculate the total
+            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
+            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
+            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
         #endregion
 
