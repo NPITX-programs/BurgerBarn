@@ -1,3 +1,6 @@
 re-start change log
+add purchase and exit buttons
+found an error
 
-found an error, came up with improved fix. checking to see if it works
+came up with improved fix. checking to see if it works
+
