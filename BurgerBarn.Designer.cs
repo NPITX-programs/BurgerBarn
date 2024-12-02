@@ -346,6 +346,7 @@
             this.bttn_purchase.TabIndex = 3;
             this.bttn_purchase.Text = "Purchase";
             this.bttn_purchase.UseVisualStyleBackColor = true;
+            this.bttn_purchase.Click += new System.EventHandler(this.bttn_purchase_Click);
             // 
             // bttn_close
             // 
@@ -355,6 +356,7 @@
             this.bttn_close.TabIndex = 4;
             this.bttn_close.Text = "Exit";
             this.bttn_close.UseVisualStyleBackColor = true;
+            this.bttn_close.Click += new System.EventHandler(this.bttn_close_Click);
             // 
             // frmBurgerBarn
             // 
