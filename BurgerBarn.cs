@@ -35,6 +35,8 @@ namespace BurgerBarn
             lbl_tax.Text = "Tax: " + tax.ToString("c2");
             lbl_total.Text = "Total: " + total.ToString("c2");
         }
+
+        private void 
         #endregion
 
         #region grop boxes

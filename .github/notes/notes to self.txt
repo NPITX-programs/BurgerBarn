@@ -6,4 +6,4 @@ remember to always add to update notes
 	suspected to be used during, get this, startup
 
 
-make the proper function (as explained in the change notes) here
+make the proper function (as explained in the change notes) here. both
