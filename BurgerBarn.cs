@@ -37,7 +37,11 @@ namespace BurgerBarn
         {
             if (button.Checked == true)
             {
-                lst_order.Items.Add(button.Text);
+                if(button.Text != "None")
+                {
+                    lst_order.Items.Add(button.Text);
+                }
+
                 subtotal += float.Parse(button.Tag.ToString());
 
             }
