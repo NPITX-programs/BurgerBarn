@@ -2,3 +2,4 @@ re-start change log
 add purchase and exit buttons
 find error
 find (and use) a simple, albiet confuseing, fix
+come up with better version
