@@ -11,5 +11,6 @@ with that discovery (of it working after a build) decided to try just a re-build
 for some reason, not useing the public variable for the total. seems to not cause issue, changeing anyways.
 
 made a simplified version of the planned function future plan is to utilize the function in a more modular way, where it does the math more in-depth, and allows the price to be stored, not in the tag, but in the name of the buttons (if no cost in button, use tag)
+made another function to deal with the if/then parts
 
 make documentation

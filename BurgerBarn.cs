@@ -16,24 +16,42 @@ namespace BurgerBarn
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
         float total = 0; 
-        
-        //shared variables
-        //put shared variables here
-        //functions
-            //put functions here
+
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
 
         }
+
         //functions
         #region functions
-        private void getCost()
+        private void getCost() //takes the global variables, as set previously (this runs after that part), and edits the labels to match
         {
-            float tax = subtotal * tax_rate;
-            total = subtotal + tax;
-            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2");
-            lbl_tax.Text = "Tax: " + tax.ToString("c2");
-            lbl_total.Text = "Total: " + total.ToString("c2");
+            float tax = subtotal * tax_rate; //calculate the tax
+            total = subtotal + tax; //calculate the total
+            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
+            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
+            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
+            
+            //do note that the labels could be done via 2 labels (won't do)
+                //plan on modifying so that cost and such is extracted from title of buttons and such
+        }
+
+        private void findPrice(RadioButton button)
+        {
+            if (button.Checked == true) //checks if true
+            {
+                if(button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
+                {
+                    lst_order.Items.Add(button.Text);
+                }
+                subtotal += float.Parse(button.Tag.ToString()); //adds the cost to the subtotal
+
+            }
+            else
+            {
+                lst_order.Items.Remove(button.Text); //removes the item from the list if it's no longer selected
+                subtotal -= float.Parse(button.Tag.ToString()); //subtracts that price, which is replaced with the addition of the other one
+            }
         }
         #endregion
 
@@ -72,255 +90,101 @@ namespace BurgerBarn
 
         #region burgers
 
-        //all buttons related to the burgers. Remember to modify such that it utilizes my buttons
-            //do note that the labels could be done via 2 labels, with the value set up with the property that tells it to turn decimals into price
+        //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_plainBurg.Checked == true)
-            {
-                lst_order.Items.Add(rdb_plainBurg.Text);
-                subtotal += float.Parse(rdb_plainBurg.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_plainBurg.Text);
-                subtotal -= float.Parse(rdb_plainBurg.Tag.ToString());
-            }
+            findPrice(rdb_plainBurg); //call that function to adjust the price
             getCost();
-
         }
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_cheeBurg.Checked == true)
-            {
-                lst_order.Items.Add(rdb_cheeBurg.Text);
-                subtotal += float.Parse(rdb_cheeBurg.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_cheeBurg.Text);
-                subtotal -= float.Parse(rdb_cheeBurg.Tag.ToString());
-            }
+            findPrice(rdb_cheeBurg);
             getCost();
-
-
         }
 
         private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_vegBurg.Checked == true)
-            {
-                lst_order.Items.Add(rdb_vegBurg.Text);
-                subtotal += float.Parse(rdb_vegBurg.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_vegBurg.Text);
-                subtotal -= float.Parse(rdb_vegBurg.Tag.ToString());
-            }
+            findPrice(rdb_vegBurg);
             getCost();
         }
 
         private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_baconBurg.Checked == true)
-            {
-                lst_order.Items.Add(rdb_baconBurg.Text);
-                subtotal += float.Parse(rdb_baconBurg.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_baconBurg.Text);
-                subtotal -= float.Parse(rdb_baconBurg.Tag.ToString());
-            }
+            findPrice(rdb_baconBurg);
             getCost();
         }
 
         private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_noBurg.Checked == true)
-            {
-                lst_order.Items.Add(rdb_noBurg.Text);
-                subtotal += float.Parse(rdb_noBurg.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_noBurg.Text);
-                subtotal -= float.Parse(rdb_noBurg.Tag.ToString());
-            }
+            findPrice(rdb_noBurg);
             getCost();
         }
         #endregion
 
         #region sides
-        //all buttons related to the sides
+        //all buttons related to the sides Will note anything that isn't just calling a function
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sidesFries.Checked == true)
-            {
-                lst_order.Items.Add(rdb_sidesFries.Text);
-                subtotal += float.Parse(rdb_sidesFries.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_sidesFries.Text);
-                subtotal -= float.Parse(rdb_sidesFries.Tag.ToString());
-            }
+            findPrice(rdb_sidesFries);
             getCost();
         }
 
         private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sideTatTot.Checked == true)
-            {
-                lst_order.Items.Add(rdb_sideTatTot.Text);
-                subtotal += float.Parse(rdb_sideTatTot.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_sideTatTot.Text);
-                subtotal -= float.Parse(rdb_sideTatTot.Tag.ToString());
-            }
+            findPrice(rdb_sideTatTot);
             getCost();
         }
 
         private void rdb_sideOnioRing_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sideOnioRing.Checked == true)
-            {
-                lst_order.Items.Add(rdb_sideOnioRing.Text);
-                subtotal += float.Parse(rdb_sideOnioRing.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_sideOnioRing.Text);
-                subtotal -= float.Parse(rdb_sideOnioRing.Tag.ToString());
-            }
+            findPrice(rdb_sideOnioRing);
             getCost();
         }
 
         private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_sideChip.Checked == true)
-            {
-                lst_order.Items.Add(rdb_sideChip.Text);
-                subtotal += float.Parse(rdb_sideChip.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_sideChip.Text);
-                subtotal -= float.Parse(rdb_sideChip.Tag.ToString());
-            }
+            findPrice(rdb_sideChip);
             getCost();
         }
 
         private void rdb_noSide_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_noSide.Checked == true)
-            {
-                lst_order.Items.Add(rdb_noSide.Text);
-                subtotal += float.Parse(rdb_noSide.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_noSide.Text);
-                subtotal -= float.Parse(rdb_noSide.Tag.ToString());
-            }
+            findPrice(rdb_noSide);
             getCost();
         }
         #endregion
 
         #region drinks
-        // all buttons related to the drinks
+        // all buttons related to the drinks Will note anything that isn't just calling a function
 
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_drinkCoala.Checked == true)
-            {
-                lst_order.Items.Add(rdb_drinkCoala.Text);
-                subtotal += float.Parse(rdb_drinkCoala.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_drinkCoala.Text);
-                subtotal -= float.Parse(rdb_drinkCoala.Tag.ToString());
-            }
+            findPrice(rdb_drinkCoala);
             getCost();
         }
 
         private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_drinkTea.Checked == true)
-            {
-                lst_order.Items.Add(rdb_drinkTea.Text);
-                subtotal += float.Parse(rdb_drinkTea.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_drinkTea.Text);
-                subtotal -= float.Parse(rdb_drinkTea.Tag.ToString());
-            }
+            findPrice(rdb_drinkTea);
             getCost();
         }
 
         private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_drinkPunch.Checked == true)
-            {
-                lst_order.Items.Add(rdb_drinkPunch.Text);
-                subtotal += float.Parse(rdb_drinkPunch.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_drinkPunch.Text);
-                subtotal -= float.Parse(rdb_drinkPunch.Tag.ToString());
-            }
+            findPrice(rdb_drinkPunch);
             getCost();
         }
 
         private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_drinkWater.Checked == true)
-            {
-                lst_order.Items.Add(rdb_drinkWater.Text);
-                subtotal += float.Parse(rdb_drinkWater.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_drinkWater.Text);
-                subtotal -= float.Parse(rdb_drinkWater.Tag.ToString());
-            }
+            findPrice(rdb_drinkWater);
             getCost();
         }
 
         private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdb_noDrink.Checked == true)
-            {
-                lst_order.Items.Add(rdb_noDrink.Text);
-                subtotal += float.Parse(rdb_noDrink.Tag.ToString());
-
-            }
-            else
-            {
-                lst_order.Items.Remove(rdb_noDrink.Text);
-                subtotal -= float.Parse(rdb_noDrink.Tag.ToString());
-            }
+            findPrice(rdb_noDrink);
             getCost();
         }
 
