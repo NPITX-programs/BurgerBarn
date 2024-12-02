@@ -9,3 +9,4 @@ with that discovery (of it working after a build) decided to try just a re-build
 	that worked. talk about anti climatic...
 
 for some reason, not useing the public variable for the total. seems to not cause issue, changeing anyways.
+made a simplified version of the planned function
