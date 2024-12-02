@@ -20,7 +20,9 @@ namespace BurgerBarn
             //put functions here
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
-
+            rdb_noBurg.Checked = true;
+            rdb_noDrink.Checked = true;
+            rdb_noSide.Checked = true;
         }
         //functions
         #region functions
@@ -435,5 +437,18 @@ namespace BurgerBarn
 
         }
         #endregion
+
+        private void bttn_purchase_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank You for your purchase");
+            rdb_noBurg.Checked = true;
+            rdb_noDrink.Checked = true;
+            rdb_noSide.Checked = true;
+        }
+
+        private void bttn_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
