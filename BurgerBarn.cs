@@ -36,6 +36,20 @@ namespace BurgerBarn
             lbl_total.Text = "Total: " + total.ToString("c2");
         }
 
+        private void findPrice(RadioButton button)
+        {
+            if (button.Checked == true)
+            {
+                lst_order.Items.Add(button.Text);
+                subtotal += float.Parse(button.Tag.ToString());
+
+            }
+            else
+            {
+                lst_order.Items.Remove(button.Text);
+                subtotal -= float.Parse(button.Tag.ToString());
+            }
+        }
         #endregion
 
         #region grop boxes
