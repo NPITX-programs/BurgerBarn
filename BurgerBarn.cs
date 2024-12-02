@@ -36,7 +36,6 @@ namespace BurgerBarn
             lbl_total.Text = "Total: " + total.ToString("c2");
         }
 
-        private void 
         #endregion
 
         #region grop boxes
