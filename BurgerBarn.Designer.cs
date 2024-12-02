@@ -51,6 +51,8 @@
             this.lbl_subtotal = new System.Windows.Forms.Label();
             this.lbl_tax = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
+            this.bttn_purchase = new System.Windows.Forms.Button();
+            this.bttn_close = new System.Windows.Forms.Button();
             this.gbxBurgers.SuspendLayout();
             this.gbxDrinks.SuspendLayout();
             this.gbxSides.SuspendLayout();
@@ -336,11 +338,31 @@
             this.lbl_total.Text = "Total: $0.00";
             this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
             // 
+            // bttn_purchase
+            // 
+            this.bttn_purchase.Location = new System.Drawing.Point(479, 331);
+            this.bttn_purchase.Name = "bttn_purchase";
+            this.bttn_purchase.Size = new System.Drawing.Size(112, 46);
+            this.bttn_purchase.TabIndex = 3;
+            this.bttn_purchase.Text = "Purchase";
+            this.bttn_purchase.UseVisualStyleBackColor = true;
+            // 
+            // bttn_close
+            // 
+            this.bttn_close.Location = new System.Drawing.Point(622, 331);
+            this.bttn_close.Name = "bttn_close";
+            this.bttn_close.Size = new System.Drawing.Size(110, 46);
+            this.bttn_close.TabIndex = 4;
+            this.bttn_close.Text = "Exit";
+            this.bttn_close.UseVisualStyleBackColor = true;
+            // 
             // frmBurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bttn_close);
+            this.Controls.Add(this.bttn_purchase);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.lbl_tax);
             this.Controls.Add(this.lbl_subtotal);
@@ -388,6 +410,8 @@
         private System.Windows.Forms.Label lbl_subtotal;
         private System.Windows.Forms.Label lbl_tax;
         private System.Windows.Forms.Label lbl_total;
+        private System.Windows.Forms.Button bttn_purchase;
+        private System.Windows.Forms.Button bttn_close;
     }
 }
 
