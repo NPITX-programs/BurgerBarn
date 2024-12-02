@@ -1,1 +1,1 @@
-this is the main branch
+this contains the creation of a function that will auto-preform the calculation of the prices
