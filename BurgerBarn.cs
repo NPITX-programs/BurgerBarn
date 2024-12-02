@@ -26,9 +26,10 @@ namespace BurgerBarn
         #region functions
         private string getCost(Control inputBox)
         {
-            return inputBox.Text;
+            
             float tax = subtotal * tax_rate;
             float total = subtotal + tax;
+            return inputBox.Text;
         }
         #endregion
 
@@ -434,5 +435,18 @@ namespace BurgerBarn
 
         }
         #endregion
+
+        private void bttn_purchase_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank You for your purchase");
+            rdb_noBurg.Checked = true;
+            rdb_noDrink.Checked = true;
+            rdb_noSide.Checked = true;
+        }
+
+        private void bttn_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
