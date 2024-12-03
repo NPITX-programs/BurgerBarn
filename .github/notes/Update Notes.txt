@@ -18,3 +18,9 @@ ________________
 release 1.0.0
 
 
+_________
+add forgoten comment
+improve spaceing (remove extra line break)
+small format change that was accidentla. reversed
+________________________________________
+patch 1.0.1
