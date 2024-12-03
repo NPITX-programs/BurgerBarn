@@ -214,7 +214,7 @@ namespace BurgerBarn
         }
         #endregion
 
-        private void bttn_purchase_Click(object sender, EventArgs e)
+        private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
             MessageBox.Show("Thank You for your purchase");
             rdb_noBurg.Checked = true;
@@ -222,7 +222,7 @@ namespace BurgerBarn
             rdb_noSide.Checked = true;
         }
 
-        private void bttn_close_Click(object sender, EventArgs e)
+        private void bttn_close_Click(object sender, EventArgs e) //exit application
         {
             Application.Exit();
         }
