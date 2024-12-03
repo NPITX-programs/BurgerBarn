@@ -15,7 +15,7 @@ namespace BurgerBarn
         float subtotal = 0;
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
-        float total = 0; 
+        float total = 0;
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
@@ -31,16 +31,16 @@ namespace BurgerBarn
             lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
-            
+
             //do note that the labels could be done via 2 labels (won't do)
-                //plan on modifying so that cost and such is extracted from title of buttons and such
+            //plan on modifying so that cost and such is extracted from title of buttons and such
         }
 
         private void findPrice(RadioButton button)
         {
             if (button.Checked == true) //checks if true
             {
-                if(button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
+                if (button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
                 {
                     lst_order.Items.Add(button.Text);
                 }
@@ -62,7 +62,7 @@ namespace BurgerBarn
         //burgers
         private void gbxBurgers_Enter(object sender, EventArgs e)
         {
-            
+
         }
 
         //sides
