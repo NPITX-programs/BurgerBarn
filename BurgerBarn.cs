@@ -24,19 +24,8 @@ namespace BurgerBarn
 
         //functions
         #region functions
-        private void getCost() //takes the global variables, as set previously (this runs after that part), and edits the labels to match
-        {
-            float tax = subtotal * tax_rate; //calculate the tax
-            total = subtotal + tax; //calculate the total
-            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
-            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
-            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
 
-            //do note that the labels could be done via 2 labels (won't do)
-            //plan on modifying so that cost and such is extracted from title of buttons and such
-        }
-
-        private void findPrice(RadioButton button)
+        private void updatePrice(RadioButton button)
         {
             if (button.Checked == true) //checks if true
             {
@@ -52,12 +41,12 @@ namespace BurgerBarn
                 lst_order.Items.Remove(button.Text); //removes the item from the list if it's no longer selected
                 subtotal -= float.Parse(button.Tag.ToString()); //subtracts that price, which is replaced with the addition of the other one
             }
-        }
 
-        private void updatePrice(RadioButton button)
-        {
-            findPrice(button);
-            getCost();
+            float tax = subtotal * tax_rate; //calculate the tax
+            total = subtotal + tax; //calculate the total
+            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
+            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
+            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
 
         #endregion
