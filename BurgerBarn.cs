@@ -24,19 +24,8 @@ namespace BurgerBarn
 
         //functions
         #region functions
-        private void getCost() //takes the global variables, as set previously (this runs after that part), and edits the labels to match
-        {
-            float tax = subtotal * tax_rate; //calculate the tax
-            total = subtotal + tax; //calculate the total
-            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
-            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
-            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
 
-            //do note that the labels could be done via 2 labels (won't do)
-            //plan on modifying so that cost and such is extracted from title of buttons and such
-        }
-
-        private void findPrice(RadioButton button)
+        private void updatePrice(RadioButton button)
         {
             if (button.Checked == true) //checks if true
             {
@@ -52,7 +41,14 @@ namespace BurgerBarn
                 lst_order.Items.Remove(button.Text); //removes the item from the list if it's no longer selected
                 subtotal -= float.Parse(button.Tag.ToString()); //subtracts that price, which is replaced with the addition of the other one
             }
+
+            float tax = subtotal * tax_rate; //calculate the tax
+            total = subtotal + tax; //calculate the total
+            lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
+            lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
+            lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
+
         #endregion
 
         #region grop boxes
@@ -93,32 +89,27 @@ namespace BurgerBarn
         //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_plainBurg); //call that function to adjust the price
-            getCost();
+            updatePrice(rdb_plainBurg); //call that function to adjust the price
         }
 
         private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_cheeBurg);
-            getCost();
+            updatePrice(rdb_cheeBurg);
         }
 
         private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_vegBurg);
-            getCost();
+            updatePrice(rdb_vegBurg);
         }
 
         private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_baconBurg);
-            getCost();
+            updatePrice(rdb_baconBurg);
         }
 
         private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_noBurg);
-            getCost();
+            updatePrice(rdb_noBurg);
         }
         #endregion
 
@@ -126,32 +117,27 @@ namespace BurgerBarn
         //all buttons related to the sides Will note anything that isn't just calling a function
         private void rdb_sidesFries_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_sidesFries);
-            getCost();
+            updatePrice(rdb_sidesFries);
         }
 
         private void rdb_sideTatTot_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_sideTatTot);
-            getCost();
+            updatePrice(rdb_sideTatTot);
         }
 
         private void rdb_sideOnioRing_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_sideOnioRing);
-            getCost();
+            updatePrice(rdb_sideOnioRing);
         }
 
         private void rdb_sideChip_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_sideChip);
-            getCost();
+            updatePrice(rdb_sideChip);
         }
 
         private void rdb_noSide_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_noSide);
-            getCost();
+            updatePrice(rdb_noSide);
         }
         #endregion
 
@@ -160,32 +146,27 @@ namespace BurgerBarn
 
         private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_drinkCoala);
-            getCost();
+            updatePrice(rdb_drinkCoala);
         }
 
         private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_drinkTea);
-            getCost();
+            updatePrice(rdb_drinkTea);
         }
 
         private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_drinkPunch);
-            getCost();
+            updatePrice(rdb_drinkPunch);
         }
 
         private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_drinkWater);
-            getCost();
+            updatePrice(rdb_drinkWater);
         }
 
         private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
         {
-            findPrice(rdb_noDrink);
-            getCost();
+            updatePrice(rdb_noDrink);
         }
 
 
