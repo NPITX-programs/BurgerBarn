@@ -1,1 +1,1 @@
-add prices
+fix any format issues in details
