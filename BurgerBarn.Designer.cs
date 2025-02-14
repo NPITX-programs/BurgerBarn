@@ -85,7 +85,7 @@
             this.rdb_noBurg.Tag = "0";
             this.rdb_noBurg.Text = "None";
             this.rdb_noBurg.UseVisualStyleBackColor = true;
-            this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_noBurg_CheckedChanged);
+            this.rdb_noBurg.CheckedChanged += new System.EventHandler(this.rdb_burgers);
             // 
             // rdb_baconBurg
             // 
@@ -97,7 +97,7 @@
             this.rdb_baconBurg.Tag = "7.49";
             this.rdb_baconBurg.Text = "Bacon Burger: $7.49";
             this.rdb_baconBurg.UseVisualStyleBackColor = true;
-            this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_baconBurg_CheckedChanged);
+            this.rdb_baconBurg.CheckedChanged += new System.EventHandler(this.rdb_burgers);
             // 
             // rdb_vegBurg
             // 
@@ -109,7 +109,7 @@
             this.rdb_vegBurg.Tag = "6.49";
             this.rdb_vegBurg.Text = "Vegie Burger: $6.49";
             this.rdb_vegBurg.UseVisualStyleBackColor = true;
-            this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_vegBurg_CheckedChanged);
+            this.rdb_vegBurg.CheckedChanged += new System.EventHandler(this.rdb_burgers);
             // 
             // rdb_cheeBurg
             // 
@@ -121,7 +121,7 @@
             this.rdb_cheeBurg.Tag = "5.99";
             this.rdb_cheeBurg.Text = "Cheeseburger: $5.99";
             this.rdb_cheeBurg.UseVisualStyleBackColor = true;
-            this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_cheeBurg_CheckedChanged);
+            this.rdb_cheeBurg.CheckedChanged += new System.EventHandler(this.rdb_burgers);
             // 
             // rdb_plainBurg
             // 
@@ -133,7 +133,7 @@
             this.rdb_plainBurg.Tag = "4.99";
             this.rdb_plainBurg.Text = "Plain Burger: $4.99";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
-            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
+            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_burgers);
             // 
             // gbxDrinks
             // 

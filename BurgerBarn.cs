@@ -74,30 +74,9 @@ namespace BurgerBarn
         #region burgers
 
         //all buttons related to the burgers. Will note anything that isn't just calling a function
-        private void rdb_plainBurg_CheckedChanged(object sender, EventArgs e)
+        private void rdb_burgers(object sender, EventArgs e)
         {
-            updatePrice(rdb_plainBurg); //call that function to adjust the price
-        }
 
-        private void rdb_cheeBurg_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_cheeBurg);
-        }
-
-        private void rdb_vegBurg_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_vegBurg);
-        }
-
-        private void rdb_baconBurg_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_baconBurg);
-        }
-
-        private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
-        {
-            
-            updatePrice(rdb_noBurg);
         }
         #endregion
 
