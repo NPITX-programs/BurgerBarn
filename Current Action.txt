@@ -1,4 +1,4 @@
 add prices:
 part 1 (burgers): added
-part 2 (sides): tba
+part 2 (sides): added
 part 3 (drinks): tba
