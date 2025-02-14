@@ -295,7 +295,6 @@
             this.lst_order.Sorted = true;
             this.lst_order.TabIndex = 0;
             this.lst_order.TabStop = false;
-            this.lst_order.SelectedIndexChanged += new System.EventHandler(this.lst_order_SelectedIndexChanged);
             // 
             // lbl_subtotal
             // 
@@ -305,7 +304,6 @@
             this.lbl_subtotal.Size = new System.Drawing.Size(79, 13);
             this.lbl_subtotal.TabIndex = 0;
             this.lbl_subtotal.Text = "Subtotal: $0.00";
-            this.lbl_subtotal.Click += new System.EventHandler(this.lbl_subtotal_Click);
             // 
             // lbl_tax
             // 
@@ -315,7 +313,6 @@
             this.lbl_tax.Size = new System.Drawing.Size(58, 13);
             this.lbl_tax.TabIndex = 0;
             this.lbl_tax.Text = "Tax: $0.00";
-            this.lbl_tax.Click += new System.EventHandler(this.lbl_tax_Click);
             // 
             // lbl_total
             // 
@@ -325,7 +322,6 @@
             this.lbl_total.Size = new System.Drawing.Size(64, 13);
             this.lbl_total.TabIndex = 0;
             this.lbl_total.Text = "Total: $0.00";
-            this.lbl_total.Click += new System.EventHandler(this.lbl_total_Click);
             // 
             // bttn_purchase
             // 
