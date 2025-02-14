@@ -81,7 +81,7 @@ namespace BurgerBarn
         #endregion
 
         #region sides
-        //all buttons related to the sides Will note anything that isn't just calling a function
+        //all buttons related to the sides, will note anything that isn't just calling a function
         private void rdb_sides(object sender, EventArgs e)
         {
             RadioButton bttn = sender as RadioButton;
