@@ -11,21 +11,13 @@ namespace BurgerBarn
         {
             InitializeComponent();
         }
-        
-        //all constants are in here
-        #region constants
+
+        #region globalVars
+        float total = 0; //the cost factoring in tax
         float subtotal = 0; //the cost without tax
         const float tax_rate = 0.0825f; //the percentage of tax
         const float tax_fac = tax_rate + 1f; //the percentage with a 1 added to it, so multiplication can be used
-        float total = 0; //the cost factoring in tax
         #endregion
-
-        private void frmBurgerBarn_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        //functions
         #region functions
         private void updatePrice(object input) //this will take in any object, convert it to a radio button, then modify the price acordingly
         {
@@ -48,9 +40,7 @@ namespace BurgerBarn
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
         #endregion
-
-        //code for the radio buttons
-        #region buttons
+        #region ordering
         private void rdb_burgers(object sender, EventArgs e) //this will call the function to update the price whenever the selected burger changes
         {
             updatePrice(sender);
@@ -64,9 +54,8 @@ namespace BurgerBarn
             updatePrice(sender);
         }
         #endregion
-
-        //miscilaneus code for the UI
-        #region Misc UI
+        #region interface
+        //parts of the interface that are simpler, just simple buttons
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
             MessageBox.Show("Thank You for your purchase");

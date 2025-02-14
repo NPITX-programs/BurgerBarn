@@ -361,7 +361,6 @@
             this.Name = "frmBurgerBarn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Burger Barn";
-            this.Load += new System.EventHandler(this.frmBurgerBarn_Load);
             this.gbxBurgers.ResumeLayout(false);
             this.gbxBurgers.PerformLayout();
             this.gbxDrinks.ResumeLayout(false);
