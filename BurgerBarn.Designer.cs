@@ -133,7 +133,7 @@
             this.rdb_plainBurg.Tag = "4.99";
             this.rdb_plainBurg.Text = "Plain Burger: $4.99";
             this.rdb_plainBurg.UseVisualStyleBackColor = true;
-            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_plainBurg_CheckedChanged);
+            this.rdb_plainBurg.CheckedChanged += new System.EventHandler(this.rdb_Burg_CheckedChanged);
             // 
             // gbxDrinks
             // 

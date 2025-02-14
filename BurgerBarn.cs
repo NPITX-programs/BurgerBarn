@@ -207,5 +207,10 @@ namespace BurgerBarn
         {
             Application.Exit();
         }
+
+        private void rdb_Burg_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
