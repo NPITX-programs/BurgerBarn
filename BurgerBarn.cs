@@ -79,19 +79,5 @@ namespace BurgerBarn
             Application.Exit();
         }
         #endregion
-        
-        // notes and such
-        #region notes
-        //if I add in information about percent completed, remember
-        //it already exists
-        // it's a progress bar
-        //the name is prg_totalItems
-        ///it's a progress bar <summary>
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        //when useing an object, but needing a button, do "Button btn = sender as Button"
-        //modify as needed for other object types
-        #endregion
     }
 }
