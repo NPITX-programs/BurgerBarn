@@ -1,1 +1,1 @@
-replaceing the readme with just a general document showing the concepts
+add in requirments
