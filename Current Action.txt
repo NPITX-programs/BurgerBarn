@@ -1,3 +1,1 @@
-as it appears that the idea of also marking all version status isn't going to work with 1 file, I shall split it in 2!
-
-Now current action is once again on it's own
+integrating in some code so it can utilize visual studios to access github. And, since I am directly accessing main, I pre-archived it
