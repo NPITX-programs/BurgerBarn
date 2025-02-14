@@ -11,11 +11,14 @@ namespace BurgerBarn
         {
             InitializeComponent();
         }
+
+        #region constants
         //constants
         float subtotal = 0;
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
         float total = 0;
+        #endregion
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
@@ -51,38 +54,19 @@ namespace BurgerBarn
 
         #endregion
 
-        #region grop boxes
-        // group boxes
-
-
-        //burgers
-        private void gbxBurgers_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //sides
-        private void gbxSides_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //drinks
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
-
-
         #region misc
         //if I add in information about percent completed, remember
         //it already exists
         //the name is prg_totalItems
-        ///it's a progress bar
+        ///it's a progress bar <summary>
+        /// it's a progress bar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        //some events that aren't used at the moment, but auto generated: 
+
 
         #endregion
-
 
         #region burgers
 
@@ -173,11 +157,24 @@ namespace BurgerBarn
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
-        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
+
+        #region Misc UI
+        private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
+        {
+            MessageBox.Show("Thank You for your purchase");
+            rdb_noBurg.Checked = true;
+            rdb_noDrink.Checked = true;
+            rdb_noSide.Checked = true;
         }
 
+        private void bttn_close_Click(object sender, EventArgs e) //exit application
+        {
+            Application.Exit();
+        }
+
+        #endregion
+        #region background
         #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)
         {
@@ -194,18 +191,34 @@ namespace BurgerBarn
 
         }
         #endregion
+        #region grop boxes
+        // group boxes
 
-        private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
+
+        //burgers
+        private void gbxBurgers_Enter(object sender, EventArgs e)
         {
-            MessageBox.Show("Thank You for your purchase");
-            rdb_noBurg.Checked = true;
-            rdb_noDrink.Checked = true;
-            rdb_noSide.Checked = true;
+
         }
 
-        private void bttn_close_Click(object sender, EventArgs e) //exit application
+        //sides
+        private void gbxSides_Enter(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
+
+        //drinks
+        private void gbxDrinks_Enter(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+        #region not yet used
+        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+        #endregion
     }
 }
