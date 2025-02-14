@@ -1,1 +1,6 @@
-wrong, few minor fixes to do
+
+
+
+Sort Archives: To-Do
+General .txt: To-Do
+Integrate Code: To-Do
