@@ -35,7 +35,7 @@ namespace BurgerBarn
 
         private void updatePrice(object input)
         {
-            RadioButton button = convertSender(input);
+            RadioButton button = input as RadioButton;
             if (button.Checked == true) //checks if true
             {
                 if (button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
@@ -57,10 +57,7 @@ namespace BurgerBarn
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
-        private RadioButton convertSender(object input)
-        {
-           return input as RadioButton;
-        }
+
         #endregion
 
         #region misc notes
