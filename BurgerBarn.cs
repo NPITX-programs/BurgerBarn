@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Dynamic;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace BurgerBarn
@@ -32,8 +33,9 @@ namespace BurgerBarn
         //functions
         #region functions
 
-        private void updatePrice(RadioButton button)
+        private void updatePrice(object input)
         {
+            RadioButton button = convertSender(input);
             if (button.Checked == true) //checks if true
             {
                 if (button.Text != "None") //if it's not none, and it's checked, it will proceed to add that buttons name to the list
@@ -88,15 +90,15 @@ namespace BurgerBarn
         //all buttons related to the sides, will note anything that isn't just calling a function
         private void rdb_sides(object sender, EventArgs e)
         {
-            updatePrice(convertSender(sender));
+            updatePrice(sender);
         }
         #endregion
 
         #region drinks
         // all buttons related to the drinks Will note anything that isn't just calling a function
         private void rdb_drinks(object sender, EventArgs e)
-        { 
-            updatePrice(convertSender(sender));
+        {
+            updatePrice(sender);
         }
 
         
