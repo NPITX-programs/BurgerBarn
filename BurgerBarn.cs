@@ -97,8 +97,6 @@ namespace BurgerBarn
         {
             updatePrice(sender);
         }
-
-        
         #endregion
 
 
