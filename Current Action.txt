@@ -1,1 +1,1 @@
-remove the word "Archive 0" from their name, as the folder is named "Archive 0", thereby inherently adding that to their name.
+need to see if any numbers are skipped, and if so renameing them so the archives are truly in an ordered list
