@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 using System.Windows.Forms;
 
 namespace BurgerBarn
@@ -54,6 +55,10 @@ namespace BurgerBarn
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
+        private RadioButton convertSender(object input)
+        {
+           return input as RadioButton;
+        }
         #endregion
 
         #region misc notes
@@ -75,8 +80,7 @@ namespace BurgerBarn
         //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_burgers(object sender, EventArgs e)
         {
-            RadioButton bttn = sender as RadioButton;
-            updatePrice(bttn);
+            updatePrice(convertSender(sender));
         }
         #endregion
 
@@ -84,17 +88,15 @@ namespace BurgerBarn
         //all buttons related to the sides, will note anything that isn't just calling a function
         private void rdb_sides(object sender, EventArgs e)
         {
-            RadioButton bttn = sender as RadioButton;
-            updatePrice(bttn);
+            updatePrice(convertSender(sender));
         }
         #endregion
 
         #region drinks
         // all buttons related to the drinks Will note anything that isn't just calling a function
         private void rdb_drinks(object sender, EventArgs e)
-        {
-            RadioButton bttn = sender as RadioButton;
-            updatePrice(bttn);
+        { 
+            updatePrice(convertSender(sender));
         }
 
         
