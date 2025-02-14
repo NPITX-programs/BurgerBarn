@@ -1,6 +1,1 @@
-all the sorting is complete
-
-
-Sort Archives: Complete
-General .txt: To-Do
-Integrate Code: To-Do
+all the sorting is complete, now fixing (updateing) this file
