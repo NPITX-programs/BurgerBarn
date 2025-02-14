@@ -139,28 +139,6 @@ namespace BurgerBarn
 
         }
         #endregion
-        #region grop boxes
-        // group boxes
-
-
-        //burgers
-        private void gbxBurgers_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //sides
-        private void gbxSides_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //drinks
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
         #region not yet used
         private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
         {

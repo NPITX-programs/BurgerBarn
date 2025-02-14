@@ -71,7 +71,6 @@
             this.gbxBurgers.TabIndex = 0;
             this.gbxBurgers.TabStop = false;
             this.gbxBurgers.Text = "Burgers";
-            this.gbxBurgers.Enter += new System.EventHandler(this.gbxBurgers_Enter);
             // 
             // rdb_noBurg
             // 
@@ -148,7 +147,6 @@
             this.gbxDrinks.TabIndex = 1;
             this.gbxDrinks.TabStop = false;
             this.gbxDrinks.Text = "Drinks";
-            this.gbxDrinks.Enter += new System.EventHandler(this.gbxDrinks_Enter);
             // 
             // rdb_noDrink
             // 
@@ -225,7 +223,6 @@
             this.gbxSides.TabIndex = 2;
             this.gbxSides.TabStop = false;
             this.gbxSides.Text = "Sides";
-            this.gbxSides.Enter += new System.EventHandler(this.gbxSides_Enter);
             // 
             // rdb_noSide
             // 
