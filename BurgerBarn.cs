@@ -32,8 +32,7 @@ namespace BurgerBarn
 
         //functions
         #region functions
-
-        private void updatePrice(object input)
+        private void updatePrice(object input) //this will take in any object, convert it to a radio button, then modify the price acordingly
         {
             RadioButton button = input as RadioButton;
             if (button.Checked == true) //checks if true
@@ -43,21 +42,18 @@ namespace BurgerBarn
                     lst_order.Items.Add(button.Text);
                 }
                 subtotal += float.Parse(button.Tag.ToString()); //adds the cost to the subtotal
-
             }
             else
             {
                 lst_order.Items.Remove(button.Text); //removes the item from the list if it's no longer selected
                 subtotal -= float.Parse(button.Tag.ToString()); //subtracts that price, which is replaced with the addition of the other one
             }
-
             float tax = subtotal * tax_rate; //calculate the tax
             total = subtotal + tax; //calculate the total
             lbl_subtotal.Text = "Subtotal: " + subtotal.ToString("c2"); //put the subtotal (cost of all items without tax) into the label, useing 2 decimal places
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
-
         #endregion
 
         #region misc notes
@@ -74,22 +70,21 @@ namespace BurgerBarn
 
         #endregion
 
+        //code for the radio buttons
         #region buttons
-        private void rdb_burgers(object sender, EventArgs e)
+        private void rdb_burgers(object sender, EventArgs e) //this will call the function to update the price whenever the selected burger changes
         {
             updatePrice(sender);
         }
-        private void rdb_sides(object sender, EventArgs e)
+        private void rdb_sides(object sender, EventArgs e) //this will call the function to update the price whenever the selected side changes
         {
             updatePrice(sender);
         }
-        private void rdb_drinks(object sender, EventArgs e)
+        private void rdb_drinks(object sender, EventArgs e) //this will call the function to update the price whenever the selected drink changes
         {
             updatePrice(sender);
         }
         #endregion
-
-
 
         #region Misc UI
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
