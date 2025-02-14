@@ -6,3 +6,11 @@ requriments
 - invalid input shows error
 -clear screen
 - exit via exit button
+
+costs:
+
+burgers:
+plan burger- 4.99
+-cheeseburger- 5.99
+veggie burger- 6.49
+bacon burger- 7.99
