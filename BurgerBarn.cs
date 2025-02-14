@@ -11,11 +11,14 @@ namespace BurgerBarn
         {
             InitializeComponent();
         }
+
+        #region constants
         //constants
         float subtotal = 0;
         const float tax_rate = 0.0825f;
         const float tax_fac = tax_rate + 1f;
         float total = 0;
+        #endregion
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
         {
@@ -87,7 +90,6 @@ namespace BurgerBarn
 
 
         #endregion
-
 
         #region burgers
 
