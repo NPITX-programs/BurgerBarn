@@ -10,20 +10,20 @@ requriments
 costs:
 
 burgers:
-plain burger- 4.99
+-plain burger- 4.99
 -cheeseburger- 5.99
-veggie burger- 6.49
-bacon burger- 7.99
+-veggie burger- 6.49
+-bacon burger- 7.99
 
 sides: 
-fries: $0.50
-tater tots: $0.75
-onion rings: $0.99
-chips: $0.99
+-fries: $0.50
+-tater tots: $0.75
+-onion rings: $0.99
+-chips: $0.99
 
 drinks:
-Cola: $1.29
- Tea: $1.19
-Fruit Punch: $1.09
-Water: $0.99
+-Cola: $1.29
+-Tea: $1.19
+-Fruit Punch: $1.09
+-Water: $0.99
 
