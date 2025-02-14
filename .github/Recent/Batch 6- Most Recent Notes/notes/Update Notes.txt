@@ -1,0 +1,44 @@
+|___________________________________________________________________________________________________________________________________________|
+|mergeing in the progress bar that's designed to be (close) to the desired system- the goal is no animation, but for now, this works		|
+|trying to alter the organization of branches																								|
+|updateing update notes																														|
+|added in buttons																															|
+|created code for buttons																													|
+|updated buttons																															|
+|___________________________________________________________________________________________________________________________________________|
+|surround update notes in seperation boxes																									|
+|improve order of the code																													|
+|put refferences that might not be needed into a region																						|
+|___________________________________________________________________________________________________________________________________________|
+|remove progress bar (temporarilly)																											|
+|___________________________________________________________________________________________________________________________________________|
+|begin some repeairs
+|fix form
+|rebuild
+|clean
+|removed icon during tests
+|added icon back
+|
+|
+|Icon didin't easilly re-appear. Trying rebuild/ clean/ build
+|ReBuild: Didin't Work
+|Build: Didin't Work
+|Clean: Didin't Work
+|___________________________________________________________________________________________
+|renamed form
+|renamed some files for better explanation
+|renamed part of the program
+|named the "startup program" back to Program.cs
+|cleane
+|build
+|_______________________________________________________________________
+|rebuild
+|clean
+|	both soloution and the one not labeled soloution
+|test
+|__________________________________________________________________
+|move readme and notes to a new soloution-based system
+|more that I forget
+|_________________________
+|set up buttons and prices
+|modify readme to reflect that
