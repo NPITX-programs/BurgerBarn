@@ -1,3 +1,3 @@
 Sort Archives: To-Do
-General .txt: To-Do
+General .txt: Complete
 Integrate Code: To-Do
