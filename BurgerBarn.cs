@@ -84,7 +84,8 @@ namespace BurgerBarn
         //all buttons related to the sides Will note anything that isn't just calling a function
         private void rdb_sides(object sender, EventArgs e)
         {
-
+            RadioButton bttn = sender as RadioButton;
+            updatePrice(bttn);
         }
         #endregion
 
@@ -92,10 +93,11 @@ namespace BurgerBarn
         // all buttons related to the drinks Will note anything that isn't just calling a function
         private void rdb_drinks(object sender, EventArgs e)
         {
-
+            RadioButton bttn = sender as RadioButton;
+            updatePrice(bttn);
         }
 
-        //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
+        
         #endregion
 
 
@@ -114,10 +116,12 @@ namespace BurgerBarn
         }
 
         #endregion
-      
-        
-        
+
+
+
         #region background
+        //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
+        //also things that are refferenced, but have no code
         #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)
         {
