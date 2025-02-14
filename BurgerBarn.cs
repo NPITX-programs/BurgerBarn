@@ -157,8 +157,25 @@ namespace BurgerBarn
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
+
+
+        #region Misc UI
+        private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
+        {
+            MessageBox.Show("Thank You for your purchase");
+            rdb_noBurg.Checked = true;
+            rdb_noDrink.Checked = true;
+            rdb_noSide.Checked = true;
+        }
+
+        private void bttn_close_Click(object sender, EventArgs e) //exit application
+        {
+            Application.Exit();
+        }
+
+        #endregion
         #region background
-            #region costs
+        #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)
         {
 
@@ -174,7 +191,7 @@ namespace BurgerBarn
 
         }
         #endregion
-            #region grop boxes
+        #region grop boxes
         // group boxes
 
 
@@ -196,27 +213,12 @@ namespace BurgerBarn
 
         }
         #endregion
-            #region not yet used
+        #region not yet used
         private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
         #endregion
         #endregion
-
-        #region Misc UI
-        private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
-        {
-            MessageBox.Show("Thank You for your purchase");
-            rdb_noBurg.Checked = true;
-            rdb_noDrink.Checked = true;
-            rdb_noSide.Checked = true;
-        }
-
-        private void bttn_close_Click(object sender, EventArgs e) //exit application
-        {
-            Application.Exit();
-        }
     }
-    #endregion
 }
