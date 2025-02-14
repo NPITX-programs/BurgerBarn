@@ -20,3 +20,10 @@ fries: $0.50
 tater tots: $0.75
 onion rings: $0.99
 chips: $0.99
+
+drinks:
+Cola: $1.29
+ Tea: $1.19
+Fruit Punch: $1.09
+Water: $0.99
+
