@@ -1,7 +1,0 @@
-bring in archive 27, which is an archive of some basic improvments to code
-bring in archive 28, which is an archive of some basic improvments to the form (after improveing the codebase)
-bring in archive 29, which is an archive of the integration of the features of archive 27 and 28, as well as some other changes
-bring in archive 30, which is where the contents of 27, 28, and 29 where integrated, finalized, and tested
-bring in archive 31, which is what the current main is
-bring in archive 32, which is the one for before renames
-bring in archive 33, which is the part where I had just removed the progress bar
