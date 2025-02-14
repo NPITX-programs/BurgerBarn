@@ -1,4 +1,0 @@
-all notes 0: readme
-all notes 1: code
-all notes 2: form
-all notes 3: soloution
