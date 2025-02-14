@@ -1,6 +1,6 @@
+all the sorting is complete
 
 
-
-Sort Archives: To-Do
+Sort Archives: Complete
 General .txt: To-Do
 Integrate Code: To-Do
