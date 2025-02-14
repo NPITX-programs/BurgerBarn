@@ -1,1 +1,1 @@
-Currently archiveing the .github folder's contents, so I can clear it out
+Clearing the .github folder of all extraneus files
