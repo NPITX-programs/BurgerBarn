@@ -1,1 +1,2 @@
-need to see if any numbers are skipped, and if so renameing them so the archives are truly in an ordered list
+fixed errors.
+apparently numbers 1 through 11 where correct, but after that everything was offset by +1, so it went "10, 11, 13, 14, 15...". Fixed
