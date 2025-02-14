@@ -82,7 +82,7 @@ namespace BurgerBarn
         //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_burgers(object sender, EventArgs e)
         {
-            updatePrice(convertSender(sender));
+            updatePrice(sender);
         }
         #endregion
 
