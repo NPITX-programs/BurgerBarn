@@ -74,17 +74,12 @@ namespace BurgerBarn
         }
         #endregion
 
+
         #region misc
         //if I add in information about percent completed, remember
         //it already exists
         //the name is prg_totalItems
-        ///it's a progress bar <summary>
-        /// it's a progress bar
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        //some events that aren't used at the moment, but auto generated: 
-
+        ///it's a progress bar
 
         #endregion
 
