@@ -8,3 +8,13 @@ H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App D
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Release\BurgerBarn.csproj.CoreCompileInputs.cache
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Release\BurgerBarn.exe
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Release\BurgerBarn.pdb
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\bin\Release\BurgerBarn.exe.config
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\bin\Release\BurgerBarn.exe
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\bin\Release\BurgerBarn.pdb
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.csproj.AssemblyReference.cache
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.frmBurgerBarn.resources
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.Properties.Resources.resources
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.csproj.GenerateResource.cache
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.csproj.CoreCompileInputs.cache
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.exe
+P:\Github\CTH-npitx\App Dev 1\BurgerBarn\obj\Release\BurgerBarn.pdb

@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "BurgerBarn.cs",
               "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
               "RelativeToolTip": "BurgerBarn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:54:54.059Z",
               "IsPinned": true,
@@ -105,10 +105,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
@@ -121,8 +117,7 @@
               "RelativeToolTip": ".github\\notes\\notes to self.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-18T16:21:34.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T16:21:34.32Z"
             },
             {
               "$type": "Document",
@@ -134,8 +129,7 @@
               "RelativeToolTip": ".github\\notes\\Update Notes.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-04T17:20:53.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T17:20:53.495Z"
             },
             {
               "$type": "Document",
