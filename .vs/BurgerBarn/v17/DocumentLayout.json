@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|p:\\github\\cth-npitx\\app dev 1\\burgerbarn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|p:\\github\\cth-npitx\\app dev 1\\burgerbarn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}|BurgerBarn.csproj|solutionrelative:burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -42,8 +42,8 @@
               "Title": "BurgerBarn.cs [Design]",
               "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
               "RelativeDocumentMoniker": "BurgerBarn.cs",
-              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs [Design]*",
-              "RelativeToolTip": "BurgerBarn.cs [Design]*",
+              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs [Design]",
+              "RelativeToolTip": "BurgerBarn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:52:53.707Z",
               "IsPinned": true,
@@ -55,9 +55,9 @@
               "Title": "BurgerBarn.cs",
               "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
               "RelativeDocumentMoniker": "BurgerBarn.cs",
-              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs*",
-              "RelativeToolTip": "BurgerBarn.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAABAAAAAAAAAA==",
+              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
+              "RelativeToolTip": "BurgerBarn.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwE4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:54:54.059Z",
               "IsPinned": true,

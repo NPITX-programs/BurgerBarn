@@ -54,7 +54,6 @@ namespace BurgerBarn
             lbl_tax.Text = "Tax: " + tax.ToString("c2"); //same as above, only for the tax
             lbl_total.Text = "Total: " + total.ToString("c2"); //same as above, only for the sum of those 2
         }
-
         #endregion
 
         #region misc notes
@@ -76,7 +75,8 @@ namespace BurgerBarn
         //all buttons related to the burgers. Will note anything that isn't just calling a function
         private void rdb_burgers(object sender, EventArgs e)
         {
-
+            RadioButton bttn = sender as RadioButton;
+            updatePrice(bttn);
         }
         #endregion
 
