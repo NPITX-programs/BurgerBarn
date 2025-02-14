@@ -7,12 +7,11 @@ namespace BurgerBarn
 {
     public partial class frmBurgerBarn : Form
     {
-
-
         public frmBurgerBarn()
         {
             InitializeComponent();
         }
+        
         //all constants are in here
         #region constants
         float subtotal = 0; //the cost without tax
@@ -25,10 +24,6 @@ namespace BurgerBarn
         {
 
         }
-
-        #region notes
-        // Button btn = sender as sButton
-        #endregion
 
         //functions
         #region functions
@@ -56,20 +51,6 @@ namespace BurgerBarn
         }
         #endregion
 
-        #region misc notes
-        //if I add in information about percent completed, remember
-        //it already exists
-        // it's a progress bar
-        //the name is prg_totalItems
-        ///it's a progress bar <summary>
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        //some events that aren't used at the moment, but auto generated: 
-
-
-        #endregion
-
         //code for the radio buttons
         #region buttons
         private void rdb_burgers(object sender, EventArgs e) //this will call the function to update the price whenever the selected burger changes
@@ -86,6 +67,7 @@ namespace BurgerBarn
         }
         #endregion
 
+        //miscilaneus code for the UI
         #region Misc UI
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
@@ -94,12 +76,24 @@ namespace BurgerBarn
             rdb_noDrink.Checked = true;
             rdb_noSide.Checked = true;
         }
-
         private void bttn_close_Click(object sender, EventArgs e) //exit application
         {
             Application.Exit();
         }
-
+        #endregion
+        
+        // notes and such
+        #region notes
+        //if I add in information about percent completed, remember
+        //it already exists
+        // it's a progress bar
+        //the name is prg_totalItems
+        ///it's a progress bar <summary>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        //when useing an object, but needing a button, do "Button btn = sender as Button"
+        //modify as needed for other object types
         #endregion
     }
 }
