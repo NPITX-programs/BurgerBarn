@@ -24,6 +24,10 @@ namespace BurgerBarn
 
         }
 
+        #region notes
+        // Button btn = sender as sButton
+        #endregion
+
         //functions
         #region functions
 
@@ -92,6 +96,7 @@ namespace BurgerBarn
 
         private void rdb_noBurg_CheckedChanged(object sender, EventArgs e)
         {
+            
             updatePrice(rdb_noBurg);
         }
         #endregion
