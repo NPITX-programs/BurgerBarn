@@ -10,10 +10,10 @@ requriments
 costs:
 
 burgers:
--plain burger- 4.99
--cheeseburger- 5.99
--veggie burger- 6.49
--bacon burger- 7.99
+-plain burger: 4.99
+-cheeseburger: 5.99
+-veggie burger: 6.49
+-bacon burger: 7.99
 
 sides: 
 -fries: 0.50
