@@ -1,1 +1,6 @@
-moveing the readme out of .github, so that I don't need to have the .github folder
+
+
+
+Sort Archives: To-Do
+General .txt: To-Do
+Integrate Code: To-Do
