@@ -54,28 +54,7 @@ namespace BurgerBarn
 
         #endregion
 
-        #region grop boxes
-        // group boxes
-
-
-        //burgers
-        private void gbxBurgers_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //sides
-        private void gbxSides_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //drinks
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
+        
 
         #region misc
         //if I add in information about percent completed, remember
@@ -180,12 +159,9 @@ namespace BurgerBarn
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
-        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        #region costs
+        #region background
+            #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)
         {
 
@@ -201,6 +177,36 @@ namespace BurgerBarn
 
         }
         #endregion
+            #region grop boxes
+        // group boxes
+
+
+        //burgers
+        private void gbxBurgers_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        //sides
+        private void gbxSides_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        //drinks
+        private void gbxDrinks_Enter(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+            #region not yet used
+        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+        #endregion
+
 
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
