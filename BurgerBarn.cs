@@ -74,24 +74,20 @@ namespace BurgerBarn
 
         #endregion
 
-        //all buttons related to the burgers. Will note anything that isn't just calling a function
+        #region buttons
         private void rdb_burgers(object sender, EventArgs e)
         {
             updatePrice(sender);
         }
-
-        //all buttons related to the sides, will note anything that isn't just calling a function
         private void rdb_sides(object sender, EventArgs e)
         {
             updatePrice(sender);
         }
-
-        // all buttons related to the drinks Will note anything that isn't just calling a function
         private void rdb_drinks(object sender, EventArgs e)
         {
             updatePrice(sender);
         }
-
+        #endregion
 
 
 
