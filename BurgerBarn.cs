@@ -90,36 +90,13 @@ namespace BurgerBarn
 
         #region drinks
         // all buttons related to the drinks Will note anything that isn't just calling a function
-
-        private void rdb_drinkCoala_CheckedChanged(object sender, EventArgs e)
+        private void rdb_drinks(object sender, EventArgs e)
         {
-            updatePrice(rdb_drinkCoala);
-        }
 
-        private void rdb_drinkTea_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_drinkTea);
         }
-
-        private void rdb_drinkPunch_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_drinkPunch);
-        }
-
-        private void rdb_drinkWater_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_drinkWater);
-        }
-
-        private void rdb_noDrink_CheckedChanged(object sender, EventArgs e)
-        {
-            updatePrice(rdb_noDrink);
-        }
-
 
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
-
 
 
         #region Misc UI
@@ -137,6 +114,9 @@ namespace BurgerBarn
         }
 
         #endregion
+      
+        
+        
         #region background
         #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)

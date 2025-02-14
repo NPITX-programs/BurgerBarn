@@ -162,7 +162,7 @@
             this.rdb_noDrink.Tag = "0";
             this.rdb_noDrink.Text = "None";
             this.rdb_noDrink.UseVisualStyleBackColor = true;
-            this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_noDrink_CheckedChanged);
+            this.rdb_noDrink.CheckedChanged += new System.EventHandler(this.rdb_drinks);
             // 
             // rdb_drinkWater
             // 
@@ -174,7 +174,7 @@
             this.rdb_drinkWater.Tag = "0.99";
             this.rdb_drinkWater.Text = "Water: $0.99";
             this.rdb_drinkWater.UseVisualStyleBackColor = true;
-            this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinkWater_CheckedChanged);
+            this.rdb_drinkWater.CheckedChanged += new System.EventHandler(this.rdb_drinks);
             // 
             // rdb_drinkPunch
             // 
@@ -186,7 +186,7 @@
             this.rdb_drinkPunch.Tag = "1.09";
             this.rdb_drinkPunch.Text = "Fruit Punch: $1.09";
             this.rdb_drinkPunch.UseVisualStyleBackColor = true;
-            this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinkPunch_CheckedChanged);
+            this.rdb_drinkPunch.CheckedChanged += new System.EventHandler(this.rdb_drinks);
             // 
             // rdb_drinkCoala
             // 
@@ -198,7 +198,7 @@
             this.rdb_drinkCoala.Tag = "1.29";
             this.rdb_drinkCoala.Text = "Coala: $1.29";
             this.rdb_drinkCoala.UseVisualStyleBackColor = true;
-            this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinkCoala_CheckedChanged);
+            this.rdb_drinkCoala.CheckedChanged += new System.EventHandler(this.rdb_drinks);
             // 
             // rdb_drinkTea
             // 
@@ -210,7 +210,7 @@
             this.rdb_drinkTea.Tag = "1.99";
             this.rdb_drinkTea.Text = "Tea: $1.99";
             this.rdb_drinkTea.UseVisualStyleBackColor = true;
-            this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinkTea_CheckedChanged);
+            this.rdb_drinkTea.CheckedChanged += new System.EventHandler(this.rdb_drinks);
             // 
             // gbxSides
             // 
