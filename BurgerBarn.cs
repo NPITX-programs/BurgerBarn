@@ -115,56 +115,5 @@ namespace BurgerBarn
         }
 
         #endregion
-
-
-
-        #region background
-        //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
-        //also things that are refferenced, but have no code
-        #region costs
-        private void lbl_subtotal_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_tax_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_total_Click(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
-        #region grop boxes
-        // group boxes
-
-
-        //burgers
-        private void gbxBurgers_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //sides
-        private void gbxSides_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //drinks
-        private void gbxDrinks_Enter(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
-        #region not yet used
-        private void lst_order_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
-        #endregion
     }
 }
