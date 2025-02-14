@@ -54,8 +54,6 @@ namespace BurgerBarn
 
         #endregion
 
-        
-
         #region misc
         //if I add in information about percent completed, remember
         //it already exists
@@ -159,7 +157,6 @@ namespace BurgerBarn
         //inside here are things that aren't needed yet, or possibly ever if ever, will look into how to remove
         #endregion
 
-
         #region background
             #region costs
         private void lbl_subtotal_Click(object sender, EventArgs e)
@@ -207,7 +204,7 @@ namespace BurgerBarn
         #endregion
         #endregion
 
-
+        #region Misc UI
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
             MessageBox.Show("Thank You for your purchase");
@@ -221,4 +218,5 @@ namespace BurgerBarn
             Application.Exit();
         }
     }
+    #endregion
 }
