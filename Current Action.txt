@@ -1,1 +1,1 @@
-Currently clearing uneeded/ redundent/ confusing files
+Currently archiveing the .github folder's contents, so I can clear it out
