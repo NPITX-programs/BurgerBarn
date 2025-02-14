@@ -239,7 +239,7 @@
             this.rdb_noSide.Tag = "0";
             this.rdb_noSide.Text = "None";
             this.rdb_noSide.UseVisualStyleBackColor = true;
-            this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_noSide_CheckedChanged);
+            this.rdb_noSide.CheckedChanged += new System.EventHandler(this.rdb_sides);
             // 
             // rdb_sideChip
             // 
@@ -251,7 +251,7 @@
             this.rdb_sideChip.Tag = "0.99";
             this.rdb_sideChip.Text = "Chips: $0.99";
             this.rdb_sideChip.UseVisualStyleBackColor = true;
-            this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sideChip_CheckedChanged);
+            this.rdb_sideChip.CheckedChanged += new System.EventHandler(this.rdb_sides);
             // 
             // rdb_sideOnioRing
             // 
@@ -263,7 +263,7 @@
             this.rdb_sideOnioRing.Tag = "0.99";
             this.rdb_sideOnioRing.Text = "Onion Rings: $0.99";
             this.rdb_sideOnioRing.UseVisualStyleBackColor = true;
-            this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sideOnioRing_CheckedChanged);
+            this.rdb_sideOnioRing.CheckedChanged += new System.EventHandler(this.rdb_sides);
             // 
             // rdb_sideTatTot
             // 
@@ -275,7 +275,7 @@
             this.rdb_sideTatTot.Tag = "0.75";
             this.rdb_sideTatTot.Text = "Tater Tots: $0.75";
             this.rdb_sideTatTot.UseVisualStyleBackColor = true;
-            this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sideTatTot_CheckedChanged);
+            this.rdb_sideTatTot.CheckedChanged += new System.EventHandler(this.rdb_sides);
             // 
             // rdb_sidesFries
             // 
@@ -287,7 +287,7 @@
             this.rdb_sidesFries.Tag = "0.50";
             this.rdb_sidesFries.Text = "Fries: $0.50";
             this.rdb_sidesFries.UseVisualStyleBackColor = true;
-            this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sidesFries_CheckedChanged);
+            this.rdb_sidesFries.CheckedChanged += new System.EventHandler(this.rdb_sides);
             // 
             // lst_order
             // 
