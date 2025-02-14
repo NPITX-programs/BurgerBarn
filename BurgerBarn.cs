@@ -11,13 +11,12 @@ namespace BurgerBarn
         {
             InitializeComponent();
         }
-
+        //all constants are in here
         #region constants
-        //constants
-        float subtotal = 0;
-        const float tax_rate = 0.0825f;
-        const float tax_fac = tax_rate + 1f;
-        float total = 0;
+        float subtotal = 0; //the cost without tax
+        const float tax_rate = 0.0825f; //the percentage of tax
+        const float tax_fac = tax_rate + 1f; //the percentage with a 1 added to it, so multiplication can be used
+        float total = 0; //the cost factoring in tax
         #endregion
 
         private void frmBurgerBarn_Load(object sender, EventArgs e)
@@ -54,12 +53,12 @@ namespace BurgerBarn
 
         #endregion
 
-        #region misc
+        #region misc notes
         //if I add in information about percent completed, remember
         //it already exists
+        // it's a progress bar
         //the name is prg_totalItems
         ///it's a progress bar <summary>
-        /// it's a progress bar
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
