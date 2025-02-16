@@ -58,5 +58,10 @@ namespace BurgerBarn
             Application.Exit();
         }
         #endregion
+
+        private void rdb_Selection(object sender, EventArgs e)
+        {
+
+        }
     }
 }
