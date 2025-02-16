@@ -39,7 +39,7 @@ namespace BurgerBarn
         }
         #endregion
         #region ordering
-        private void rdb_burgers(object sender, EventArgs e) //this will call the function to update the price whenever the selected item changes
+        private void rdb_Selection(object sender, EventArgs e) //this will call the function to update the price whenever the selected item changes
         {
             updatePrice(sender);
         }
@@ -58,10 +58,5 @@ namespace BurgerBarn
             Application.Exit();
         }
         #endregion
-
-        private void rdb_Selection(object sender, EventArgs e)
-        {
-
-        }
     }
 }
