@@ -1,1 +1,5 @@
 This is where the results shall go:
+
+Firstly, the intermediar:
+It worked. The first event destroyed the old refferences, and the second step was basically the same as if I had moved the code into the new event, even though technically I edited the name of the old event and deleted the new one completly.
+No excess code was left behind, nor was any (noticible) harm done to the refferences
