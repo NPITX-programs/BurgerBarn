@@ -43,14 +43,6 @@ namespace BurgerBarn
         {
             updatePrice(sender);
         }
-        private void rdb_sides(object sender, EventArgs e) //this will call the function to update the price whenever the selected side changes
-        {
-            updatePrice(sender);
-        }
-        private void rdb_drinks(object sender, EventArgs e) //this will call the function to update the price whenever the selected drink changes
-        {
-            updatePrice(sender);
-        }
         #endregion
         #region interface
         //parts of the interface that are simpler, just simple buttons
