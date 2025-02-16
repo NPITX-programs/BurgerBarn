@@ -1,6 +1,3 @@
-# this specific branch
-this contains the creation of a function that will auto-preform the calculation of the prices
-
 # Burger Barn
 A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
