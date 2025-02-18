@@ -24,19 +24,16 @@ namespace BurgerBarn
 
         private void rdb_selectBurg(object sender, EventArgs e)
         {
-            RadioButton burgers = (RadioButton)sender; //radio button is burgers all together
             rdbSelect (sender); //directly send the sender to the function
         }
 
         private void rdb_selectSide(object sender, EventArgs e)
         {
-            RadioButton sides = (RadioButton)sender; //radio button is all sides together
             rdbSelect(sender); //directly send the sender to the function
         }
 
         private void rdb_selectDrink(object sender, EventArgs e)
         {
-            RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
             rdbSelect(sender); //directly send the sender to the function
         }
         //Method for Radio Buttons 
