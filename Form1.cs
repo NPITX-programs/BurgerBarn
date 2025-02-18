@@ -16,7 +16,6 @@ namespace BurgerBarn
         float subtotal = 0;
         const float tax_rate = 0.0825f;
 
-
         public Form1()
         {
             InitializeComponent();
@@ -40,11 +39,6 @@ namespace BurgerBarn
             rdbSelect(drinks); //method call
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-       
-        }
         //Method for Radio Buttons 
         private void rdbSelect(RadioButton rdb)
         {
