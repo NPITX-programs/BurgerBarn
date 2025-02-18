@@ -242,7 +242,7 @@
             this.rdbWater.Tag = ".99";
             this.rdbWater.Text = "Water ($0.99)";
             this.rdbWater.UseVisualStyleBackColor = true;
-            this.rdbWater.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
+            this.rdbWater.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbNoDrink
             // 
@@ -257,7 +257,7 @@
             this.rdbNoDrink.Tag = "0";
             this.rdbNoDrink.Text = "None";
             this.rdbNoDrink.UseVisualStyleBackColor = true;
-            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
+            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbCola
             // 
@@ -271,7 +271,7 @@
             this.rdbCola.Tag = "1.29";
             this.rdbCola.Text = "Cola ($1.29)";
             this.rdbCola.UseVisualStyleBackColor = true;
-            this.rdbCola.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
+            this.rdbCola.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbFruitPunch
             // 
@@ -285,7 +285,7 @@
             this.rdbFruitPunch.Tag = "1.09";
             this.rdbFruitPunch.Text = "Fruit Punch ($1.09)";
             this.rdbFruitPunch.UseVisualStyleBackColor = true;
-            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
+            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbTea
             // 
@@ -299,7 +299,7 @@
             this.rdbTea.Tag = "1.19";
             this.rdbTea.Text = "Tea ($1.19)";
             this.rdbTea.UseVisualStyleBackColor = true;
-            this.rdbTea.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
+            this.rdbTea.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // groupBox3
             // 
@@ -328,7 +328,7 @@
             this.rdbChips.Tag = ".99";
             this.rdbChips.Text = "Chips ($0.99)";
             this.rdbChips.UseVisualStyleBackColor = true;
-            this.rdbChips.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
+            this.rdbChips.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbNoSide
             // 
@@ -343,7 +343,7 @@
             this.rdbNoSide.Tag = "0";
             this.rdbNoSide.Text = "None";
             this.rdbNoSide.UseVisualStyleBackColor = true;
-            this.rdbNoSide.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
+            this.rdbNoSide.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbFries
             // 
@@ -357,7 +357,7 @@
             this.rdbFries.Tag = ".50";
             this.rdbFries.Text = "Fries ($0.50)";
             this.rdbFries.UseVisualStyleBackColor = true;
-            this.rdbFries.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
+            this.rdbFries.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbOnionRings
             // 
@@ -371,7 +371,7 @@
             this.rdbOnionRings.Tag = ".99";
             this.rdbOnionRings.Text = "Onion Rings ($0.99)";
             this.rdbOnionRings.UseVisualStyleBackColor = true;
-            this.rdbOnionRings.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
+            this.rdbOnionRings.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbTaterTots
             // 
@@ -385,7 +385,7 @@
             this.rdbTaterTots.Tag = ".75";
             this.rdbTaterTots.Text = "Tater Tots ($0.75)";
             this.rdbTaterTots.UseVisualStyleBackColor = true;
-            this.rdbTaterTots.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
+            this.rdbTaterTots.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // btnPurchase
             // 
@@ -409,7 +409,7 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -426,7 +426,7 @@
             this.Controls.Add(this.lblSubtoal);
             this.Controls.Add(this.lstOrder);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "BurgerBarn";
             this.Text = "Burger Barn";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
