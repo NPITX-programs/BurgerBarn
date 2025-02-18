@@ -39,12 +39,6 @@ namespace BurgerBarn
             RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
             rdbSelect(sender); //method call
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-       
-        }
         //Method for Radio Buttons 
         private void rdbSelect(object bttn)
         {
