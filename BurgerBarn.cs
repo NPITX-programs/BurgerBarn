@@ -16,7 +16,7 @@ namespace BurgerBarn
 
         private void rdb_selectItem(object sender, EventArgs e)
         {
-            rdbSelect (sender); //directly send the sender to the function
+            rdbSelect(sender); //directly send the sender to the function
         }
 
         //function for ordering
