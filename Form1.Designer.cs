@@ -72,7 +72,7 @@
             this.rdbPlainBurger.Tag = "4.99";
             this.rdbPlainBurger.Text = "Plain Burger ($4.99)";
             this.rdbPlainBurger.UseVisualStyleBackColor = true;
-            this.rdbPlainBurger.CheckedChanged += new System.EventHandler(this.rdbPlainBurger_CheckedChanged);
+            this.rdbPlainBurger.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbCheeseburger
             // 
@@ -86,7 +86,7 @@
             this.rdbCheeseburger.Tag = "5.99";
             this.rdbCheeseburger.Text = "Cheeseburger ($5.99)";
             this.rdbCheeseburger.UseVisualStyleBackColor = true;
-            this.rdbCheeseburger.CheckedChanged += new System.EventHandler(this.rdbPlainBurger_CheckedChanged);
+            this.rdbCheeseburger.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbVeggieBurger
             // 
@@ -100,7 +100,7 @@
             this.rdbVeggieBurger.Tag = "6.49";
             this.rdbVeggieBurger.Text = "Veggie Burger ($6.49)";
             this.rdbVeggieBurger.UseVisualStyleBackColor = true;
-            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.rdbPlainBurger_CheckedChanged);
+            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbBaconBurger
             // 
@@ -114,7 +114,7 @@
             this.rdbBaconBurger.Tag = "7.99";
             this.rdbBaconBurger.Text = "Bacon Burger ($7.99)";
             this.rdbBaconBurger.UseVisualStyleBackColor = true;
-            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.rdbPlainBurger_CheckedChanged);
+            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // rdbNoBurger
             // 
@@ -129,7 +129,7 @@
             this.rdbNoBurger.Tag = "0";
             this.rdbNoBurger.Text = "None";
             this.rdbNoBurger.UseVisualStyleBackColor = true;
-            this.rdbNoBurger.CheckedChanged += new System.EventHandler(this.rdbPlainBurger_CheckedChanged);
+            this.rdbNoBurger.CheckedChanged += new System.EventHandler(this.rdb_selectBurg);
             // 
             // lstOrder
             // 
@@ -243,7 +243,7 @@
             this.rdbWater.Tag = ".99";
             this.rdbWater.Text = "Water ($0.99)";
             this.rdbWater.UseVisualStyleBackColor = true;
-            this.rdbWater.CheckedChanged += new System.EventHandler(this.rdbCola_CheckedChanged);
+            this.rdbWater.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
             // 
             // rdbNoDrink
             // 
@@ -258,7 +258,7 @@
             this.rdbNoDrink.Tag = "0";
             this.rdbNoDrink.Text = "None";
             this.rdbNoDrink.UseVisualStyleBackColor = true;
-            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.rdbCola_CheckedChanged);
+            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
             // 
             // rdbCola
             // 
@@ -272,7 +272,7 @@
             this.rdbCola.Tag = "1.29";
             this.rdbCola.Text = "Cola ($1.29)";
             this.rdbCola.UseVisualStyleBackColor = true;
-            this.rdbCola.CheckedChanged += new System.EventHandler(this.rdbCola_CheckedChanged);
+            this.rdbCola.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
             // 
             // rdbFruitPunch
             // 
@@ -286,7 +286,7 @@
             this.rdbFruitPunch.Tag = "1.09";
             this.rdbFruitPunch.Text = "Fruit Punch ($1.09)";
             this.rdbFruitPunch.UseVisualStyleBackColor = true;
-            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.rdbCola_CheckedChanged);
+            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
             // 
             // rdbTea
             // 
@@ -300,7 +300,7 @@
             this.rdbTea.Tag = "1.19";
             this.rdbTea.Text = "Tea ($1.19)";
             this.rdbTea.UseVisualStyleBackColor = true;
-            this.rdbTea.CheckedChanged += new System.EventHandler(this.rdbCola_CheckedChanged);
+            this.rdbTea.CheckedChanged += new System.EventHandler(this.rdb_selectDrink);
             // 
             // groupBox3
             // 
@@ -329,7 +329,7 @@
             this.rdbChips.Tag = ".99";
             this.rdbChips.Text = "Chips ($0.99)";
             this.rdbChips.UseVisualStyleBackColor = true;
-            this.rdbChips.CheckedChanged += new System.EventHandler(this.rdbFries_CheckedChanged);
+            this.rdbChips.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
             // 
             // rdbNoSide
             // 
@@ -344,7 +344,7 @@
             this.rdbNoSide.Tag = "0";
             this.rdbNoSide.Text = "None";
             this.rdbNoSide.UseVisualStyleBackColor = true;
-            this.rdbNoSide.CheckedChanged += new System.EventHandler(this.rdbFries_CheckedChanged);
+            this.rdbNoSide.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
             // 
             // rdbFries
             // 
@@ -358,7 +358,7 @@
             this.rdbFries.Tag = ".50";
             this.rdbFries.Text = "Fries ($0.50)";
             this.rdbFries.UseVisualStyleBackColor = true;
-            this.rdbFries.CheckedChanged += new System.EventHandler(this.rdbFries_CheckedChanged);
+            this.rdbFries.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
             // 
             // rdbOnionRings
             // 
@@ -372,7 +372,7 @@
             this.rdbOnionRings.Tag = ".99";
             this.rdbOnionRings.Text = "Onion Rings ($0.99)";
             this.rdbOnionRings.UseVisualStyleBackColor = true;
-            this.rdbOnionRings.CheckedChanged += new System.EventHandler(this.rdbFries_CheckedChanged);
+            this.rdbOnionRings.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
             // 
             // rdbTaterTots
             // 
@@ -386,7 +386,7 @@
             this.rdbTaterTots.Tag = ".75";
             this.rdbTaterTots.Text = "Tater Tots ($0.75)";
             this.rdbTaterTots.UseVisualStyleBackColor = true;
-            this.rdbTaterTots.CheckedChanged += new System.EventHandler(this.rdbFries_CheckedChanged);
+            this.rdbTaterTots.CheckedChanged += new System.EventHandler(this.rdb_selectSide);
             // 
             // btnPurchase
             // 

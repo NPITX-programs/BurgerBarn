@@ -22,7 +22,7 @@ namespace BurgerBarn
             InitializeComponent();
         }
 
-        private void rdbPlainBurger_CheckedChanged(object sender, EventArgs e)
+        private void rdb_selectBurg(object sender, EventArgs e)
         {
             RadioButton burgers = (RadioButton)sender; //radio button is burgers all together
 
@@ -37,7 +37,7 @@ namespace BurgerBarn
 
         }
 
-        private void rdbFries_CheckedChanged(object sender, EventArgs e)
+        private void rdb_selectSide(object sender, EventArgs e)
         {
             RadioButton sides = (RadioButton)sender; //radio button is all sides together
 
@@ -46,7 +46,7 @@ namespace BurgerBarn
 
        
 
-        private void rdbCola_CheckedChanged(object sender, EventArgs e)
+        private void rdb_selectDrink(object sender, EventArgs e)
         {
             RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
             
@@ -62,7 +62,6 @@ namespace BurgerBarn
                 rdbNoBurger.Checked = true;
                 rdbNoDrink.Checked = true;
                 rdbNoSide.Checked = true;   
-            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
