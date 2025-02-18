@@ -16,6 +16,7 @@ namespace BurgerBarn
         float subtotal = 0;
         const float tax_rate = 0.0825f;
 
+
         public Form1()
         {
             InitializeComponent();
@@ -30,18 +31,18 @@ namespace BurgerBarn
         private void rdb_selectSide(object sender, EventArgs e)
         {
             RadioButton sides = (RadioButton)sender; //radio button is all sides together
-            rdbSelect(sides); //method call
+            rdbSelect(sender); //method call
         }
 
         private void rdb_selectDrink(object sender, EventArgs e)
         {
             RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
-            rdbSelect(drinks); //method call
+            rdbSelect(sender); //method call
         }
-
         //Method for Radio Buttons 
-        private void rdbSelect(RadioButton rdb)
+        private void rdbSelect(object bttn)
         {
+            RadioButton rdb =  bttn;
             if (rdb.Checked) //rdb selected
             {
                 if(rdb.Text != "None") // If none is ever selected it doesn't add to receipt
