@@ -35,14 +35,11 @@ namespace BurgerBarn
             {
                 if(rdb.Text != "None") // If none is ever selected it doesn't add to receipt
                     lstOrder.Items.Add(rdb.Text); //Adds items to receipt
-
-
                 subtotal += float.Parse(rdb.Tag.ToString()); //adds price to receipt
             }
             else
             {
                 lstOrder.Items.Remove(rdb.Text); //removes Items from order
-
                 subtotal -= float.Parse(rdb.Tag.ToString()); // removes price from receipt
             }
             //calculate totals
