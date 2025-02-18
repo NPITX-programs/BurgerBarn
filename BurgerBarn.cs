@@ -49,8 +49,8 @@ namespace BurgerBarn
         //parts of the interface that are simpler, just simple buttons
         private void bttn_purchase_Click(object sender, EventArgs e) //clear input and acknowledge purchase
         {
-            MessageBox.Show("Thank You for your purchase");
-            rdb_noBurg.Checked = true;
+            MessageBox.Show("Thank You for your purchase"); //thank you box
+            rdb_noBurg.Checked = true; //reset sellections
             rdb_noDrink.Checked = true;
             rdb_noSide.Checked = true;
         }
