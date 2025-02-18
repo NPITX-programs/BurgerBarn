@@ -7,19 +7,99 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BurgerBarn
 {
-    public partial class frmBurgerBarn : Form
+    public partial class Form1 : Form
     {
-        public frmBurgerBarn()
+        float subtotal = 0;
+        const float tax_rate = 0.0825f;
+
+
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void frmBurgerBarn_Load(object sender, EventArgs e)
+        private void rdbPlainBurger_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton burgers = (RadioButton)sender; //radio button is burgers all together
+
+            rdbSelect (burgers); //method call
+
+
+        }
+
+
+        private void lblTotal_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void rdbFries_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton sides = (RadioButton)sender; //radio button is all sides together
+
+            rdbSelect(sides); //method call
+        }
+
+       
+
+        private void rdbCola_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
+            
+            rdbSelect(drinks); //method call
+
+        }
+
+
+
+        private void btnPurchase_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for your purchase!");
+                rdbNoBurger.Checked = true;
+                rdbNoDrink.Checked = true;
+                rdbNoSide.Checked = true;   
+            
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+       
+        }
+        //Method for Radio Buttons 
+        private void rdbSelect(RadioButton rdb)
+        {
+            if (rdb.Checked) //rdb selected
+            {
+                if(rdb.Text != "None") // If none is ever selected it doesn't add to receipt
+                    lstOrder.Items.Add(rdb.Text); //Adds items to receipt
+
+
+                subtotal += float.Parse(rdb.Tag.ToString()); //adds price to receipt
+            }
+            else
+            {
+                lstOrder.Items.Remove(rdb.Text); //removes Items from order
+
+                subtotal -= float.Parse(rdb.Tag.ToString()); // removes price from receipt
+            }
+            //calculate totals
+            float tax = subtotal * tax_rate;
+            float total = subtotal + tax;
+
+            //display totals
+            lblSubtoal.Text = subtotal.ToString("c2");
+            lblTax.Text = tax.ToString("c2");
+            lblTotal.Text = total.ToString("c2");
         }
     }
 }

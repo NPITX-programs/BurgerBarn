@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B9A889F4-3CC0-4FFE-A516-0ECFDFF4DC6A}</ProjectGuid>
+    <ProjectGuid>{3857BCDC-E675-4341-B17C-AD0B023DD940}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BurgerBarn</RootNamespace>
     <AssemblyName>BurgerBarn</AssemblyName>
