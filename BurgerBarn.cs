@@ -27,7 +27,7 @@ namespace BurgerBarn
             rdbSelect (sender); //directly send the sender to the function
         }
 
-        //Method for Radio Buttons 
+        //function for ordering
         private void rdbSelect(object bttn)
         {
             RadioButton rdb = bttn as RadioButton; //takes the inputed object (sender), and converts it to a radio button
