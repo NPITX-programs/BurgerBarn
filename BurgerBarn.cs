@@ -11,13 +11,13 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BurgerBarn
 {
-    public partial class Form1 : Form
+    public partial class BurgerBarn : Form
     {
         float subtotal = 0;
         const float tax_rate = 0.0825f;
 
 
-        public Form1()
+        public BurgerBarn()
         {
             InitializeComponent();
         }

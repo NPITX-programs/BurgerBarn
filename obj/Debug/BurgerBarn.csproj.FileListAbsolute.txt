@@ -12,9 +12,9 @@ H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App D
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\bin\Debug\BurgerBarn.exe
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\bin\Debug\BurgerBarn.pdb
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.csproj.AssemblyReference.cache
-H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.Form1.resources
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.Properties.Resources.resources
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.csproj.GenerateResource.cache
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.csproj.CoreCompileInputs.cache
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.exe
 H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.pdb
+H:\Students_Folder\Charlie Hatch\Semesters\Multi-Semester\App Dev\Projects\App Dev 1\Burger Barn\obj\Debug\BurgerBarn.BurgerBarn.resources
