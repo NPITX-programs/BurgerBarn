@@ -25,19 +25,19 @@ namespace BurgerBarn
         private void rdb_selectBurg(object sender, EventArgs e)
         {
             RadioButton burgers = (RadioButton)sender; //radio button is burgers all together
-            rdbSelect (burgers); //method call
+            rdbSelect (sender); //directly send the sender to the function
         }
 
         private void rdb_selectSide(object sender, EventArgs e)
         {
             RadioButton sides = (RadioButton)sender; //radio button is all sides together
-            rdbSelect(sender); //method call
+            rdbSelect(sender); //directly send the sender to the function
         }
 
         private void rdb_selectDrink(object sender, EventArgs e)
         {
             RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
-            rdbSelect(sender); //method call
+            rdbSelect(sender); //directly send the sender to the function
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace BurgerBarn
         //Method for Radio Buttons 
         private void rdbSelect(object bttn)
         {
-            RadioButton rdb =  bttn;
+            RadioButton rdb = bttn as RadioButton; //takes the inputed object (sender), and converts it to a radio button
             if (rdb.Checked) //rdb selected
             {
                 if(rdb.Text != "None") // If none is ever selected it doesn't add to receipt
