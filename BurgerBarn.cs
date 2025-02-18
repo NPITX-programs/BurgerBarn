@@ -22,20 +22,11 @@ namespace BurgerBarn
             InitializeComponent();
         }
 
-        private void rdb_selectBurg(object sender, EventArgs e)
+        private void rdb_selectItem(object sender, EventArgs e)
         {
             rdbSelect (sender); //directly send the sender to the function
         }
 
-        private void rdb_selectSide(object sender, EventArgs e)
-        {
-            rdbSelect(sender); //directly send the sender to the function
-        }
-
-        private void rdb_selectDrink(object sender, EventArgs e)
-        {
-            rdbSelect(sender); //directly send the sender to the function
-        }
         //Method for Radio Buttons 
         private void rdbSelect(object bttn)
         {
