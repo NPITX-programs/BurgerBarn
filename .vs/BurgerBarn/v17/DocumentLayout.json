@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3857BCDC-E675-4341-B17C-AD0B023DD940}|BurgerBarn.csproj|solutionrelative:burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3857BCDC-E675-4341-B17C-AD0B023DD940}|BurgerBarn.csproj|h:\\students_folder\\charlie hatch\\semesters\\multi-semester\\app dev\\projects\\app dev 1\\burger barn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3857BCDC-E675-4341-B17C-AD0B023DD940}|BurgerBarn.csproj|H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3857BCDC-E675-4341-B17C-AD0B023DD940}|BurgerBarn.csproj|solutionrelative:burgerbarn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "BurgerBarn.cs",
               "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
               "RelativeToolTip": "BurgerBarn.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vx4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T21:09:48.908Z",
               "EditorCaption": ""
@@ -54,8 +54,7 @@
               "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs [Design]",
               "RelativeToolTip": "BurgerBarn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:09:45.972Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-18T21:09:45.972Z"
             }
           ]
         }
