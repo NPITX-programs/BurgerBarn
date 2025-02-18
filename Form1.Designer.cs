@@ -184,7 +184,6 @@
             this.lblTotal.Size = new System.Drawing.Size(45, 19);
             this.lblTotal.TabIndex = 5;
             this.lblTotal.Text = "$0.00";
-            this.lblTotal.Click += new System.EventHandler(this.lblTotal_Click);
             // 
             // label1
             // 

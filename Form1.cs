@@ -25,48 +25,19 @@ namespace BurgerBarn
         private void rdb_selectBurg(object sender, EventArgs e)
         {
             RadioButton burgers = (RadioButton)sender; //radio button is burgers all together
-
             rdbSelect (burgers); //method call
-
-
-        }
-
-
-        private void lblTotal_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void rdb_selectSide(object sender, EventArgs e)
         {
             RadioButton sides = (RadioButton)sender; //radio button is all sides together
-
             rdbSelect(sides); //method call
         }
-
-       
 
         private void rdb_selectDrink(object sender, EventArgs e)
         {
             RadioButton drinks = (RadioButton)sender; // radio button is drinks all together
-            
             rdbSelect(drinks); //method call
-
-        }
-
-
-
-        private void btnPurchase_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thank you for your purchase!");
-                rdbNoBurger.Checked = true;
-                rdbNoDrink.Checked = true;
-                rdbNoSide.Checked = true;   
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit(); 
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -100,5 +71,19 @@ namespace BurgerBarn
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
         }
+
+        #region UI
+        private void btnExit_Click(object sender, EventArgs e) //exit program
+        {
+            Application.Exit();
+        }
+        private void btnPurchase_Click(object sender, EventArgs e) //purchase
+        {
+            MessageBox.Show("Thank you for your purchase!");
+            rdbNoBurger.Checked = true;
+            rdbNoDrink.Checked = true;
+            rdbNoSide.Checked = true;
+        }
+        #endregion UI
     }
 }
