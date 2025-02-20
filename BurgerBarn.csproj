@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3857BCDC-E675-4341-B17C-AD0B023DD940}</ProjectGuid>
+    <ProjectGuid>{A8276740-61EE-4A9C-B59C-67A1C2E1AD47}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BurgerBarn</RootNamespace>
-    <AssemblyName>BurgerBarn</AssemblyName>
+    <RootNamespace>BurgerBarnSummer</RootNamespace>
+    <AssemblyName>BurgerBarnSummer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BurgerBarn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BurgerBarn.Designer.cs">
+      <DependentUpon>BurgerBarn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="BurgerBarn.resx">
+      <DependentUpon>BurgerBarn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

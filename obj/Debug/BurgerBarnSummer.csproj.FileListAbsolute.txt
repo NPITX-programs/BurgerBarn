@@ -1,0 +1,31 @@
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe.config
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.pdb
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.AssemblyReference.cache
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Form1.resources
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Properties.Resources.resources
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.GenerateResource.cache
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.CoreCompileInputs.cache
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.exe
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.pdb
+H:\Students_Folder\Alyssa Bays\Coding\2024\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.frm2.resources
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe.config
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.pdb
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.AssemblyReference.cache
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Form1.resources
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Properties.Resources.resources
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.GenerateResource.cache
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.CoreCompileInputs.cache
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.exe
+H:\Students_Folder\Husam Eghneim\App Dev 1\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.pdb
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe.config
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.exe
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\bin\Debug\BurgerBarnSummer.pdb
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.AssemblyReference.cache
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Form1.resources
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.Properties.Resources.resources
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.GenerateResource.cache
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.csproj.CoreCompileInputs.cache
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.exe
+P:\Github\CTH-npitx\App Dev 1\From Husam\BurgerBarnSummer (1)\BurgerBarnSummer\obj\Debug\BurgerBarnSummer.pdb
