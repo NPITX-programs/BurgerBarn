@@ -11,3 +11,9 @@ just the requriments of the program, or the edits to make to said program
 
 # BASE INFO
 some information that doesn't really change, so shall stay
+## Cost of Items
+### Burgers
+1. Plain burger: $4.99
+1. Cheeseburger: $5.99
+1. Veggie burger: $6.49
+1. Bacon Burger: $7.99
