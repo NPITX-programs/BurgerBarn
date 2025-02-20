@@ -61,7 +61,7 @@
             this.rdbChicSand = new System.Windows.Forms.RadioButton();
             this.rdbItalSub = new System.Windows.Forms.RadioButton();
             this.rdbTurkClub = new System.Windows.Forms.RadioButton();
-            this.button3 = new System.Windows.Forms.Button();
+            this.bttnCoupon = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -503,22 +503,22 @@
             this.rdbTurkClub.UseVisualStyleBackColor = true;
             this.rdbTurkClub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // button3
+            // bttnCoupon
             // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(329, 438);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 31);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Purchase";
-            this.button3.UseVisualStyleBackColor = true;
+            this.bttnCoupon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnCoupon.Location = new System.Drawing.Point(292, 438);
+            this.bttnCoupon.Name = "bttnCoupon";
+            this.bttnCoupon.Size = new System.Drawing.Size(123, 31);
+            this.bttnCoupon.TabIndex = 13;
+            this.bttnCoupon.Text = "Apply Coupon";
+            this.bttnCoupon.UseVisualStyleBackColor = true;
             // 
             // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 518);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.bttnCoupon);
             this.Controls.Add(this.gbx_sandwhiches);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPurchase);
@@ -582,7 +582,7 @@
         private System.Windows.Forms.RadioButton rdbChicSand;
         private System.Windows.Forms.RadioButton rdbItalSub;
         private System.Windows.Forms.RadioButton rdbTurkClub;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button bttnCoupon;
     }
 }
 
