@@ -7,8 +7,8 @@ namespace BurgerBarn
     {
         float subtotal = 0;
         const float tax_rate = 0.0825f;
-        float discount = 0;
-        const float discValue = 20f;
+        float discount = 0; //the default discount of 0%
+        const float discValue = 20f; //the discount, as a percent. The code subtracts it from 100, then divides by 100. So, putting in 20 is the same as 20% off, which becomes .8
         
 
         public BurgerBarn()
@@ -37,6 +37,7 @@ namespace BurgerBarn
                 subtotal -= float.Parse(rdb.Tag.ToString()); // removes price from receipt
             }
             //calculate totals
+            float multVal = (100 - discount) / 100;
             float tax = subtotal * tax_rate;
             float total = subtotal + tax;
 
@@ -65,7 +66,7 @@ namespace BurgerBarn
         private void bttnCoupon_Click(object sender, EventArgs e)
         {
             bttnCoupon.Enabled = false; //disable the coupon button once applied
-            discount = discValue;
+            discount = discValue; //sets the discount to be the discount value
         }
     }
 }
