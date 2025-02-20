@@ -155,9 +155,9 @@
             this.groupBox1.Controls.Add(this.rdbVeggieBurger);
             this.groupBox1.Controls.Add(this.rdbCheeseburger);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(21, 39);
+            this.groupBox1.Location = new System.Drawing.Point(211, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(203, 212);
+            this.groupBox1.Size = new System.Drawing.Size(203, 160);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Burgers";
@@ -166,7 +166,7 @@
             // 
             this.lblSubtoal.AutoSize = true;
             this.lblSubtoal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtoal.Location = new System.Drawing.Point(494, 316);
+            this.lblSubtoal.Location = new System.Drawing.Point(494, 350);
             this.lblSubtoal.Name = "lblSubtoal";
             this.lblSubtoal.Size = new System.Drawing.Size(45, 19);
             this.lblSubtoal.TabIndex = 3;
@@ -176,7 +176,7 @@
             // 
             this.lblTax.AutoSize = true;
             this.lblTax.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTax.Location = new System.Drawing.Point(494, 345);
+            this.lblTax.Location = new System.Drawing.Point(494, 371);
             this.lblTax.Name = "lblTax";
             this.lblTax.Size = new System.Drawing.Size(45, 19);
             this.lblTax.TabIndex = 4;
@@ -186,7 +186,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(494, 379);
+            this.lblTotal.Location = new System.Drawing.Point(494, 401);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(45, 19);
             this.lblTotal.TabIndex = 5;
@@ -196,7 +196,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 314);
+            this.label1.Location = new System.Drawing.Point(418, 350);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 19);
             this.label1.TabIndex = 6;
@@ -206,7 +206,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(446, 345);
+            this.label2.Location = new System.Drawing.Point(446, 371);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 19);
             this.label2.TabIndex = 7;
@@ -216,7 +216,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(438, 379);
+            this.label3.Location = new System.Drawing.Point(438, 401);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 19);
             this.label3.TabIndex = 8;
@@ -230,9 +230,9 @@
             this.groupBox2.Controls.Add(this.rdbFruitPunch);
             this.groupBox2.Controls.Add(this.rdbTea);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(336, 39);
+            this.groupBox2.Location = new System.Drawing.Point(2, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(203, 212);
+            this.groupBox2.Size = new System.Drawing.Size(203, 160);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Drinks";
@@ -316,9 +316,9 @@
             this.groupBox3.Controls.Add(this.rdbOnionRings);
             this.groupBox3.Controls.Add(this.rdbTaterTots);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(21, 270);
+            this.groupBox3.Location = new System.Drawing.Point(2, 178);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(203, 189);
+            this.groupBox3.Size = new System.Drawing.Size(203, 162);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Sides";
@@ -424,9 +424,9 @@
             this.gbx_sandwhiches.Controls.Add(this.radioButton4);
             this.gbx_sandwhiches.Controls.Add(this.radioButton5);
             this.gbx_sandwhiches.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_sandwhiches.Location = new System.Drawing.Point(336, 270);
+            this.gbx_sandwhiches.Location = new System.Drawing.Point(211, 178);
             this.gbx_sandwhiches.Name = "gbx_sandwhiches";
-            this.gbx_sandwhiches.Size = new System.Drawing.Size(203, 212);
+            this.gbx_sandwhiches.Size = new System.Drawing.Size(203, 162);
             this.gbx_sandwhiches.TabIndex = 4;
             this.gbx_sandwhiches.TabStop = false;
             this.gbx_sandwhiches.Text = "Drinks";
