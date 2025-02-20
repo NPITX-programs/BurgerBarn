@@ -17,3 +17,8 @@ some information that doesn't really change, so shall stay
 1. Cheeseburger: $5.99
 1. Veggie burger: $6.49
 1. Bacon Burger: $7.99
+### Sides
+1. Fries: $0.50
+1. Tater tots: $0.75
+1. Onion rings: $0.99
+1. Chips: $0.99
