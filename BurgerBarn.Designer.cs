@@ -56,11 +56,11 @@
             this.btnPurchase = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.gbx_sandwhiches = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.rdbBLT = new System.Windows.Forms.RadioButton();
+            this.rdbNoSand = new System.Windows.Forms.RadioButton();
+            this.rdbChicSand = new System.Windows.Forms.RadioButton();
+            this.rdbItalSub = new System.Windows.Forms.RadioButton();
+            this.rdbTurkClub = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -418,89 +418,89 @@
             // 
             // gbx_sandwhiches
             // 
-            this.gbx_sandwhiches.Controls.Add(this.radioButton1);
-            this.gbx_sandwhiches.Controls.Add(this.radioButton2);
-            this.gbx_sandwhiches.Controls.Add(this.radioButton3);
-            this.gbx_sandwhiches.Controls.Add(this.radioButton4);
-            this.gbx_sandwhiches.Controls.Add(this.radioButton5);
+            this.gbx_sandwhiches.Controls.Add(this.rdbBLT);
+            this.gbx_sandwhiches.Controls.Add(this.rdbNoSand);
+            this.gbx_sandwhiches.Controls.Add(this.rdbChicSand);
+            this.gbx_sandwhiches.Controls.Add(this.rdbItalSub);
+            this.gbx_sandwhiches.Controls.Add(this.rdbTurkClub);
             this.gbx_sandwhiches.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbx_sandwhiches.Location = new System.Drawing.Point(211, 178);
             this.gbx_sandwhiches.Name = "gbx_sandwhiches";
             this.gbx_sandwhiches.Size = new System.Drawing.Size(203, 162);
             this.gbx_sandwhiches.TabIndex = 4;
             this.gbx_sandwhiches.TabStop = false;
-            this.gbx_sandwhiches.Text = "Drinks";
+            this.gbx_sandwhiches.Text = "Sandwiches";
             // 
-            // radioButton1
+            // rdbBLT
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(14, 106);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(114, 23);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Tag = ".99";
-            this.radioButton1.Text = "Water ($0.99)";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            this.rdbBLT.AutoSize = true;
+            this.rdbBLT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbBLT.Location = new System.Drawing.Point(14, 106);
+            this.rdbBLT.Name = "rdbBLT";
+            this.rdbBLT.Size = new System.Drawing.Size(114, 23);
+            this.rdbBLT.TabIndex = 0;
+            this.rdbBLT.TabStop = true;
+            this.rdbBLT.Tag = ".99";
+            this.rdbBLT.Text = "Water ($0.99)";
+            this.rdbBLT.UseVisualStyleBackColor = true;
+            this.rdbBLT.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // radioButton2
+            // rdbNoSand
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(14, 137);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 23);
-            this.radioButton2.TabIndex = 0;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Tag = "0";
-            this.radioButton2.Text = "None";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            this.rdbNoSand.AutoSize = true;
+            this.rdbNoSand.Checked = true;
+            this.rdbNoSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbNoSand.Location = new System.Drawing.Point(14, 137);
+            this.rdbNoSand.Name = "rdbNoSand";
+            this.rdbNoSand.Size = new System.Drawing.Size(61, 23);
+            this.rdbNoSand.TabIndex = 0;
+            this.rdbNoSand.TabStop = true;
+            this.rdbNoSand.Tag = "0";
+            this.rdbNoSand.Text = "None";
+            this.rdbNoSand.UseVisualStyleBackColor = true;
+            this.rdbNoSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // radioButton3
+            // rdbChicSand
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(14, 19);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(106, 23);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Tag = "1.29";
-            this.radioButton3.Text = "Cola ($1.29)";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            this.rdbChicSand.AutoSize = true;
+            this.rdbChicSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbChicSand.Location = new System.Drawing.Point(14, 19);
+            this.rdbChicSand.Name = "rdbChicSand";
+            this.rdbChicSand.Size = new System.Drawing.Size(106, 23);
+            this.rdbChicSand.TabIndex = 0;
+            this.rdbChicSand.TabStop = true;
+            this.rdbChicSand.Tag = "1.29";
+            this.rdbChicSand.Text = "Cola ($1.29)";
+            this.rdbChicSand.UseVisualStyleBackColor = true;
+            this.rdbChicSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // radioButton4
+            // rdbItalSub
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(14, 77);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(146, 23);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Tag = "1.09";
-            this.radioButton4.Text = "Fruit Punch ($1.09)";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            this.rdbItalSub.AutoSize = true;
+            this.rdbItalSub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbItalSub.Location = new System.Drawing.Point(14, 77);
+            this.rdbItalSub.Name = "rdbItalSub";
+            this.rdbItalSub.Size = new System.Drawing.Size(146, 23);
+            this.rdbItalSub.TabIndex = 0;
+            this.rdbItalSub.TabStop = true;
+            this.rdbItalSub.Tag = "1.09";
+            this.rdbItalSub.Text = "Fruit Punch ($1.09)";
+            this.rdbItalSub.UseVisualStyleBackColor = true;
+            this.rdbItalSub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // radioButton5
+            // rdbTurkClub
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(14, 48);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(99, 23);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Tag = "1.19";
-            this.radioButton5.Text = "Tea ($1.19)";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            this.rdbTurkClub.AutoSize = true;
+            this.rdbTurkClub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbTurkClub.Location = new System.Drawing.Point(14, 48);
+            this.rdbTurkClub.Name = "rdbTurkClub";
+            this.rdbTurkClub.Size = new System.Drawing.Size(99, 23);
+            this.rdbTurkClub.TabIndex = 0;
+            this.rdbTurkClub.TabStop = true;
+            this.rdbTurkClub.Tag = "1.19";
+            this.rdbTurkClub.Text = "Tea ($1.19)";
+            this.rdbTurkClub.UseVisualStyleBackColor = true;
+            this.rdbTurkClub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
             // BurgerBarn
             // 
@@ -565,11 +565,11 @@
         private System.Windows.Forms.Button btnPurchase;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.GroupBox gbx_sandwhiches;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton rdbBLT;
+        private System.Windows.Forms.RadioButton rdbNoSand;
+        private System.Windows.Forms.RadioButton rdbChicSand;
+        private System.Windows.Forms.RadioButton rdbItalSub;
+        private System.Windows.Forms.RadioButton rdbTurkClub;
     }
 }
 
