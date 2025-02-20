@@ -41,4 +41,5 @@ some information that doesn't really change, so shall stay
 
 
 ## NOTES
-1. integrated by useing tags on the radio buttons. 
+1. integrated by useing tags on the radio buttons.
+2. few alternative ideas might be used, such as utilizing the contents of the name itself 
