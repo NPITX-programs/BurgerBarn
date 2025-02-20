@@ -57,12 +57,13 @@ namespace BurgerBarn
             rdbNoDrink.Checked = true;
             rdbNoSide.Checked = true;
             rdbNoSand.Checked = true;
+            bttnCoupon.Enabled = true; //re-enable the coupon once it's applied
         }
         #endregion UI
 
         private void bttnCoupon_Click(object sender, EventArgs e)
         {
-
+            bttnCoupon.Enabled = false; //disable the coupon button once applied
         }
     }
 }
