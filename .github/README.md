@@ -32,3 +32,7 @@ some information that doesn't really change, so shall stay
 	1. Plain Burger
 	1. Fries
 	1. Cola
+### Number 2 Combo: $6.49
+	1. Cheese Burger
+	1. Tea
+	1. Onion Rings
