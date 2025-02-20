@@ -22,3 +22,8 @@ some information that doesn't really change, so shall stay
 1. Tater tots: $0.75
 1. Onion rings: $0.99
 1. Chips: $0.99
+#### Drinks
+1. Cola: $1.29
+1. Tea: $1.19
+1. Fruit Punch: $1.09
+1. Water: $0.99
