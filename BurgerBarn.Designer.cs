@@ -114,7 +114,7 @@
             // 
             this.rdbBaconBurger.AutoSize = true;
             this.rdbBaconBurger.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbBaconBurger.Location = new System.Drawing.Point(15, 106);
+            this.rdbBaconBurger.Location = new System.Drawing.Point(14, 106);
             this.rdbBaconBurger.Name = "rdbBaconBurger";
             this.rdbBaconBurger.Size = new System.Drawing.Size(161, 23);
             this.rdbBaconBurger.TabIndex = 0;
@@ -129,7 +129,7 @@
             this.rdbNoBurger.AutoSize = true;
             this.rdbNoBurger.Checked = true;
             this.rdbNoBurger.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbNoBurger.Location = new System.Drawing.Point(15, 137);
+            this.rdbNoBurger.Location = new System.Drawing.Point(14, 135);
             this.rdbNoBurger.Name = "rdbNoBurger";
             this.rdbNoBurger.Size = new System.Drawing.Size(61, 23);
             this.rdbNoBurger.TabIndex = 0;
@@ -158,7 +158,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(211, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(214, 160);
+            this.groupBox1.Size = new System.Drawing.Size(214, 162);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Burgers";
@@ -233,7 +233,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(2, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(203, 160);
+            this.groupBox2.Size = new System.Drawing.Size(203, 162);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Drinks";
@@ -257,7 +257,7 @@
             this.rdbNoDrink.AutoSize = true;
             this.rdbNoDrink.Checked = true;
             this.rdbNoDrink.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbNoDrink.Location = new System.Drawing.Point(14, 137);
+            this.rdbNoDrink.Location = new System.Drawing.Point(14, 135);
             this.rdbNoDrink.Name = "rdbNoDrink";
             this.rdbNoDrink.Size = new System.Drawing.Size(61, 23);
             this.rdbNoDrink.TabIndex = 0;
@@ -451,7 +451,7 @@
             this.rdbNoSand.AutoSize = true;
             this.rdbNoSand.Checked = true;
             this.rdbNoSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbNoSand.Location = new System.Drawing.Point(14, 137);
+            this.rdbNoSand.Location = new System.Drawing.Point(14, 135);
             this.rdbNoSand.Name = "rdbNoSand";
             this.rdbNoSand.Size = new System.Drawing.Size(61, 23);
             this.rdbNoSand.TabIndex = 0;
