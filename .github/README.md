@@ -22,11 +22,16 @@ some information that doesn't really change, so shall stay
 1. Tater tots: $0.75
 1. Onion rings: $0.99
 1. Chips: $0.99
-#### Drinks
+### Drinks
 1. Cola: $1.29
 1. Tea: $1.19
 1. Fruit Punch: $1.09
 1. Water: $0.99
+### Sandwiches
+1. Chicken Sandwich: $3.99
+2. Turkey Club: $5.49
+3. Italian Sub: $7.49
+4. BLT: $3.49
 ## Combos
 ### Number 1 combo Combo: $5.99
 	1. Plain Burger
