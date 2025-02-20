@@ -9,6 +9,7 @@ namespace BurgerBarn
         const float tax_rate = 0.0825f;
         float discount = 0;
         const float discValue = 20f;
+        
 
         public BurgerBarn()
         {
@@ -64,6 +65,7 @@ namespace BurgerBarn
         private void bttnCoupon_Click(object sender, EventArgs e)
         {
             bttnCoupon.Enabled = false; //disable the coupon button once applied
+            discount = discValue;
         }
     }
 }
