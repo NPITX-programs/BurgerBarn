@@ -7,7 +7,8 @@ namespace BurgerBarn
     {
         float subtotal = 0;
         const float tax_rate = 0.0825f;
-
+        float discount = 0;
+        const float discValue = 20f;
 
         public BurgerBarn()
         {
@@ -58,5 +59,10 @@ namespace BurgerBarn
             rdbNoSand.Checked = true;
         }
         #endregion UI
+
+        private void bttnCoupon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

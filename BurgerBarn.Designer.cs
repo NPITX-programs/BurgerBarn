@@ -512,6 +512,7 @@
             this.bttnCoupon.TabIndex = 13;
             this.bttnCoupon.Text = "Apply Coupon";
             this.bttnCoupon.UseVisualStyleBackColor = true;
+            this.bttnCoupon.Click += new System.EventHandler(this.bttnCoupon_Click);
             // 
             // BurgerBarn
             // 
