@@ -437,11 +437,11 @@
             this.rdbBLT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbBLT.Location = new System.Drawing.Point(14, 106);
             this.rdbBLT.Name = "rdbBLT";
-            this.rdbBLT.Size = new System.Drawing.Size(114, 23);
+            this.rdbBLT.Size = new System.Drawing.Size(104, 23);
             this.rdbBLT.TabIndex = 0;
             this.rdbBLT.TabStop = true;
             this.rdbBLT.Tag = "3.49";
-            this.rdbBLT.Text = "Water ($0.99)";
+            this.rdbBLT.Text = "BLT ($3.49)";
             this.rdbBLT.UseVisualStyleBackColor = true;
             this.rdbBLT.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
@@ -466,11 +466,11 @@
             this.rdbChicSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbChicSand.Location = new System.Drawing.Point(14, 19);
             this.rdbChicSand.Name = "rdbChicSand";
-            this.rdbChicSand.Size = new System.Drawing.Size(106, 23);
+            this.rdbChicSand.Size = new System.Drawing.Size(190, 23);
             this.rdbChicSand.TabIndex = 0;
             this.rdbChicSand.TabStop = true;
             this.rdbChicSand.Tag = "3.99";
-            this.rdbChicSand.Text = "Cola ($1.29)";
+            this.rdbChicSand.Text = "Chicken Sandwich ($3.99)";
             this.rdbChicSand.UseVisualStyleBackColor = true;
             this.rdbChicSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
@@ -480,11 +480,11 @@
             this.rdbItalSub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbItalSub.Location = new System.Drawing.Point(14, 77);
             this.rdbItalSub.Name = "rdbItalSub";
-            this.rdbItalSub.Size = new System.Drawing.Size(146, 23);
+            this.rdbItalSub.Size = new System.Drawing.Size(144, 23);
             this.rdbItalSub.TabIndex = 0;
             this.rdbItalSub.TabStop = true;
             this.rdbItalSub.Tag = "7.49";
-            this.rdbItalSub.Text = "Fruit Punch ($1.09)";
+            this.rdbItalSub.Text = "Itallian Sub ($7.49)";
             this.rdbItalSub.UseVisualStyleBackColor = true;
             this.rdbItalSub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
@@ -494,11 +494,11 @@
             this.rdbTurkClub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbTurkClub.Location = new System.Drawing.Point(14, 48);
             this.rdbTurkClub.Name = "rdbTurkClub";
-            this.rdbTurkClub.Size = new System.Drawing.Size(99, 23);
+            this.rdbTurkClub.Size = new System.Drawing.Size(152, 23);
             this.rdbTurkClub.TabIndex = 0;
             this.rdbTurkClub.TabStop = true;
             this.rdbTurkClub.Tag = "5.49";
-            this.rdbTurkClub.Text = "Tea ($1.19)";
+            this.rdbTurkClub.Text = "Turkey Club ($5.49)";
             this.rdbTurkClub.UseVisualStyleBackColor = true;
             this.rdbTurkClub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
