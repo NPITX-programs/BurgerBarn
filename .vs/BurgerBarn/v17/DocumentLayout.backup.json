@@ -18,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BurgerBarn.cs",
-              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
-              "RelativeDocumentMoniker": "BurgerBarn.cs",
-              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
-              "RelativeToolTip": "BurgerBarn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:09:48.908Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -47,6 +34,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BurgerBarn.cs",
+              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
+              "RelativeDocumentMoniker": "BurgerBarn.cs",
+              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
+              "RelativeToolTip": "BurgerBarn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T21:09:48.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BurgerBarn.cs [Design]",
               "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs",
@@ -54,7 +54,8 @@
               "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Semesters\\Multi-Semester\\App Dev\\Projects\\App Dev 1\\Burger Barn\\BurgerBarn.cs [Design]",
               "RelativeToolTip": "BurgerBarn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:09:45.972Z"
+              "WhenOpened": "2025-02-18T21:09:45.972Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
