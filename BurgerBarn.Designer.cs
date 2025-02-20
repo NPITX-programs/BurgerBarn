@@ -426,7 +426,7 @@
             this.gbx_sandwhiches.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbx_sandwhiches.Location = new System.Drawing.Point(211, 178);
             this.gbx_sandwhiches.Name = "gbx_sandwhiches";
-            this.gbx_sandwhiches.Size = new System.Drawing.Size(203, 169);
+            this.gbx_sandwhiches.Size = new System.Drawing.Size(203, 162);
             this.gbx_sandwhiches.TabIndex = 4;
             this.gbx_sandwhiches.TabStop = false;
             this.gbx_sandwhiches.Text = "Drinks";
