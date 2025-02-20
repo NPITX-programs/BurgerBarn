@@ -55,9 +55,16 @@
             this.rdbTaterTots = new System.Windows.Forms.RadioButton();
             this.btnPurchase = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.gbx_sandwhiches = new System.Windows.Forms.GroupBox();
+            this.rdbBLT = new System.Windows.Forms.RadioButton();
+            this.rdbNoSand = new System.Windows.Forms.RadioButton();
+            this.rdbChicSand = new System.Windows.Forms.RadioButton();
+            this.rdbItalSub = new System.Windows.Forms.RadioButton();
+            this.rdbTurkClub = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.gbx_sandwhiches.SuspendLayout();
             this.SuspendLayout();
             // 
             // rdbPlainBurger
@@ -148,9 +155,9 @@
             this.groupBox1.Controls.Add(this.rdbVeggieBurger);
             this.groupBox1.Controls.Add(this.rdbCheeseburger);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(21, 39);
+            this.groupBox1.Location = new System.Drawing.Point(211, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(203, 212);
+            this.groupBox1.Size = new System.Drawing.Size(214, 160);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Burgers";
@@ -159,7 +166,7 @@
             // 
             this.lblSubtoal.AutoSize = true;
             this.lblSubtoal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtoal.Location = new System.Drawing.Point(494, 316);
+            this.lblSubtoal.Location = new System.Drawing.Point(494, 350);
             this.lblSubtoal.Name = "lblSubtoal";
             this.lblSubtoal.Size = new System.Drawing.Size(45, 19);
             this.lblSubtoal.TabIndex = 3;
@@ -169,7 +176,7 @@
             // 
             this.lblTax.AutoSize = true;
             this.lblTax.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTax.Location = new System.Drawing.Point(494, 345);
+            this.lblTax.Location = new System.Drawing.Point(494, 371);
             this.lblTax.Name = "lblTax";
             this.lblTax.Size = new System.Drawing.Size(45, 19);
             this.lblTax.TabIndex = 4;
@@ -179,7 +186,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(494, 379);
+            this.lblTotal.Location = new System.Drawing.Point(494, 401);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(45, 19);
             this.lblTotal.TabIndex = 5;
@@ -189,7 +196,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 314);
+            this.label1.Location = new System.Drawing.Point(418, 350);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 19);
             this.label1.TabIndex = 6;
@@ -199,7 +206,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(446, 345);
+            this.label2.Location = new System.Drawing.Point(446, 371);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 19);
             this.label2.TabIndex = 7;
@@ -209,7 +216,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(438, 379);
+            this.label3.Location = new System.Drawing.Point(438, 401);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 19);
             this.label3.TabIndex = 8;
@@ -223,9 +230,9 @@
             this.groupBox2.Controls.Add(this.rdbFruitPunch);
             this.groupBox2.Controls.Add(this.rdbTea);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(336, 39);
+            this.groupBox2.Location = new System.Drawing.Point(2, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(203, 212);
+            this.groupBox2.Size = new System.Drawing.Size(203, 160);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Drinks";
@@ -309,9 +316,9 @@
             this.groupBox3.Controls.Add(this.rdbOnionRings);
             this.groupBox3.Controls.Add(this.rdbTaterTots);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(21, 270);
+            this.groupBox3.Location = new System.Drawing.Point(2, 178);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(203, 189);
+            this.groupBox3.Size = new System.Drawing.Size(203, 162);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Sides";
@@ -409,11 +416,98 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // gbx_sandwhiches
+            // 
+            this.gbx_sandwhiches.Controls.Add(this.rdbBLT);
+            this.gbx_sandwhiches.Controls.Add(this.rdbNoSand);
+            this.gbx_sandwhiches.Controls.Add(this.rdbChicSand);
+            this.gbx_sandwhiches.Controls.Add(this.rdbItalSub);
+            this.gbx_sandwhiches.Controls.Add(this.rdbTurkClub);
+            this.gbx_sandwhiches.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_sandwhiches.Location = new System.Drawing.Point(211, 178);
+            this.gbx_sandwhiches.Name = "gbx_sandwhiches";
+            this.gbx_sandwhiches.Size = new System.Drawing.Size(214, 162);
+            this.gbx_sandwhiches.TabIndex = 4;
+            this.gbx_sandwhiches.TabStop = false;
+            this.gbx_sandwhiches.Text = "Sandwiches";
+            // 
+            // rdbBLT
+            // 
+            this.rdbBLT.AutoSize = true;
+            this.rdbBLT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbBLT.Location = new System.Drawing.Point(14, 106);
+            this.rdbBLT.Name = "rdbBLT";
+            this.rdbBLT.Size = new System.Drawing.Size(104, 23);
+            this.rdbBLT.TabIndex = 0;
+            this.rdbBLT.TabStop = true;
+            this.rdbBLT.Tag = "3.49";
+            this.rdbBLT.Text = "BLT ($3.49)";
+            this.rdbBLT.UseVisualStyleBackColor = true;
+            this.rdbBLT.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            // 
+            // rdbNoSand
+            // 
+            this.rdbNoSand.AutoSize = true;
+            this.rdbNoSand.Checked = true;
+            this.rdbNoSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbNoSand.Location = new System.Drawing.Point(14, 137);
+            this.rdbNoSand.Name = "rdbNoSand";
+            this.rdbNoSand.Size = new System.Drawing.Size(61, 23);
+            this.rdbNoSand.TabIndex = 0;
+            this.rdbNoSand.TabStop = true;
+            this.rdbNoSand.Tag = "0";
+            this.rdbNoSand.Text = "None";
+            this.rdbNoSand.UseVisualStyleBackColor = true;
+            this.rdbNoSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            // 
+            // rdbChicSand
+            // 
+            this.rdbChicSand.AutoSize = true;
+            this.rdbChicSand.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbChicSand.Location = new System.Drawing.Point(14, 19);
+            this.rdbChicSand.Name = "rdbChicSand";
+            this.rdbChicSand.Size = new System.Drawing.Size(190, 23);
+            this.rdbChicSand.TabIndex = 0;
+            this.rdbChicSand.TabStop = true;
+            this.rdbChicSand.Tag = "3.99";
+            this.rdbChicSand.Text = "Chicken Sandwich ($3.99)";
+            this.rdbChicSand.UseVisualStyleBackColor = true;
+            this.rdbChicSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            // 
+            // rdbItalSub
+            // 
+            this.rdbItalSub.AutoSize = true;
+            this.rdbItalSub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbItalSub.Location = new System.Drawing.Point(14, 77);
+            this.rdbItalSub.Name = "rdbItalSub";
+            this.rdbItalSub.Size = new System.Drawing.Size(144, 23);
+            this.rdbItalSub.TabIndex = 0;
+            this.rdbItalSub.TabStop = true;
+            this.rdbItalSub.Tag = "7.49";
+            this.rdbItalSub.Text = "Itallian Sub ($7.49)";
+            this.rdbItalSub.UseVisualStyleBackColor = true;
+            this.rdbItalSub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            // 
+            // rdbTurkClub
+            // 
+            this.rdbTurkClub.AutoSize = true;
+            this.rdbTurkClub.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbTurkClub.Location = new System.Drawing.Point(14, 48);
+            this.rdbTurkClub.Name = "rdbTurkClub";
+            this.rdbTurkClub.Size = new System.Drawing.Size(152, 23);
+            this.rdbTurkClub.TabIndex = 0;
+            this.rdbTurkClub.TabStop = true;
+            this.rdbTurkClub.Tag = "5.49";
+            this.rdbTurkClub.Text = "Turkey Club ($5.49)";
+            this.rdbTurkClub.UseVisualStyleBackColor = true;
+            this.rdbTurkClub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
+            // 
             // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 518);
+            this.Controls.Add(this.gbx_sandwhiches);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPurchase);
             this.Controls.Add(this.groupBox3);
@@ -434,6 +528,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.gbx_sandwhiches.ResumeLayout(false);
+            this.gbx_sandwhiches.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -468,6 +564,12 @@
         private System.Windows.Forms.RadioButton rdbTaterTots;
         private System.Windows.Forms.Button btnPurchase;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.GroupBox gbx_sandwhiches;
+        private System.Windows.Forms.RadioButton rdbBLT;
+        private System.Windows.Forms.RadioButton rdbNoSand;
+        private System.Windows.Forms.RadioButton rdbChicSand;
+        private System.Windows.Forms.RadioButton rdbItalSub;
+        private System.Windows.Forms.RadioButton rdbTurkClub;
     }
 }
 

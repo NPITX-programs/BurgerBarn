@@ -55,6 +55,7 @@ namespace BurgerBarn
             rdbNoBurger.Checked = true;
             rdbNoDrink.Checked = true;
             rdbNoSide.Checked = true;
+            rdbNoSand.Checked = true;
         }
         #endregion UI
     }
