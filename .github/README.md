@@ -36,3 +36,7 @@ some information that doesn't really change, so shall stay
 	1. Cheese Burger
 	1. Tea
 	1. Onion Rings
+### Number 3 Combo: $8.99
+	1. Bacon Burger
+	1. Chips
+	1. Cola
