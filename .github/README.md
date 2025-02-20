@@ -27,3 +27,8 @@ some information that doesn't really change, so shall stay
 1. Tea: $1.19
 1. Fruit Punch: $1.09
 1. Water: $0.99
+## Combos
+### Number 1 combo Combo: $5.99
+	1. Plain Burger
+	1. Fries
+	1. Cola
