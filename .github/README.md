@@ -41,3 +41,6 @@ some information that doesn't really change, so shall stay
 	1. Chips
 	1. Cola
 ## NOTES
+1. integrated by useing tags on the radio buttons.
+2. few alternative ideas might be used, such as utilizing the contents of the name itself 
+3. Note: combos have not been integrated
