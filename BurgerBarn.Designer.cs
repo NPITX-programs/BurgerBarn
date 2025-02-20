@@ -440,7 +440,7 @@
             this.rdbBLT.Size = new System.Drawing.Size(114, 23);
             this.rdbBLT.TabIndex = 0;
             this.rdbBLT.TabStop = true;
-            this.rdbBLT.Tag = ".99";
+            this.rdbBLT.Tag = "3.49";
             this.rdbBLT.Text = "Water ($0.99)";
             this.rdbBLT.UseVisualStyleBackColor = true;
             this.rdbBLT.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
@@ -469,7 +469,7 @@
             this.rdbChicSand.Size = new System.Drawing.Size(106, 23);
             this.rdbChicSand.TabIndex = 0;
             this.rdbChicSand.TabStop = true;
-            this.rdbChicSand.Tag = "1.29";
+            this.rdbChicSand.Tag = "3.99";
             this.rdbChicSand.Text = "Cola ($1.29)";
             this.rdbChicSand.UseVisualStyleBackColor = true;
             this.rdbChicSand.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
@@ -483,7 +483,7 @@
             this.rdbItalSub.Size = new System.Drawing.Size(146, 23);
             this.rdbItalSub.TabIndex = 0;
             this.rdbItalSub.TabStop = true;
-            this.rdbItalSub.Tag = "1.09";
+            this.rdbItalSub.Tag = "7.49";
             this.rdbItalSub.Text = "Fruit Punch ($1.09)";
             this.rdbItalSub.UseVisualStyleBackColor = true;
             this.rdbItalSub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
@@ -497,7 +497,7 @@
             this.rdbTurkClub.Size = new System.Drawing.Size(99, 23);
             this.rdbTurkClub.TabIndex = 0;
             this.rdbTurkClub.TabStop = true;
-            this.rdbTurkClub.Tag = "1.19";
+            this.rdbTurkClub.Tag = "5.49";
             this.rdbTurkClub.Text = "Tea ($1.19)";
             this.rdbTurkClub.UseVisualStyleBackColor = true;
             this.rdbTurkClub.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
