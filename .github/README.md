@@ -41,3 +41,4 @@ some information that doesn't really change, so shall stay
 
 
 ## NOTES
+1. integrated by useing tags on the radio buttons. 
