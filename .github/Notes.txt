@@ -1,0 +1,1 @@
+integrated by useing tags on the radio buttons. few alternative ideas might be used, such as utilizing the contents of the name itself. Note: combos have not been integrated
