@@ -40,3 +40,4 @@ some information that doesn't really change, so shall stay
 	1. Bacon Burger
 	1. Chips
 	1. Cola
+## NOTES
