@@ -1,4 +1,4 @@
- # Burger Barn
+# Burger Barn
 A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
 and yet, here we are... so why?
@@ -10,7 +10,7 @@ just the requriments of the program, or the edits to make to said program
 2. Change the "Apply Coupon" button to a "Combo Box."
 3. The combo box should list several different percentages (example: 20%, 40%, 60%).
 4. Selecting an option applies that discount to the Total.
-5. Remove the Sides category from the menu. 
+5. Remove the Sides category from the menu.
 6. Modify the List Box to sort items (from highest to lowest).
 7. Your code must be thoroughly commented, to the point where another Crew member can understand what your program does without looking at the code.
 8. If there are any errors in the program, whether from your code or your partner's, fix them. Add comments stating what the error was, and how you fixed it. 
