@@ -1,3 +1,3 @@
 A special folder, this utilizes a combination of .gitignore's and commit ordering to create a so-called "transfer-folder"
 
-A "transfer-folder" is a folder that all the contents are ignored, but cloneing still retrives it
+A "transfer-folder" is a folder that, by haveing a file in it, will be brought to a desktop when cloneing. But, by useing a .gitignore of the folder path, you can put things in it. Those things won't be effected, not forming a "change", so switching branches keeps it.
