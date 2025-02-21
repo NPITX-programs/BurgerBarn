@@ -38,16 +38,13 @@ namespace BurgerBarn
             }
             //calculate totalss
             float tax = subtotal * tax_rate;
-            subtotal = subtotal * discount; //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
-            float total = subtotal + tax;
+            //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
+            float total = (subtotal * discount) + tax; //the subtotal is multiplied by the discount, which allows it to discount the subtotal. Meanwhile, the tax remains the same
 
             //display totals
-            lblSubtoal.Text = subtotal.ToString("c2");
+            lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
-
-            //reset subtotal
-            subtotal = subtotal / discount; //an unexpected side-effect was that due to the discount getting applied a specific way, it was compounding. So it needs to be re-set after display
         }
 
         #region UI
