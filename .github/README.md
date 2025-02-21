@@ -1,4 +1,4 @@
-# Burger Barn
+ # Burger Barn
 A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
 and yet, here we are... so why?
