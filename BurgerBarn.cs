@@ -61,6 +61,7 @@ namespace BurgerBarn
             rdbNoSand.Checked = true;
             bttnCoupon.Enabled = true; //re-enable the coupon once it's applied
             discount = 1; //resets the discount to being none upon purchase 
+            subtotal = 0;
         }
         #endregion UI
 
