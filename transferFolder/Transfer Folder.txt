@@ -1,3 +1,1 @@
-A special folder, this utilizes a combination of .gitignore's and commit ordering to create a so-called "transfer-folder"
-
-A "transfer-folder" is a folder that all the contents are ignored, but cloneing still retrives it
+this is the folder containing the stuff for the transfer folder
