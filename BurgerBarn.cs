@@ -63,6 +63,7 @@ namespace BurgerBarn
             discount = 1; //resets the discount to being none upon purchase 
             subtotal = 0;
         }
+        
         private void bttnCoupon_Click(object sender, EventArgs e)
         {
             bttnCoupon.Enabled = false; //disable the coupon button once applied
