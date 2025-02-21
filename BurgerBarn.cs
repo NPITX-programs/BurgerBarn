@@ -69,16 +69,16 @@ namespace BurgerBarn
             bttnCoupon.Enabled = false; //disable the coupon button once applied
 
             //to activate the coupon upon clicking the button, I went with the simplest method, which is to just copy the code that is used for the "rdbSelect" part
+            //I recommend either methodizing this part, or modifying the method to have a "refresh" feature which just does a recalculation
+                //calculate totals
+                float tax = subtotal * tax_rate;
+                //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
+                float total = (subtotal * discount) + tax; //the subtotal is multiplied by the discount, which allows it to discount the subtotal. Meanwhile, the tax remains the same
 
-            //calculate totals
-            float tax = subtotal * tax_rate;
-            //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
-            float total = (subtotal * discount) + tax; //the subtotal is multiplied by the discount, which allows it to discount the subtotal. Meanwhile, the tax remains the same
-
-            //display totals
-            lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
-            lblTax.Text = tax.ToString("c2");
-            lblTotal.Text = total.ToString("c2");
+                //display totals
+                lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
+                lblTax.Text = tax.ToString("c2");
+                lblTotal.Text = total.ToString("c2");
         }
     }
 }
