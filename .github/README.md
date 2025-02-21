@@ -5,10 +5,16 @@ and yet, here we are... so why?
 Hmm, what if we make a ***List of all the Reqrirments!***
 # Reqrirments/ modification
 just the requriments of the program, or the edits to make to said program
-## What modification
-1. put all repeating code in a method. You know, like I did in the 1.0...
-
-
+## What modifications
+in your partners code, do not alter the code or comments (except for bug fixes, which you must also comment)
+1. Add a new category "Sandwiches" (see Base Info)
+2. Add a new button "Apply Coupon" that applies a 20% discount to the total
+3. Coupon can only be applied once; disable the button after it is clicked
+4. Once coupon is applied, total should always include the discount, even if the user adds more items after
+5. Once the user clicks "Purchase," the coupon discount is removed and the button can be clicked again
+6. Your code must be commented. Do not alter any of your partner's code or comments. Only add your own.
+7. Your comments should be thorough enough that another coder can understand your code's function by only reading the comments.
+8. If there are any errors in your or your partner's code, fix them. You must comment what the error was and what you did to fix it.
 # BASE INFO
 some information that doesn't really change, so shall stay
 ## Cost of Items
