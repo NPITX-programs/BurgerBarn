@@ -1,0 +1,1 @@
+the plan: update to the most recent github preset, then merge in the auto-generated one from VS
