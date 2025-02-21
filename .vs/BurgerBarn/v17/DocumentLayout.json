@@ -18,36 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BurgerBarn.cs",
-              "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
-              "RelativeDocumentMoniker": "BurgerBarn.cs",
-              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
-              "RelativeToolTip": "BurgerBarn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:38:29.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BurgerBarn.cs [Design]",
-              "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
-              "RelativeDocumentMoniker": "BurgerBarn.cs",
-              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs [Design]",
-              "RelativeToolTip": "BurgerBarn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:38:28.981Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -92,6 +67,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BurgerBarn.cs",
+              "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
+              "RelativeDocumentMoniker": "BurgerBarn.cs",
+              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
+              "RelativeToolTip": "BurgerBarn.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:38:29.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BurgerBarn.cs [Design]",
+              "DocumentMoniker": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs",
+              "RelativeDocumentMoniker": "BurgerBarn.cs",
+              "ToolTip": "P:\\Github\\CTH-npitx\\App Dev 1\\BurgerBarn\\BurgerBarn.cs [Design]",
+              "RelativeToolTip": "BurgerBarn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T13:38:28.981Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
