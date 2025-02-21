@@ -1,5 +1,5 @@
 # Burger Barn
-A simple, highly gernalized program for "purchaseing" burgers 
+A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
 and yet, here we are... so why?
 Hmm, what if we make a ***List of all the Reqrirments!***
