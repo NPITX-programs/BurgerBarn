@@ -407,7 +407,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# transfer folder
+#transfer folder
 
 #don't transfer the contents of the folder
 /transferFolder
