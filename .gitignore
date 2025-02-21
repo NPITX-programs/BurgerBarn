@@ -406,3 +406,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#transfer folder
+
+#don't transfer the contents of the folder
+/transferFolder
+
+#added the .txt file that is used inside the transfer folder into the .gitignore. not sure why...
+transferFolder/Transfer Folder.txt
+
