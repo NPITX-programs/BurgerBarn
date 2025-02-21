@@ -406,4 +406,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
 /transferFolder
+
+transferFolder/Transfer Folder.txt
+
