@@ -45,6 +45,9 @@ namespace BurgerBarn
             lblSubtoal.Text = subtotal.ToString("c2");
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
+
+            //reset subtotal
+            subtotal = subtotal / discount; //an unexpected side-effect was that due to the discount getting applied a specific way, it was compounding. So it needs to be re-set after display
         }
 
         #region UI
