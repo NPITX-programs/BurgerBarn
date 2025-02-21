@@ -79,7 +79,7 @@ namespace BurgerBarn
             lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
-        }
+        } //apply coupons
         #endregion UI
     }
 }
