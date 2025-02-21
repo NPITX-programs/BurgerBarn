@@ -14,7 +14,6 @@ just the requriments of the program, or the edits to make to said program
 6. Modify the List Box to sort items (from highest to lowest).
 7. Your code must be thoroughly commented, to the point where another Crew member can understand what your program does without looking at the code.
 8. If there are any errors in the program, whether from your code or your partner's, fix them. Add comments stating what the error was, and how you fixed it. 
-
 # BASE INFO
 some information that doesn't really change, so shall stay
 ## Cost of Items
@@ -35,23 +34,23 @@ some information that doesn't really change, so shall stay
 1. Water: $0.99
 ### Sandwiches
 1. Chicken Sandwich: $3.99
-1. Turkey Club: $5.49
-1. Italian Sub: $7.49
-1. BLT: $3.49
+2. Turkey Club: $5.49
+3. Italian Sub: $7.49
+4. BLT: $3.49
 ## Combos
 ### Number 1 combo Combo: $5.99
-1. Plain Burger
-1. Fries
-1. Cola
+	1. Plain Burger
+	1. Fries
+	1. Cola
 ### Number 2 Combo: $6.49
-1. Cheese Burger
-1. Tea
-1. Onion Rings
+	1. Cheese Burger
+	1. Tea
+	1. Onion Rings
 ### Number 3 Combo: $8.99
-1. Bacon Burger
-1. Chips
-1. Cola
+	1. Bacon Burger
+	1. Chips
+	1. Cola
 ## NOTES
 1. integrated by useing tags on the radio buttons.
-1. few alternative ideas might be used, such as utilizing the contents of the name itself 
-1. Note: combos have not been integrated
+2. few alternative ideas might be used, such as utilizing the contents of the name itself 
+3. Note: combos have not been integrated
