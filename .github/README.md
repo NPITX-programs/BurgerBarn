@@ -3,7 +3,6 @@ A simple, highly gernalized program for "purchaseing" burgers
 does not need a readme
 and yet, here we are... so why?
 Hmm, what if we make a ***List of all the Reqrirments!***
-
 # Reqrirments
 just the requriments of the program. still needs work, as some of the reqriments seem in-compatabible.
 ## Useage & simple notes
@@ -28,6 +27,7 @@ At start, display a one-time welcome message that will not reappear once the scr
 1. Clear the screen after each user input
 1. Clicking Purchase displays a thank you message, then clears all fields
 1. Clicking Exit exits the program
+
 ## Cost of Items
  Display a menu of food options using Radio Buttons and Labels
 ### Burgers
@@ -58,3 +58,4 @@ At start, display a one-time welcome message that will not reappear once the scr
 	1. Bacon Burger
 	1. Chips
 	1. Cola
+integrated by useing tags on the radio buttons. few alternative ideas might be used, such as utilizing the contents of the name itself. Note: combos have not been integrated
