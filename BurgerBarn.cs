@@ -9,6 +9,7 @@ namespace BurgerBarnSummer
         float subtotal = 0;
         float tax_rate = 0.0825f;
         float discount = 1;
+        const string noCouponText = "No Coupon";
         public BurgerBarn()
         {
             InitializeComponent();
@@ -66,6 +67,7 @@ namespace BurgerBarnSummer
             lblSubtotal.Text = (subtotal * discount).ToString("c2");
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
+            cmb_coupon.SelectedIndex = 0;
         }
 
 
@@ -87,14 +89,15 @@ namespace BurgerBarnSummer
            CalcTotal(); //Call method
         }
 
-        private void cbm_coupon_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmb_coupon_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
         private void BurgerBarn_Load(object sender, EventArgs e)
         {
-
+            cmb_coupon.Items.Insert(0, noCouponText); //add the text for no coupon
+            cmb_coupon.SelectedIndex = 0; //reset coupon
         }
     }
 }

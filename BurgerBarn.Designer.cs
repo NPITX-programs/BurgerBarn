@@ -55,7 +55,7 @@
             this.rdbItalianSub = new System.Windows.Forms.RadioButton();
             this.rdbChickenSandwich = new System.Windows.Forms.RadioButton();
             this.rdbTurkeyClub = new System.Windows.Forms.RadioButton();
-            this.cbm_coupon = new System.Windows.Forms.ComboBox();
+            this.cmb_coupon = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -389,21 +389,21 @@
             this.rdbTurkeyClub.UseVisualStyleBackColor = true;
             this.rdbTurkeyClub.CheckedChanged += new System.EventHandler(this.selectOrder);
             // 
-            // cbm_coupon
+            // cmb_coupon
             // 
-            this.cbm_coupon.FormattingEnabled = true;
-            this.cbm_coupon.Items.AddRange(new object[] {
+            this.cmb_coupon.FormattingEnabled = true;
+            this.cmb_coupon.Items.AddRange(new object[] {
             "10%",
             "25%",
             "40%",
             "50%",
             "100%",
             "110%"});
-            this.cbm_coupon.Location = new System.Drawing.Point(576, 565);
-            this.cbm_coupon.Name = "cbm_coupon";
-            this.cbm_coupon.Size = new System.Drawing.Size(233, 37);
-            this.cbm_coupon.TabIndex = 14;
-            this.cbm_coupon.SelectedIndexChanged += new System.EventHandler(this.cbm_coupon_SelectedIndexChanged);
+            this.cmb_coupon.Location = new System.Drawing.Point(576, 565);
+            this.cmb_coupon.Name = "cmb_coupon";
+            this.cmb_coupon.Size = new System.Drawing.Size(233, 37);
+            this.cmb_coupon.TabIndex = 14;
+            this.cmb_coupon.SelectedIndexChanged += new System.EventHandler(this.cmb_coupon_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -420,7 +420,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 663);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.cbm_coupon);
+            this.Controls.Add(this.cmb_coupon);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPurchase);
@@ -478,7 +478,7 @@
         private System.Windows.Forms.RadioButton rdbItalianSub;
         private System.Windows.Forms.RadioButton rdbChickenSandwich;
         private System.Windows.Forms.RadioButton rdbTurkeyClub;
-        private System.Windows.Forms.ComboBox cbm_coupon;
+        private System.Windows.Forms.ComboBox cmb_coupon;
         private System.Windows.Forms.Label label4;
     }
 }
