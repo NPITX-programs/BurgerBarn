@@ -26,13 +26,6 @@ namespace BurgerBarnSummer
             rdbSelect(rdb); //call method
         }
 
-        private void sides_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton rdb = sender as RadioButton; //sides selected
-
-            rdbSelect(rdb); //call method
-        }
-
         private void drinks_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rdb = sender as RadioButton; //drinks selected
