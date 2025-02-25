@@ -34,12 +34,6 @@
             this.rdbNoBurger = new System.Windows.Forms.RadioButton();
             this.rdbBaconBurger = new System.Windows.Forms.RadioButton();
             this.rdbVeggieBurger = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rdbNoSide = new System.Windows.Forms.RadioButton();
-            this.rdbChips = new System.Windows.Forms.RadioButton();
-            this.rdbOnionRings = new System.Windows.Forms.RadioButton();
-            this.rdbFries = new System.Windows.Forms.RadioButton();
-            this.rdbTaterTots = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rdbNoDrink = new System.Windows.Forms.RadioButton();
             this.rdbWater = new System.Windows.Forms.RadioButton();
@@ -63,7 +57,6 @@
             this.rdbTurkeyClub = new System.Windows.Forms.RadioButton();
             this.btnApplyCoupon = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -148,87 +141,6 @@
             this.rdbVeggieBurger.Text = "Veggie Burger";
             this.rdbVeggieBurger.UseVisualStyleBackColor = true;
             this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.burgers_CheckedChanged);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.rdbNoSide);
-            this.groupBox2.Controls.Add(this.rdbChips);
-            this.groupBox2.Controls.Add(this.rdbOnionRings);
-            this.groupBox2.Controls.Add(this.rdbFries);
-            this.groupBox2.Controls.Add(this.rdbTaterTots);
-            this.groupBox2.Location = new System.Drawing.Point(336, 37);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(277, 291);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Sides";
-            // 
-            // rdbNoSide
-            // 
-            this.rdbNoSide.AutoSize = true;
-            this.rdbNoSide.Checked = true;
-            this.rdbNoSide.Location = new System.Drawing.Point(49, 240);
-            this.rdbNoSide.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbNoSide.Name = "rdbNoSide";
-            this.rdbNoSide.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoSide.TabIndex = 4;
-            this.rdbNoSide.TabStop = true;
-            this.rdbNoSide.Tag = "0";
-            this.rdbNoSide.Text = "None";
-            this.rdbNoSide.UseVisualStyleBackColor = true;
-            this.rdbNoSide.CheckedChanged += new System.EventHandler(this.sides_CheckedChanged);
-            // 
-            // rdbChips
-            // 
-            this.rdbChips.AutoSize = true;
-            this.rdbChips.Location = new System.Drawing.Point(49, 193);
-            this.rdbChips.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbChips.Name = "rdbChips";
-            this.rdbChips.Size = new System.Drawing.Size(93, 33);
-            this.rdbChips.TabIndex = 3;
-            this.rdbChips.Tag = ".99";
-            this.rdbChips.Text = "Chips";
-            this.rdbChips.UseVisualStyleBackColor = true;
-            this.rdbChips.CheckedChanged += new System.EventHandler(this.sides_CheckedChanged);
-            // 
-            // rdbOnionRings
-            // 
-            this.rdbOnionRings.AutoSize = true;
-            this.rdbOnionRings.Location = new System.Drawing.Point(49, 146);
-            this.rdbOnionRings.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbOnionRings.Name = "rdbOnionRings";
-            this.rdbOnionRings.Size = new System.Drawing.Size(164, 33);
-            this.rdbOnionRings.TabIndex = 2;
-            this.rdbOnionRings.Tag = ".99";
-            this.rdbOnionRings.Text = "Onion Rings";
-            this.rdbOnionRings.UseVisualStyleBackColor = true;
-            this.rdbOnionRings.CheckedChanged += new System.EventHandler(this.sides_CheckedChanged);
-            // 
-            // rdbFries
-            // 
-            this.rdbFries.AutoSize = true;
-            this.rdbFries.Location = new System.Drawing.Point(49, 52);
-            this.rdbFries.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbFries.Name = "rdbFries";
-            this.rdbFries.Size = new System.Drawing.Size(86, 33);
-            this.rdbFries.TabIndex = 0;
-            this.rdbFries.Tag = ".5";
-            this.rdbFries.Text = "Fries";
-            this.rdbFries.UseVisualStyleBackColor = true;
-            this.rdbFries.CheckedChanged += new System.EventHandler(this.sides_CheckedChanged);
-            // 
-            // rdbTaterTots
-            // 
-            this.rdbTaterTots.AutoSize = true;
-            this.rdbTaterTots.Location = new System.Drawing.Point(49, 99);
-            this.rdbTaterTots.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbTaterTots.Name = "rdbTaterTots";
-            this.rdbTaterTots.Size = new System.Drawing.Size(132, 33);
-            this.rdbTaterTots.TabIndex = 1;
-            this.rdbTaterTots.Tag = ".75";
-            this.rdbTaterTots.Text = "Tater tots";
-            this.rdbTaterTots.UseVisualStyleBackColor = true;
-            this.rdbTaterTots.CheckedChanged += new System.EventHandler(this.sides_CheckedChanged);
             // 
             // groupBox3
             // 
@@ -486,7 +398,7 @@
             this.btnApplyCoupon.UseVisualStyleBackColor = true;
             this.btnApplyCoupon.Click += new System.EventHandler(this.btnApplyCoupon_Click);
             // 
-            // Form1
+            // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -503,16 +415,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstOrder);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(7);
-            this.Name = "Form1";
+            this.Name = "BurgerBarn";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -530,12 +439,6 @@
         private System.Windows.Forms.RadioButton rdbNoBurger;
         private System.Windows.Forms.RadioButton rdbBaconBurger;
         private System.Windows.Forms.RadioButton rdbVeggieBurger;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton rdbNoSide;
-        private System.Windows.Forms.RadioButton rdbChips;
-        private System.Windows.Forms.RadioButton rdbOnionRings;
-        private System.Windows.Forms.RadioButton rdbFries;
-        private System.Windows.Forms.RadioButton rdbTaterTots;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton rdbNoDrink;
         private System.Windows.Forms.RadioButton rdbWater;
