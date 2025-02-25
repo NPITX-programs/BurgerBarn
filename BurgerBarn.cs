@@ -91,6 +91,7 @@ namespace BurgerBarnSummer
 
         private void cmb_coupon_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             if(cmb_coupon.Text == noCouponText)
             {
                 discount = 1;
