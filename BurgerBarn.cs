@@ -99,8 +99,8 @@ namespace BurgerBarnSummer
                 string discString = cmb_coupon.Text;
                 discString = discString.Substring(0, discString.Length - 1);
                 float discVal = float.Parse(discString);
-                discVal = 1 - discVal;
                 discVal = discVal / 100;
+                discVal = 1 - discVal;
                 discount = discVal;
                 CalcTotal();
 
