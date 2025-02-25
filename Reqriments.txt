@@ -1,4 +1,3 @@
-Change the "Apply Coupon" button to a "Combo Box."
 The combo box should list several different percentages (example: 20%, 40%, 60%).
 Selecting an option applies that discount to the Total.
 

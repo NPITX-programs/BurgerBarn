@@ -55,13 +55,11 @@
             this.rdbItalianSub = new System.Windows.Forms.RadioButton();
             this.rdbChickenSandwich = new System.Windows.Forms.RadioButton();
             this.rdbTurkeyClub = new System.Windows.Forms.RadioButton();
-            this.btnApplyCoupon = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.gbx_coupon = new System.Windows.Forms.GroupBox();
+            this.cbm_coupon = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.gbx_coupon.SuspendLayout();
             this.SuspendLayout();
             // 
             // rdbPlainBurger
@@ -391,49 +389,38 @@
             this.rdbTurkeyClub.UseVisualStyleBackColor = true;
             this.rdbTurkeyClub.CheckedChanged += new System.EventHandler(this.selectOrder);
             // 
-            // btnApplyCoupon
+            // cbm_coupon
             // 
-            this.btnApplyCoupon.Location = new System.Drawing.Point(124, 104);
-            this.btnApplyCoupon.Name = "btnApplyCoupon";
-            this.btnApplyCoupon.Size = new System.Drawing.Size(124, 40);
-            this.btnApplyCoupon.TabIndex = 13;
-            this.btnApplyCoupon.Text = "Coupon";
-            this.btnApplyCoupon.UseVisualStyleBackColor = true;
-            this.btnApplyCoupon.Click += new System.EventHandler(this.btnApplyCoupon_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbm_coupon.FormattingEnabled = true;
+            this.cbm_coupon.Items.AddRange(new object[] {
             "10%",
             "25%",
             "40%",
             "50%",
             "100%",
             "110%"});
-            this.comboBox1.Location = new System.Drawing.Point(15, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(233, 37);
-            this.comboBox1.TabIndex = 14;
+            this.cbm_coupon.Location = new System.Drawing.Point(576, 565);
+            this.cbm_coupon.Name = "cbm_coupon";
+            this.cbm_coupon.Size = new System.Drawing.Size(233, 37);
+            this.cbm_coupon.TabIndex = 14;
+            this.cbm_coupon.SelectedIndexChanged += new System.EventHandler(this.cbm_coupon_SelectedIndexChanged);
             // 
-            // gbx_coupon
+            // label4
             // 
-            this.gbx_coupon.Controls.Add(this.comboBox1);
-            this.gbx_coupon.Controls.Add(this.btnApplyCoupon);
-            this.gbx_coupon.Location = new System.Drawing.Point(567, 458);
-            this.gbx_coupon.Name = "gbx_coupon";
-            this.gbx_coupon.Size = new System.Drawing.Size(254, 156);
-            this.gbx_coupon.TabIndex = 15;
-            this.gbx_coupon.TabStop = false;
-            this.gbx_coupon.Text = "Input Coupon";
-            this.gbx_coupon.Visible = false;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(637, 517);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 29);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Coupon";
             // 
             // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 663);
-            this.Controls.Add(this.gbx_coupon);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cbm_coupon);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPurchase);
@@ -450,13 +437,13 @@
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "BurgerBarn";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.BurgerBarn_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.gbx_coupon.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -491,9 +478,8 @@
         private System.Windows.Forms.RadioButton rdbItalianSub;
         private System.Windows.Forms.RadioButton rdbChickenSandwich;
         private System.Windows.Forms.RadioButton rdbTurkeyClub;
-        private System.Windows.Forms.Button btnApplyCoupon;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.GroupBox gbx_coupon;
+        private System.Windows.Forms.ComboBox cbm_coupon;
+        private System.Windows.Forms.Label label4;
     }
 }
 

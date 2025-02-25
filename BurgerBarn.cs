@@ -53,7 +53,6 @@ namespace BurgerBarnSummer
                 rdbNoDrink.Checked = true; //selects no drink
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
-                btnApplyCoupon.Enabled = true; //reset Coupon
                 discount = 1; //reset discount
             }
         }
@@ -88,11 +87,14 @@ namespace BurgerBarnSummer
            CalcTotal(); //Call method
         }
 
-        private void btnApplyCoupon_Click(object sender, EventArgs e)
+        private void cbm_coupon_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnApplyCoupon.Enabled = false; //Apply Coupon
-            discount = .8f; //20% discount
-            CalcTotal(); //call method
+
+        }
+
+        private void BurgerBarn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
