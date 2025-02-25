@@ -102,9 +102,8 @@ namespace BurgerBarnSummer
                 discVal = discVal / 100;
                 discVal = 1 - discVal;
                 discount = discVal;
-                CalcTotal();
-
             }
+            CalcTotal();
         }
 
         private void BurgerBarn_Load(object sender, EventArgs e)
