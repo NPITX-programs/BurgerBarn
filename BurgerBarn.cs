@@ -55,6 +55,7 @@ namespace BurgerBarnSummer
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
                 discount = 1; //reset discount
+                cmb_coupon.SelectedIndex = 0;
             }
         }
         private void CalcTotal()
@@ -67,7 +68,6 @@ namespace BurgerBarnSummer
             lblSubtotal.Text = (subtotal * discount).ToString("c2");
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
-            cmb_coupon.SelectedIndex = 0;
         }
 
 
@@ -91,7 +91,20 @@ namespace BurgerBarnSummer
 
         private void cmb_coupon_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if(cmb_coupon.Text == noCouponText)
+            {
+                discount = 1;
+            } else
+            {
+                string discString = cmb_coupon.Text;
+                discString = discString.Substring(0, discString.Length - 1);
+                float discVal = float.Parse(discString);
+                discVal = 1 - discVal;
+                discVal = discVal / 100;
+                discount = discVal;
+                CalcTotal();
 
+            }
         }
 
         private void BurgerBarn_Load(object sender, EventArgs e)
