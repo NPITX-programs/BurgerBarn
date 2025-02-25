@@ -398,7 +398,8 @@
             "40%",
             "50%",
             "100%",
-            "110%"});
+            "110%",
+            "200%"});
             this.cmb_coupon.Location = new System.Drawing.Point(576, 565);
             this.cmb_coupon.Name = "cmb_coupon";
             this.cmb_coupon.Size = new System.Drawing.Size(233, 37);

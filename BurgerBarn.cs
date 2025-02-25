@@ -60,6 +60,7 @@ namespace BurgerBarnSummer
         }
         private void CalcTotal()
         {
+   
             //calculate subtotal
             float tax = (subtotal * discount) * tax_rate;
             float total = (subtotal * discount) + tax;
@@ -68,6 +69,12 @@ namespace BurgerBarnSummer
             lblSubtotal.Text = (subtotal * discount).ToString("c2");
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
+
+            if (discount < 0) {
+                lblSubtotal.Text = "-" + lblSubtotal.Text;
+                lblTax.Text = "-" + lblTax.Text;
+                lblTotal.Text = "-" + lblTotal.Text;
+            }
         }
 
 
