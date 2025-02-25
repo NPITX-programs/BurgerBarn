@@ -19,20 +19,13 @@ namespace BurgerBarnSummer
             Application.Exit();
         }
 
-        private void burgers_CheckedChanged(object sender, EventArgs e)
+#region select
+        private void selectOrder(object sender, EventArgs e)
         {
             RadioButton rdb = sender as RadioButton; //burgers selected
-
             rdbSelect(rdb); //call method
         }
-
-        private void drinks_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton rdb = sender as RadioButton; //drinks selected
-
-            rdbSelect(rdb); //call method
-        }
-
+#endregion
         private void btnPurchase_Click(object sender, EventArgs e)
         {
             if(lstOrder.Items.Count == 0)
@@ -58,7 +51,6 @@ namespace BurgerBarnSummer
 
                 rdbNoBurger.Checked = true; //selects no burger
                 rdbNoDrink.Checked = true; //selects no drink
-                rdbNoSide.Checked = true; //selects no side
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
                 btnApplyCoupon.Enabled = true; //reset Coupon
@@ -94,13 +86,6 @@ namespace BurgerBarnSummer
                 subtotal -= float.Parse(rdb.Tag.ToString()); //update subtotal 
             }
            CalcTotal(); //Call method
-        }
-
-        private void sandwiches_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton rdb = sender as RadioButton; //Sandwich selected
-
-            rdbSelect(rdb); //call method
         }
 
         private void btnApplyCoupon_Click(object sender, EventArgs e)
