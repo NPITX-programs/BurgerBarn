@@ -53,6 +53,7 @@
             this.rdbNoSandwich = new System.Windows.Forms.RadioButton();
             this.rdbBLT = new System.Windows.Forms.RadioButton();
             this.rdbItalianSub = new System.Windows.Forms.RadioButton();
+            this.rdbChickenSandwich = new System.Windows.Forms.RadioButton();
             this.rdbTurkeyClub = new System.Windows.Forms.RadioButton();
             this.cmb_coupon = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -322,6 +323,7 @@
             this.groupBox4.Controls.Add(this.rdbNoSandwich);
             this.groupBox4.Controls.Add(this.rdbBLT);
             this.groupBox4.Controls.Add(this.rdbItalianSub);
+            this.groupBox4.Controls.Add(this.rdbChickenSandwich);
             this.groupBox4.Controls.Add(this.rdbTurkeyClub);
             this.groupBox4.Location = new System.Drawing.Point(340, 37);
             this.groupBox4.Name = "groupBox4";
@@ -372,6 +374,20 @@
             this.rdbItalianSub.Text = "Italian Sub";
             this.rdbItalianSub.UseVisualStyleBackColor = true;
             this.rdbItalianSub.CheckedChanged += new System.EventHandler(this.selectOrder);
+            // 
+            // rdbChickenSandwich
+            // 
+            this.rdbChickenSandwich.AutoSize = true;
+            this.rdbChickenSandwich.Location = new System.Drawing.Point(25, 52);
+            this.rdbChickenSandwich.Margin = new System.Windows.Forms.Padding(7);
+            this.rdbChickenSandwich.Name = "rdbChickenSandwich";
+            this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
+            this.rdbChickenSandwich.TabIndex = 6;
+            this.rdbChickenSandwich.TabStop = true;
+            this.rdbChickenSandwich.Tag = "3.99";
+            this.rdbChickenSandwich.Text = "Chicken Sandwich";
+            this.rdbChickenSandwich.UseVisualStyleBackColor = true;
+            this.rdbChickenSandwich.CheckedChanged += new System.EventHandler(this.selectOrder);
             // 
             // rdbTurkeyClub
             // 
@@ -475,6 +491,7 @@
         private System.Windows.Forms.RadioButton rdbNoSandwich;
         private System.Windows.Forms.RadioButton rdbBLT;
         private System.Windows.Forms.RadioButton rdbItalianSub;
+        private System.Windows.Forms.RadioButton rdbChickenSandwich;
         private System.Windows.Forms.RadioButton rdbTurkeyClub;
         private System.Windows.Forms.ComboBox cmb_coupon;
         private System.Windows.Forms.Label label4;
