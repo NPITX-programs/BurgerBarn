@@ -336,7 +336,7 @@
             // 
             this.rdbNoSandwich.AutoSize = true;
             this.rdbNoSandwich.Checked = true;
-            this.rdbNoSandwich.Location = new System.Drawing.Point(49, 240);
+            this.rdbNoSandwich.Location = new System.Drawing.Point(38, 240);
             this.rdbNoSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoSandwich.Name = "rdbNoSandwich";
             this.rdbNoSandwich.Size = new System.Drawing.Size(90, 33);
@@ -350,7 +350,7 @@
             // rdbBLT
             // 
             this.rdbBLT.AutoSize = true;
-            this.rdbBLT.Location = new System.Drawing.Point(49, 193);
+            this.rdbBLT.Location = new System.Drawing.Point(38, 193);
             this.rdbBLT.Margin = new System.Windows.Forms.Padding(7);
             this.rdbBLT.Name = "rdbBLT";
             this.rdbBLT.Size = new System.Drawing.Size(76, 33);
@@ -364,7 +364,7 @@
             // rdbItalianSub
             // 
             this.rdbItalianSub.AutoSize = true;
-            this.rdbItalianSub.Location = new System.Drawing.Point(49, 146);
+            this.rdbItalianSub.Location = new System.Drawing.Point(38, 146);
             this.rdbItalianSub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbItalianSub.Name = "rdbItalianSub";
             this.rdbItalianSub.Size = new System.Drawing.Size(143, 33);
@@ -378,7 +378,7 @@
             // rdbChickenSandwich
             // 
             this.rdbChickenSandwich.AutoSize = true;
-            this.rdbChickenSandwich.Location = new System.Drawing.Point(49, 52);
+            this.rdbChickenSandwich.Location = new System.Drawing.Point(38, 52);
             this.rdbChickenSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
             this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
@@ -392,7 +392,7 @@
             // rdbTurkeyClub
             // 
             this.rdbTurkeyClub.AutoSize = true;
-            this.rdbTurkeyClub.Location = new System.Drawing.Point(49, 99);
+            this.rdbTurkeyClub.Location = new System.Drawing.Point(38, 99);
             this.rdbTurkeyClub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbTurkeyClub.Name = "rdbTurkeyClub";
             this.rdbTurkeyClub.Size = new System.Drawing.Size(161, 33);
