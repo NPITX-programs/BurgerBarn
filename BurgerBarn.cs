@@ -99,17 +99,17 @@ namespace BurgerBarnSummer
         {
             if(cmb_coupon.Text == noCouponText)
             {
-                discount = 1;
+                discount = 1; //no discount is 1
             } else
             {
                 string discString = cmb_coupon.Text;
-                discString = discString.Substring(0, discString.Length - 1);
-                float discVal = float.Parse(discString);
-                discVal = discVal / 100;
-                discVal = 1 - discVal;
-                discount = discVal;
+                discString = discString.Substring(0, discString.Length - 1); //remove percent sign
+                float discVal = float.Parse(discString); //convert that text to number
+                discVal = discVal / 100; //convert the number to percent by divideing by 100
+                discVal = 1 - discVal; //subtract one to make it into a "percent off"
+                discount = discVal; //set discount
             }
-            CalcTotal();
+            CalcTotal(); //run calculation
         }
 
         private void BurgerBarn_Load(object sender, EventArgs e)
