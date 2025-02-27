@@ -115,8 +115,8 @@ namespace BurgerBarnSummer
 
         private void BurgerBarn_Load(object sender, EventArgs e)
         {
-            cmb_coupon.Items.Insert(0, noCouponText); //add the text for no coupon
-            cmb_coupon.SelectedIndex = 0; //reset coupon
+            cmb_coupon.Items.Insert(0, noCouponText); //add the text for no coupon (as that's not hard-coded)
+            cmb_coupon.SelectedIndex = 0; //reset coupon (as a new "0" is added, it needs to be set to 0)
         }
     }
 }
