@@ -65,7 +65,7 @@
             // rdbPlainBurger
             // 
             this.rdbPlainBurger.AutoSize = true;
-            this.rdbPlainBurger.Location = new System.Drawing.Point(49, 52);
+            this.rdbPlainBurger.Location = new System.Drawing.Point(33, 52);
             this.rdbPlainBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbPlainBurger.Name = "rdbPlainBurger";
             this.rdbPlainBurger.Size = new System.Drawing.Size(164, 33);
@@ -78,7 +78,7 @@
             // rdbCheeseburger
             // 
             this.rdbCheeseburger.AutoSize = true;
-            this.rdbCheeseburger.Location = new System.Drawing.Point(49, 99);
+            this.rdbCheeseburger.Location = new System.Drawing.Point(33, 99);
             this.rdbCheeseburger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbCheeseburger.Name = "rdbCheeseburger";
             this.rdbCheeseburger.Size = new System.Drawing.Size(186, 33);
@@ -107,7 +107,7 @@
             // 
             this.rdbNoBurger.AutoSize = true;
             this.rdbNoBurger.Checked = true;
-            this.rdbNoBurger.Location = new System.Drawing.Point(49, 240);
+            this.rdbNoBurger.Location = new System.Drawing.Point(33, 240);
             this.rdbNoBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoBurger.Name = "rdbNoBurger";
             this.rdbNoBurger.Size = new System.Drawing.Size(90, 33);
@@ -121,7 +121,7 @@
             // rdbBaconBurger
             // 
             this.rdbBaconBurger.AutoSize = true;
-            this.rdbBaconBurger.Location = new System.Drawing.Point(49, 193);
+            this.rdbBaconBurger.Location = new System.Drawing.Point(33, 193);
             this.rdbBaconBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbBaconBurger.Name = "rdbBaconBurger";
             this.rdbBaconBurger.Size = new System.Drawing.Size(178, 33);
@@ -135,7 +135,7 @@
             // rdbVeggieBurger
             // 
             this.rdbVeggieBurger.AutoSize = true;
-            this.rdbVeggieBurger.Location = new System.Drawing.Point(49, 146);
+            this.rdbVeggieBurger.Location = new System.Drawing.Point(33, 146);
             this.rdbVeggieBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbVeggieBurger.Name = "rdbVeggieBurger";
             this.rdbVeggieBurger.Size = new System.Drawing.Size(187, 33);
@@ -164,7 +164,7 @@
             // 
             this.rdbNoDrink.AutoSize = true;
             this.rdbNoDrink.Checked = true;
-            this.rdbNoDrink.Location = new System.Drawing.Point(49, 240);
+            this.rdbNoDrink.Location = new System.Drawing.Point(33, 226);
             this.rdbNoDrink.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoDrink.Name = "rdbNoDrink";
             this.rdbNoDrink.Size = new System.Drawing.Size(90, 33);
@@ -178,7 +178,7 @@
             // rdbWater
             // 
             this.rdbWater.AutoSize = true;
-            this.rdbWater.Location = new System.Drawing.Point(49, 193);
+            this.rdbWater.Location = new System.Drawing.Point(33, 179);
             this.rdbWater.Margin = new System.Windows.Forms.Padding(7);
             this.rdbWater.Name = "rdbWater";
             this.rdbWater.Size = new System.Drawing.Size(94, 33);
@@ -192,7 +192,7 @@
             // rdbFruitPunch
             // 
             this.rdbFruitPunch.AutoSize = true;
-            this.rdbFruitPunch.Location = new System.Drawing.Point(49, 146);
+            this.rdbFruitPunch.Location = new System.Drawing.Point(33, 132);
             this.rdbFruitPunch.Margin = new System.Windows.Forms.Padding(7);
             this.rdbFruitPunch.Name = "rdbFruitPunch";
             this.rdbFruitPunch.Size = new System.Drawing.Size(152, 33);
@@ -206,7 +206,7 @@
             // rdbCola
             // 
             this.rdbCola.AutoSize = true;
-            this.rdbCola.Location = new System.Drawing.Point(49, 52);
+            this.rdbCola.Location = new System.Drawing.Point(33, 38);
             this.rdbCola.Margin = new System.Windows.Forms.Padding(7);
             this.rdbCola.Name = "rdbCola";
             this.rdbCola.Size = new System.Drawing.Size(81, 33);
@@ -220,7 +220,7 @@
             // rdbTea
             // 
             this.rdbTea.AutoSize = true;
-            this.rdbTea.Location = new System.Drawing.Point(49, 99);
+            this.rdbTea.Location = new System.Drawing.Point(33, 85);
             this.rdbTea.Margin = new System.Windows.Forms.Padding(7);
             this.rdbTea.Name = "rdbTea";
             this.rdbTea.Size = new System.Drawing.Size(74, 33);
@@ -336,7 +336,7 @@
             // 
             this.rdbNoSandwich.AutoSize = true;
             this.rdbNoSandwich.Checked = true;
-            this.rdbNoSandwich.Location = new System.Drawing.Point(25, 240);
+            this.rdbNoSandwich.Location = new System.Drawing.Point(10, 226);
             this.rdbNoSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoSandwich.Name = "rdbNoSandwich";
             this.rdbNoSandwich.Size = new System.Drawing.Size(90, 33);
@@ -350,7 +350,7 @@
             // rdbBLT
             // 
             this.rdbBLT.AutoSize = true;
-            this.rdbBLT.Location = new System.Drawing.Point(25, 193);
+            this.rdbBLT.Location = new System.Drawing.Point(10, 179);
             this.rdbBLT.Margin = new System.Windows.Forms.Padding(7);
             this.rdbBLT.Name = "rdbBLT";
             this.rdbBLT.Size = new System.Drawing.Size(76, 33);
@@ -363,7 +363,7 @@
             // rdbItalianSub
             // 
             this.rdbItalianSub.AutoSize = true;
-            this.rdbItalianSub.Location = new System.Drawing.Point(25, 146);
+            this.rdbItalianSub.Location = new System.Drawing.Point(10, 132);
             this.rdbItalianSub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbItalianSub.Name = "rdbItalianSub";
             this.rdbItalianSub.Size = new System.Drawing.Size(143, 33);
@@ -376,7 +376,7 @@
             // rdbChickenSandwich
             // 
             this.rdbChickenSandwich.AutoSize = true;
-            this.rdbChickenSandwich.Location = new System.Drawing.Point(25, 52);
+            this.rdbChickenSandwich.Location = new System.Drawing.Point(10, 38);
             this.rdbChickenSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
             this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
@@ -389,7 +389,7 @@
             // rdbTurkeyClub
             // 
             this.rdbTurkeyClub.AutoSize = true;
-            this.rdbTurkeyClub.Location = new System.Drawing.Point(25, 99);
+            this.rdbTurkeyClub.Location = new System.Drawing.Point(10, 85);
             this.rdbTurkeyClub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbTurkeyClub.Name = "rdbTurkeyClub";
             this.rdbTurkeyClub.Size = new System.Drawing.Size(161, 33);
