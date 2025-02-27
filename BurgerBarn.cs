@@ -9,7 +9,7 @@ namespace BurgerBarnSummer
         float subtotal = 0;
         float tax_rate = 0.0825f;
         float discount = 1;
-        const string noCouponText = "No Coupon";
+        const string noCouponText = "No Coupon"; //the text for no coupon, allowing you to change the "no coupon" phrase!
         public BurgerBarn()
         {
             InitializeComponent();
@@ -55,7 +55,7 @@ namespace BurgerBarnSummer
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
                 discount = 1; //reset discount
-                cmb_coupon.SelectedIndex = 0;
+                cmb_coupon.SelectedIndex = 0; //reset selected coupon
             }
         }
         private void CalcTotal()
