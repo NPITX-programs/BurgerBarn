@@ -378,7 +378,6 @@
             // rdbChickenSandwich
             // 
             this.rdbChickenSandwich.AutoSize = true;
-            this.rdbChickenSandwich.Enabled = false;
             this.rdbChickenSandwich.Location = new System.Drawing.Point(49, 52);
             this.rdbChickenSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
