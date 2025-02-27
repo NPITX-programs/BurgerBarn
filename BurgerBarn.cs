@@ -74,7 +74,7 @@ namespace BurgerBarnSummer
                 lblSubtotal.Text = "-" + lblSubtotal.Text;
                 lblTax.Text = "-" + lblTax.Text;
                 lblTotal.Text = "-" + lblTotal.Text;
-            }
+            } //checks that the discount is more than zero. If it isn't, then it is a negative discount, and thus the calculated value must be multiplied by -1
         }
 
 
