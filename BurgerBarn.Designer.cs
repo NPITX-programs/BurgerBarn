@@ -355,7 +355,6 @@
             this.rdbBLT.Name = "rdbBLT";
             this.rdbBLT.Size = new System.Drawing.Size(76, 33);
             this.rdbBLT.TabIndex = 9;
-            this.rdbBLT.TabStop = true;
             this.rdbBLT.Tag = "3.49";
             this.rdbBLT.Text = "BLT";
             this.rdbBLT.UseVisualStyleBackColor = true;
@@ -369,7 +368,6 @@
             this.rdbItalianSub.Name = "rdbItalianSub";
             this.rdbItalianSub.Size = new System.Drawing.Size(143, 33);
             this.rdbItalianSub.TabIndex = 8;
-            this.rdbItalianSub.TabStop = true;
             this.rdbItalianSub.Tag = "7.49";
             this.rdbItalianSub.Text = "Italian Sub";
             this.rdbItalianSub.UseVisualStyleBackColor = true;
@@ -383,7 +381,6 @@
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
             this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
             this.rdbChickenSandwich.TabIndex = 6;
-            this.rdbChickenSandwich.TabStop = true;
             this.rdbChickenSandwich.Tag = "3.99";
             this.rdbChickenSandwich.Text = "Chicken Sandwich";
             this.rdbChickenSandwich.UseVisualStyleBackColor = true;
@@ -397,7 +394,6 @@
             this.rdbTurkeyClub.Name = "rdbTurkeyClub";
             this.rdbTurkeyClub.Size = new System.Drawing.Size(161, 33);
             this.rdbTurkeyClub.TabIndex = 7;
-            this.rdbTurkeyClub.TabStop = true;
             this.rdbTurkeyClub.Tag = "5.49";
             this.rdbTurkeyClub.Text = "Turkey Club";
             this.rdbTurkeyClub.UseVisualStyleBackColor = true;
