@@ -6,6 +6,7 @@ Hmm, what if we make a ***List of all the Reqrirments!***
 # Reqrirments/ modification
 just the requriments of the program, or the edits to make to said program
 ## What modification
+
 1. Minimize changes to only what is necessary to integrate your codeMake the following adjustments to your partner's program. You are allowed to modify your partner's code, but only enough to implement your own features.
 2. Change the "Apply Coupon" button to a "Combo Box."
 3. The combo box should list several different percentages (example: 20%, 40%, 60%).
