@@ -414,7 +414,7 @@
             "100%",
             "110%",
             "200%"});
-            this.cmb_coupon.Location = new System.Drawing.Point(576, 565);
+            this.cmb_coupon.Location = new System.Drawing.Point(573, 562);
             this.cmb_coupon.Name = "cmb_coupon";
             this.cmb_coupon.Size = new System.Drawing.Size(233, 37);
             this.cmb_coupon.TabIndex = 17;
@@ -423,7 +423,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(637, 517);
+            this.label4.Location = new System.Drawing.Point(640, 514);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 29);
             this.label4.TabIndex = 15;
