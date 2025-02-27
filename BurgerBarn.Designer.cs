@@ -73,7 +73,7 @@
             this.rdbPlainBurger.Tag = "4.99";
             this.rdbPlainBurger.Text = "Plain Burger";
             this.rdbPlainBurger.UseVisualStyleBackColor = true;
-            this.rdbPlainBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbPlainBurger.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbCheeseburger
             // 
@@ -87,7 +87,7 @@
             this.rdbCheeseburger.Tag = "5.99";
             this.rdbCheeseburger.Text = "Cheeseburger";
             this.rdbCheeseburger.UseVisualStyleBackColor = true;
-            this.rdbCheeseburger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbCheeseburger.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // groupBox1
             // 
@@ -116,7 +116,7 @@
             this.rdbNoBurger.Tag = "0";
             this.rdbNoBurger.Text = "None";
             this.rdbNoBurger.UseVisualStyleBackColor = true;
-            this.rdbNoBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbNoBurger.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbBaconBurger
             // 
@@ -130,7 +130,7 @@
             this.rdbBaconBurger.Tag = "7.99";
             this.rdbBaconBurger.Text = "Bacon Burger";
             this.rdbBaconBurger.UseVisualStyleBackColor = true;
-            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbVeggieBurger
             // 
@@ -144,7 +144,7 @@
             this.rdbVeggieBurger.Tag = "6.49";
             this.rdbVeggieBurger.Text = "Veggie Burger";
             this.rdbVeggieBurger.UseVisualStyleBackColor = true;
-            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // groupBox3
             // 
@@ -173,7 +173,7 @@
             this.rdbNoDrink.Tag = "0";
             this.rdbNoDrink.Text = "None";
             this.rdbNoDrink.UseVisualStyleBackColor = true;
-            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbWater
             // 
@@ -187,7 +187,7 @@
             this.rdbWater.Tag = ".99";
             this.rdbWater.Text = "Water";
             this.rdbWater.UseVisualStyleBackColor = true;
-            this.rdbWater.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbWater.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbFruitPunch
             // 
@@ -201,7 +201,7 @@
             this.rdbFruitPunch.Tag = "1.09";
             this.rdbFruitPunch.Text = "Fruit Punch";
             this.rdbFruitPunch.UseVisualStyleBackColor = true;
-            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbCola
             // 
@@ -215,7 +215,7 @@
             this.rdbCola.Tag = "1.29";
             this.rdbCola.Text = "Cola";
             this.rdbCola.UseVisualStyleBackColor = true;
-            this.rdbCola.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbCola.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbTea
             // 
@@ -229,7 +229,7 @@
             this.rdbTea.Tag = "1.19";
             this.rdbTea.Text = "Tea";
             this.rdbTea.UseVisualStyleBackColor = true;
-            this.rdbTea.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbTea.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // lstOrder
             // 
@@ -345,7 +345,7 @@
             this.rdbNoSandwich.Tag = "0";
             this.rdbNoSandwich.Text = "None";
             this.rdbNoSandwich.UseVisualStyleBackColor = true;
-            this.rdbNoSandwich.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbNoSandwich.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbBLT
             // 
@@ -355,11 +355,10 @@
             this.rdbBLT.Name = "rdbBLT";
             this.rdbBLT.Size = new System.Drawing.Size(76, 33);
             this.rdbBLT.TabIndex = 9;
-            this.rdbBLT.TabStop = true;
             this.rdbBLT.Tag = "3.49";
             this.rdbBLT.Text = "BLT";
             this.rdbBLT.UseVisualStyleBackColor = true;
-            this.rdbBLT.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbBLT.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbItalianSub
             // 
@@ -369,11 +368,10 @@
             this.rdbItalianSub.Name = "rdbItalianSub";
             this.rdbItalianSub.Size = new System.Drawing.Size(143, 33);
             this.rdbItalianSub.TabIndex = 8;
-            this.rdbItalianSub.TabStop = true;
             this.rdbItalianSub.Tag = "7.49";
             this.rdbItalianSub.Text = "Italian Sub";
             this.rdbItalianSub.UseVisualStyleBackColor = true;
-            this.rdbItalianSub.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbItalianSub.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbChickenSandwich
             // 
@@ -383,11 +381,10 @@
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
             this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
             this.rdbChickenSandwich.TabIndex = 6;
-            this.rdbChickenSandwich.TabStop = true;
             this.rdbChickenSandwich.Tag = "3.99";
             this.rdbChickenSandwich.Text = "Chicken Sandwich";
             this.rdbChickenSandwich.UseVisualStyleBackColor = true;
-            this.rdbChickenSandwich.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbChickenSandwich.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbTurkeyClub
             // 
@@ -397,11 +394,10 @@
             this.rdbTurkeyClub.Name = "rdbTurkeyClub";
             this.rdbTurkeyClub.Size = new System.Drawing.Size(161, 33);
             this.rdbTurkeyClub.TabIndex = 7;
-            this.rdbTurkeyClub.TabStop = true;
             this.rdbTurkeyClub.Tag = "5.49";
             this.rdbTurkeyClub.Text = "Turkey Club";
             this.rdbTurkeyClub.UseVisualStyleBackColor = true;
-            this.rdbTurkeyClub.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbTurkeyClub.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // cmb_coupon
             // 
@@ -488,13 +484,13 @@
         private System.Windows.Forms.Button btnPurchase;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton rdbNoSandwich;
         private System.Windows.Forms.RadioButton rdbBLT;
         private System.Windows.Forms.RadioButton rdbItalianSub;
         private System.Windows.Forms.RadioButton rdbChickenSandwich;
         private System.Windows.Forms.RadioButton rdbTurkeyClub;
         private System.Windows.Forms.ComboBox cmb_coupon;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton rdbNoSandwich;
     }
 }
 
