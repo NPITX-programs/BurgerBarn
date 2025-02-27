@@ -54,7 +54,6 @@ namespace BurgerBarnSummer
                 rdbNoDrink.Checked = true; //selects no drink
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
-                discount = 1; //reset discount
                 cmb_coupon.SelectedIndex = 0; //reset selected coupon
             }
         }
