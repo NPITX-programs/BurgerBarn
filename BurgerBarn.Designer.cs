@@ -50,13 +50,13 @@
             this.btnPurchase = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rdbNoSandwich = new System.Windows.Forms.RadioButton();
             this.rdbBLT = new System.Windows.Forms.RadioButton();
             this.rdbItalianSub = new System.Windows.Forms.RadioButton();
             this.rdbChickenSandwich = new System.Windows.Forms.RadioButton();
             this.rdbTurkeyClub = new System.Windows.Forms.RadioButton();
             this.cmb_coupon = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -320,7 +320,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.radioButton1);
+            this.groupBox4.Controls.Add(this.rdbNoSandwich);
             this.groupBox4.Controls.Add(this.rdbBLT);
             this.groupBox4.Controls.Add(this.rdbItalianSub);
             this.groupBox4.Controls.Add(this.rdbChickenSandwich);
@@ -331,6 +331,21 @@
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Sandwiches";
+            // 
+            // rdbNoSandwich
+            // 
+            this.rdbNoSandwich.AutoSize = true;
+            this.rdbNoSandwich.Checked = true;
+            this.rdbNoSandwich.Location = new System.Drawing.Point(25, 240);
+            this.rdbNoSandwich.Margin = new System.Windows.Forms.Padding(7);
+            this.rdbNoSandwich.Name = "rdbNoSandwich";
+            this.rdbNoSandwich.Size = new System.Drawing.Size(90, 33);
+            this.rdbNoSandwich.TabIndex = 10;
+            this.rdbNoSandwich.TabStop = true;
+            this.rdbNoSandwich.Tag = "0";
+            this.rdbNoSandwich.Text = "None";
+            this.rdbNoSandwich.UseVisualStyleBackColor = true;
+            this.rdbNoSandwich.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
             // 
             // rdbBLT
             // 
@@ -414,21 +429,6 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "Coupon";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(25, 258);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(7);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(90, 33);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Tag = "0";
-            this.radioButton1.Text = "None";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.btn_selectOrder);
-            // 
             // BurgerBarn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -494,7 +494,7 @@
         private System.Windows.Forms.RadioButton rdbTurkeyClub;
         private System.Windows.Forms.ComboBox cmb_coupon;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbNoSandwich;
     }
 }
 
