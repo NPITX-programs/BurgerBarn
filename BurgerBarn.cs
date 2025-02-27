@@ -9,7 +9,7 @@ namespace BurgerBarnSummer
         float subtotal = 0;
         float tax_rate = 0.0825f;
         float discount = 1;
-        const string noCouponText = "No Coupon";
+        const string noCouponText = "No Coupon"; //the text for no coupon, allowing you to change the "no coupon" phrase!
         public BurgerBarn()
         {
             InitializeComponent();
@@ -55,7 +55,7 @@ namespace BurgerBarnSummer
                 rdbNoSandwich.Checked = true; //selects no sandwich
 
                 discount = 1; //reset discount
-                cmb_coupon.SelectedIndex = 0;
+                cmb_coupon.SelectedIndex = 0; //reset selected coupon
             }
         }
         private void CalcTotal()
@@ -74,7 +74,7 @@ namespace BurgerBarnSummer
                 lblSubtotal.Text = "-" + lblSubtotal.Text;
                 lblTax.Text = "-" + lblTax.Text;
                 lblTotal.Text = "-" + lblTotal.Text;
-            }
+            } //checks that the discount is more than zero. If it isn't, then it is a negative discount, and thus the calculated value must be multiplied by -1
         }
 
 
@@ -115,8 +115,8 @@ namespace BurgerBarnSummer
 
         private void BurgerBarn_Load(object sender, EventArgs e)
         {
-            cmb_coupon.Items.Insert(0, noCouponText); //add the text for no coupon
-            cmb_coupon.SelectedIndex = 0; //reset coupon
+            cmb_coupon.Items.Insert(0, noCouponText); //add the text for no coupon (as that's not hard-coded)
+            cmb_coupon.SelectedIndex = 0; //reset coupon (as a new "0" is added, it needs to be set to 0)
         }
     }
 }
