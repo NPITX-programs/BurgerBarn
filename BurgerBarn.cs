@@ -21,7 +21,7 @@ namespace BurgerBarnSummer
         }
 
 #region select
-        private void selectOrder(object sender, EventArgs e)
+        private void btn_selectOrder(object sender, EventArgs e)
         {
             RadioButton rdb = sender as RadioButton; //burgers selected
             rdbSelect(rdb); //call method
