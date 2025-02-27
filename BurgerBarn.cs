@@ -38,11 +38,11 @@ namespace BurgerBarn
             }
             //calculate totalss
             float tax = subtotal * tax_rate;
-            subtotal = subtotal * discount; //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
-            float total = subtotal + tax;
+            //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
+            float total = (subtotal * discount) + tax; //the subtotal is multiplied by the discount, which allows it to discount the subtotal. Meanwhile, the tax remains the same
 
             //display totals
-            lblSubtoal.Text = subtotal.ToString("c2");
+            lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
             lblTax.Text = tax.ToString("c2");
             lblTotal.Text = total.ToString("c2");
         }
@@ -63,12 +63,24 @@ namespace BurgerBarn
             discount = 1; //resets the discount to being none upon purchase 
             subtotal = 0;
         }
-        #endregion UI
-
+        
         private void bttnCoupon_Click(object sender, EventArgs e)
         {
             bttnCoupon.Enabled = false; //disable the coupon button once applied
             discount = (100 - discValue) / 100; //sets the discount to be be the reciprical of the discount value as a percent, so that the value to pay can be calculated by multiplication. So, a 20% discount (an input of 20) is the same as 80% of the original price. The 100-"x" turns 20 to 80. Then, divide by 100, and you get 0.8, or 80 percent.
-        }
+
+            //to activate the coupon upon clicking the button, I went with the simplest method, which is to just copy the code that is used for the "rdbSelect" part
+                //I recommend either methodizing this part, or modifying the method to have a "refresh" feature which just does a recalculation
+                //calculate totals
+                float tax = subtotal * tax_rate;
+                //applies the discount. By doing it after the tax, tax is based on the original subtotal. By doing it before total, the total factors in the discount, meaning it's the discounted subtotal + the non-discounted tax. if you want the discount to include tax, just move this one line up
+                float total = (subtotal * discount) + tax; //the subtotal is multiplied by the discount, which allows it to discount the subtotal. Meanwhile, the tax remains the same
+
+            //display totals
+            lblSubtoal.Text = (subtotal * discount).ToString("c2"); //discount is applied to the subtotal here
+            lblTax.Text = tax.ToString("c2");
+            lblTotal.Text = total.ToString("c2");
+        } //apply coupons
+        #endregion UI
     }
 }
