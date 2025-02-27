@@ -69,7 +69,7 @@
             this.rdbPlainBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbPlainBurger.Name = "rdbPlainBurger";
             this.rdbPlainBurger.Size = new System.Drawing.Size(164, 33);
-            this.rdbPlainBurger.TabIndex = 0;
+            this.rdbPlainBurger.TabIndex = 1;
             this.rdbPlainBurger.Tag = "4.99";
             this.rdbPlainBurger.Text = "Plain Burger";
             this.rdbPlainBurger.UseVisualStyleBackColor = true;
@@ -82,7 +82,8 @@
             this.rdbCheeseburger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbCheeseburger.Name = "rdbCheeseburger";
             this.rdbCheeseburger.Size = new System.Drawing.Size(186, 33);
-            this.rdbCheeseburger.TabIndex = 1;
+            this.rdbCheeseburger.TabIndex = 2;
+            this.rdbCheeseburger.TabStop = true;
             this.rdbCheeseburger.Tag = "5.99";
             this.rdbCheeseburger.Text = "Cheeseburger";
             this.rdbCheeseburger.UseVisualStyleBackColor = true;
@@ -98,7 +99,7 @@
             this.groupBox1.Location = new System.Drawing.Point(41, 37);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(277, 291);
-            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Burgers";
             // 
@@ -110,7 +111,7 @@
             this.rdbNoBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoBurger.Name = "rdbNoBurger";
             this.rdbNoBurger.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoBurger.TabIndex = 4;
+            this.rdbNoBurger.TabIndex = 5;
             this.rdbNoBurger.TabStop = true;
             this.rdbNoBurger.Tag = "0";
             this.rdbNoBurger.Text = "None";
@@ -124,7 +125,8 @@
             this.rdbBaconBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbBaconBurger.Name = "rdbBaconBurger";
             this.rdbBaconBurger.Size = new System.Drawing.Size(178, 33);
-            this.rdbBaconBurger.TabIndex = 3;
+            this.rdbBaconBurger.TabIndex = 4;
+            this.rdbBaconBurger.TabStop = true;
             this.rdbBaconBurger.Tag = "7.99";
             this.rdbBaconBurger.Text = "Bacon Burger";
             this.rdbBaconBurger.UseVisualStyleBackColor = true;
@@ -137,7 +139,8 @@
             this.rdbVeggieBurger.Margin = new System.Windows.Forms.Padding(7);
             this.rdbVeggieBurger.Name = "rdbVeggieBurger";
             this.rdbVeggieBurger.Size = new System.Drawing.Size(187, 33);
-            this.rdbVeggieBurger.TabIndex = 2;
+            this.rdbVeggieBurger.TabIndex = 3;
+            this.rdbVeggieBurger.TabStop = true;
             this.rdbVeggieBurger.Tag = "6.49";
             this.rdbVeggieBurger.Text = "Veggie Burger";
             this.rdbVeggieBurger.UseVisualStyleBackColor = true;
@@ -153,7 +156,7 @@
             this.groupBox3.Location = new System.Drawing.Point(41, 341);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(277, 291);
-            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Drinks";
             // 
@@ -165,7 +168,7 @@
             this.rdbNoDrink.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoDrink.Name = "rdbNoDrink";
             this.rdbNoDrink.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoDrink.TabIndex = 4;
+            this.rdbNoDrink.TabIndex = 15;
             this.rdbNoDrink.TabStop = true;
             this.rdbNoDrink.Tag = "0";
             this.rdbNoDrink.Text = "None";
@@ -179,7 +182,8 @@
             this.rdbWater.Margin = new System.Windows.Forms.Padding(7);
             this.rdbWater.Name = "rdbWater";
             this.rdbWater.Size = new System.Drawing.Size(94, 33);
-            this.rdbWater.TabIndex = 3;
+            this.rdbWater.TabIndex = 14;
+            this.rdbWater.TabStop = true;
             this.rdbWater.Tag = ".99";
             this.rdbWater.Text = "Water";
             this.rdbWater.UseVisualStyleBackColor = true;
@@ -192,7 +196,8 @@
             this.rdbFruitPunch.Margin = new System.Windows.Forms.Padding(7);
             this.rdbFruitPunch.Name = "rdbFruitPunch";
             this.rdbFruitPunch.Size = new System.Drawing.Size(152, 33);
-            this.rdbFruitPunch.TabIndex = 2;
+            this.rdbFruitPunch.TabIndex = 13;
+            this.rdbFruitPunch.TabStop = true;
             this.rdbFruitPunch.Tag = "1.09";
             this.rdbFruitPunch.Text = "Fruit Punch";
             this.rdbFruitPunch.UseVisualStyleBackColor = true;
@@ -205,7 +210,8 @@
             this.rdbCola.Margin = new System.Windows.Forms.Padding(7);
             this.rdbCola.Name = "rdbCola";
             this.rdbCola.Size = new System.Drawing.Size(81, 33);
-            this.rdbCola.TabIndex = 0;
+            this.rdbCola.TabIndex = 11;
+            this.rdbCola.TabStop = true;
             this.rdbCola.Tag = "1.29";
             this.rdbCola.Text = "Cola";
             this.rdbCola.UseVisualStyleBackColor = true;
@@ -218,7 +224,8 @@
             this.rdbTea.Margin = new System.Windows.Forms.Padding(7);
             this.rdbTea.Name = "rdbTea";
             this.rdbTea.Size = new System.Drawing.Size(74, 33);
-            this.rdbTea.TabIndex = 1;
+            this.rdbTea.TabIndex = 12;
+            this.rdbTea.TabStop = true;
             this.rdbTea.Tag = "1.19";
             this.rdbTea.Text = "Tea";
             this.rdbTea.UseVisualStyleBackColor = true;
@@ -233,6 +240,7 @@
             this.lstOrder.Size = new System.Drawing.Size(488, 352);
             this.lstOrder.Sorted = true;
             this.lstOrder.TabIndex = 6;
+            this.lstOrder.TabStop = false;
             // 
             // label1
             // 
@@ -293,7 +301,8 @@
             this.btnPurchase.Location = new System.Drawing.Point(827, 562);
             this.btnPurchase.Name = "btnPurchase";
             this.btnPurchase.Size = new System.Drawing.Size(125, 40);
-            this.btnPurchase.TabIndex = 10;
+            this.btnPurchase.TabIndex = 9;
+            this.btnPurchase.TabStop = false;
             this.btnPurchase.Text = "Purchase";
             this.btnPurchase.UseVisualStyleBackColor = true;
             this.btnPurchase.Click += new System.EventHandler(this.btnPurchase_Click);
@@ -303,7 +312,8 @@
             this.btnExit.Location = new System.Drawing.Point(994, 562);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(125, 40);
-            this.btnExit.TabIndex = 11;
+            this.btnExit.TabIndex = 10;
+            this.btnExit.TabStop = false;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -318,7 +328,7 @@
             this.groupBox4.Location = new System.Drawing.Point(340, 37);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(277, 291);
-            this.groupBox4.TabIndex = 12;
+            this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Sandwiches";
             // 
@@ -330,7 +340,7 @@
             this.rdbNoSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbNoSandwich.Name = "rdbNoSandwich";
             this.rdbNoSandwich.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoSandwich.TabIndex = 4;
+            this.rdbNoSandwich.TabIndex = 10;
             this.rdbNoSandwich.TabStop = true;
             this.rdbNoSandwich.Tag = "0";
             this.rdbNoSandwich.Text = "None";
@@ -344,7 +354,8 @@
             this.rdbBLT.Margin = new System.Windows.Forms.Padding(7);
             this.rdbBLT.Name = "rdbBLT";
             this.rdbBLT.Size = new System.Drawing.Size(76, 33);
-            this.rdbBLT.TabIndex = 3;
+            this.rdbBLT.TabIndex = 9;
+            this.rdbBLT.TabStop = true;
             this.rdbBLT.Tag = "3.49";
             this.rdbBLT.Text = "BLT";
             this.rdbBLT.UseVisualStyleBackColor = true;
@@ -357,7 +368,8 @@
             this.rdbItalianSub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbItalianSub.Name = "rdbItalianSub";
             this.rdbItalianSub.Size = new System.Drawing.Size(143, 33);
-            this.rdbItalianSub.TabIndex = 2;
+            this.rdbItalianSub.TabIndex = 8;
+            this.rdbItalianSub.TabStop = true;
             this.rdbItalianSub.Tag = "7.49";
             this.rdbItalianSub.Text = "Italian Sub";
             this.rdbItalianSub.UseVisualStyleBackColor = true;
@@ -370,7 +382,8 @@
             this.rdbChickenSandwich.Margin = new System.Windows.Forms.Padding(7);
             this.rdbChickenSandwich.Name = "rdbChickenSandwich";
             this.rdbChickenSandwich.Size = new System.Drawing.Size(229, 33);
-            this.rdbChickenSandwich.TabIndex = 0;
+            this.rdbChickenSandwich.TabIndex = 6;
+            this.rdbChickenSandwich.TabStop = true;
             this.rdbChickenSandwich.Tag = "3.99";
             this.rdbChickenSandwich.Text = "Chicken Sandwich";
             this.rdbChickenSandwich.UseVisualStyleBackColor = true;
@@ -383,7 +396,8 @@
             this.rdbTurkeyClub.Margin = new System.Windows.Forms.Padding(7);
             this.rdbTurkeyClub.Name = "rdbTurkeyClub";
             this.rdbTurkeyClub.Size = new System.Drawing.Size(161, 33);
-            this.rdbTurkeyClub.TabIndex = 1;
+            this.rdbTurkeyClub.TabIndex = 7;
+            this.rdbTurkeyClub.TabStop = true;
             this.rdbTurkeyClub.Tag = "5.49";
             this.rdbTurkeyClub.Text = "Turkey Club";
             this.rdbTurkeyClub.UseVisualStyleBackColor = true;
@@ -403,7 +417,7 @@
             this.cmb_coupon.Location = new System.Drawing.Point(576, 565);
             this.cmb_coupon.Name = "cmb_coupon";
             this.cmb_coupon.Size = new System.Drawing.Size(233, 37);
-            this.cmb_coupon.TabIndex = 14;
+            this.cmb_coupon.TabIndex = 17;
             this.cmb_coupon.SelectedIndexChanged += new System.EventHandler(this.cmb_coupon_SelectedIndexChanged);
             // 
             // label4
