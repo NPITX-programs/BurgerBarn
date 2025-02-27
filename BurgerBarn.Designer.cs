@@ -1,4 +1,4 @@
-﻿namespace BurgerBarnSummer
+﻿namespace BurgerBarn
 {
     partial class BurgerBarn
     {
@@ -102,222 +102,55 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Burgers";
-            // 
-            // rdbNoBurger
-            // 
-            this.rdbNoBurger.AutoSize = true;
-            this.rdbNoBurger.Checked = true;
-            this.rdbNoBurger.Location = new System.Drawing.Point(49, 240);
-            this.rdbNoBurger.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbNoBurger.Name = "rdbNoBurger";
-            this.rdbNoBurger.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoBurger.TabIndex = 5;
-            this.rdbNoBurger.TabStop = true;
-            this.rdbNoBurger.Tag = "0";
-            this.rdbNoBurger.Text = "None";
-            this.rdbNoBurger.UseVisualStyleBackColor = true;
-            this.rdbNoBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // rdbBaconBurger
-            // 
-            this.rdbBaconBurger.AutoSize = true;
-            this.rdbBaconBurger.Location = new System.Drawing.Point(49, 193);
-            this.rdbBaconBurger.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbBaconBurger.Name = "rdbBaconBurger";
-            this.rdbBaconBurger.Size = new System.Drawing.Size(178, 33);
-            this.rdbBaconBurger.TabIndex = 4;
-            this.rdbBaconBurger.TabStop = true;
-            this.rdbBaconBurger.Tag = "7.99";
-            this.rdbBaconBurger.Text = "Bacon Burger";
-            this.rdbBaconBurger.UseVisualStyleBackColor = true;
-            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbCheeseburger.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbCheeseburger.Location = new System.Drawing.Point(14, 48);
+            this.rdbCheeseburger.Name = "rdbCheeseburger";
+            this.rdbCheeseburger.Size = new System.Drawing.Size(161, 23);
+            this.rdbCheeseburger.TabIndex = 0;
+            this.rdbCheeseburger.TabStop = true;
+            this.rdbCheeseburger.Tag = "5.99";
+            this.rdbCheeseburger.Text = "Cheeseburger ($5.99)";
+            this.rdbCheeseburger.UseVisualStyleBackColor = true;
+            this.rdbCheeseburger.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
             // rdbVeggieBurger
             // 
             this.rdbVeggieBurger.AutoSize = true;
-            this.rdbVeggieBurger.Location = new System.Drawing.Point(49, 146);
-            this.rdbVeggieBurger.Margin = new System.Windows.Forms.Padding(7);
+            this.rdbVeggieBurger.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbVeggieBurger.Location = new System.Drawing.Point(14, 77);
             this.rdbVeggieBurger.Name = "rdbVeggieBurger";
-            this.rdbVeggieBurger.Size = new System.Drawing.Size(187, 33);
-            this.rdbVeggieBurger.TabIndex = 3;
+            this.rdbVeggieBurger.Size = new System.Drawing.Size(162, 23);
+            this.rdbVeggieBurger.TabIndex = 0;
             this.rdbVeggieBurger.TabStop = true;
             this.rdbVeggieBurger.Tag = "6.49";
-            this.rdbVeggieBurger.Text = "Veggie Burger";
+            this.rdbVeggieBurger.Text = "Veggie Burger ($6.49)";
             this.rdbVeggieBurger.UseVisualStyleBackColor = true;
-            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.selectOrder);
+            this.rdbVeggieBurger.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             // 
-            // groupBox3
+            // rdbBaconBurger
             // 
-            this.groupBox3.Controls.Add(this.rdbNoDrink);
-            this.groupBox3.Controls.Add(this.rdbWater);
-            this.groupBox3.Controls.Add(this.rdbFruitPunch);
-            this.groupBox3.Controls.Add(this.rdbCola);
-            this.groupBox3.Controls.Add(this.rdbTea);
-            this.groupBox3.Location = new System.Drawing.Point(41, 341);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(277, 291);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Drinks";
-            // 
-            // rdbNoDrink
-            // 
-            this.rdbNoDrink.AutoSize = true;
-            this.rdbNoDrink.Checked = true;
-            this.rdbNoDrink.Location = new System.Drawing.Point(49, 240);
-            this.rdbNoDrink.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbNoDrink.Name = "rdbNoDrink";
-            this.rdbNoDrink.Size = new System.Drawing.Size(90, 33);
-            this.rdbNoDrink.TabIndex = 15;
-            this.rdbNoDrink.TabStop = true;
-            this.rdbNoDrink.Tag = "0";
-            this.rdbNoDrink.Text = "None";
-            this.rdbNoDrink.UseVisualStyleBackColor = true;
-            this.rdbNoDrink.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // rdbWater
-            // 
-            this.rdbWater.AutoSize = true;
-            this.rdbWater.Location = new System.Drawing.Point(49, 193);
-            this.rdbWater.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbWater.Name = "rdbWater";
-            this.rdbWater.Size = new System.Drawing.Size(94, 33);
-            this.rdbWater.TabIndex = 14;
-            this.rdbWater.TabStop = true;
-            this.rdbWater.Tag = ".99";
-            this.rdbWater.Text = "Water";
-            this.rdbWater.UseVisualStyleBackColor = true;
-            this.rdbWater.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // rdbFruitPunch
-            // 
-            this.rdbFruitPunch.AutoSize = true;
-            this.rdbFruitPunch.Location = new System.Drawing.Point(49, 146);
-            this.rdbFruitPunch.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbFruitPunch.Name = "rdbFruitPunch";
-            this.rdbFruitPunch.Size = new System.Drawing.Size(152, 33);
-            this.rdbFruitPunch.TabIndex = 13;
-            this.rdbFruitPunch.TabStop = true;
-            this.rdbFruitPunch.Tag = "1.09";
-            this.rdbFruitPunch.Text = "Fruit Punch";
-            this.rdbFruitPunch.UseVisualStyleBackColor = true;
-            this.rdbFruitPunch.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // rdbCola
-            // 
-            this.rdbCola.AutoSize = true;
-            this.rdbCola.Location = new System.Drawing.Point(49, 52);
-            this.rdbCola.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbCola.Name = "rdbCola";
-            this.rdbCola.Size = new System.Drawing.Size(81, 33);
-            this.rdbCola.TabIndex = 11;
-            this.rdbCola.TabStop = true;
-            this.rdbCola.Tag = "1.29";
-            this.rdbCola.Text = "Cola";
-            this.rdbCola.UseVisualStyleBackColor = true;
-            this.rdbCola.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // rdbTea
-            // 
-            this.rdbTea.AutoSize = true;
-            this.rdbTea.Location = new System.Drawing.Point(49, 99);
-            this.rdbTea.Margin = new System.Windows.Forms.Padding(7);
-            this.rdbTea.Name = "rdbTea";
-            this.rdbTea.Size = new System.Drawing.Size(74, 33);
-            this.rdbTea.TabIndex = 12;
-            this.rdbTea.TabStop = true;
-            this.rdbTea.Tag = "1.19";
-            this.rdbTea.Text = "Tea";
-            this.rdbTea.UseVisualStyleBackColor = true;
-            this.rdbTea.CheckedChanged += new System.EventHandler(this.selectOrder);
-            // 
-            // lstOrder
-            // 
-            this.lstOrder.FormattingEnabled = true;
-            this.lstOrder.ItemHeight = 29;
-            this.lstOrder.Location = new System.Drawing.Point(642, 37);
-            this.lstOrder.Name = "lstOrder";
-            this.lstOrder.Size = new System.Drawing.Size(488, 352);
-            this.lstOrder.Sorted = true;
-            this.lstOrder.TabIndex = 6;
-            this.lstOrder.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(809, 397);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 29);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Subtotal:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(857, 449);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 29);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Tax:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(842, 501);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 29);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Total:";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(940, 501);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(71, 29);
-            this.lblTotal.TabIndex = 9;
-            this.lblTotal.Text = "$0.00";
-            // 
-            // lblTax
-            // 
-            this.lblTax.AutoSize = true;
-            this.lblTax.Location = new System.Drawing.Point(940, 449);
-            this.lblTax.Name = "lblTax";
-            this.lblTax.Size = new System.Drawing.Size(71, 29);
-            this.lblTax.TabIndex = 9;
-            this.lblTax.Text = "$0.00";
-            // 
-            // lblSubtotal
-            // 
-            this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Location = new System.Drawing.Point(940, 397);
-            this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(71, 29);
-            this.lblSubtotal.TabIndex = 9;
-            this.lblSubtotal.Text = "$0.00";
-            // 
-            // btnPurchase
-            // 
-            this.btnPurchase.Location = new System.Drawing.Point(827, 562);
-            this.btnPurchase.Name = "btnPurchase";
-            this.btnPurchase.Size = new System.Drawing.Size(125, 40);
-            this.btnPurchase.TabIndex = 9;
-            this.btnPurchase.TabStop = false;
-            this.btnPurchase.Text = "Purchase";
-            this.btnPurchase.UseVisualStyleBackColor = true;
-            this.btnPurchase.Click += new System.EventHandler(this.btnPurchase_Click);
-            // 
-            // btnExit
-            // 
+            this.rdbBaconBurger.AutoSize = true;
+            this.rdbBaconBurger.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbBaconBurger.Location = new System.Drawing.Point(14, 106);
+            this.rdbBaconBurger.Name = "rdbBaconBurger";
+            this.rdbBaconBurger.Size = new System.Drawing.Size(161, 23);
+            this.rdbBaconBurger.TabIndex = 0;
+            this.rdbBaconBurger.TabStop = true;
+            this.rdbBaconBurger.Tag = "7.99";
+            this.rdbBaconBurger.Text = "Bacon Burger ($7.99)";
+            this.rdbBaconBurger.UseVisualStyleBackColor = true;
+            this.rdbBaconBurger.CheckedChanged += new System.EventHandler(this.rdb_selectItem);
             this.btnExit.Location = new System.Drawing.Point(994, 562);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(125, 40);
             this.btnExit.TabIndex = 10;
             this.btnExit.TabStop = false;
-            this.btnExit.Text = "Exit";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
+            this.btnExit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(643, 438);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(86, 31);
+            this.btnExit.TabIndex = 10;
+
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.rdbNoSandwich);

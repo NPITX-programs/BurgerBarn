@@ -6,6 +6,7 @@ Hmm, what if we make a ***List of all the Reqrirments!***
 # Reqrirments/ modification
 just the requriments of the program, or the edits to make to said program
 ## What modification
+
 1. Minimize changes to only what is necessary to integrate your codeMake the following adjustments to your partner's program. You are allowed to modify your partner's code, but only enough to implement your own features.
 2. Change the "Apply Coupon" button to a "Combo Box."
 3. The combo box should list several different percentages (example: 20%, 40%, 60%).
@@ -13,7 +14,7 @@ just the requriments of the program, or the edits to make to said program
 5. Remove the Sides category from the menu.
 6. Modify the List Box to sort items (from highest to lowest).
 7. Your code must be thoroughly commented, to the point where another Crew member can understand what your program does without looking at the code.
-8. If there are any errors in the program, whether from your code or your partner's, fix them. Add comments stating what the error was, and how you fixed it. 
+8. If there are any errors in the program, whether from your code or your partner's, fix them. Add comments stating what the error was, and how you fixed it.
 
 # BASE INFO
 some information that doesn't really change, so shall stay
