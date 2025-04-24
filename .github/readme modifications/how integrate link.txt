@@ -1,0 +1,6 @@
+Hmm, what if we make a List of all the Reqrirments!
+## Expirments
+of course, in the process, some tests are bound to be made, and expirments be documented
+the expirments whose documentation survives the mess of code we have here, they will go here too!
+1. [Renameing Events](httpsgithub.comCTH-npitx-programsBurgerBarnblobfinal-conclusions.githubFinalResults.md)
+# Reqrirments
